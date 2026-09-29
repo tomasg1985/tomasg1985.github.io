@@ -27,14 +27,24 @@
                 </button>
 
                 <div class="searchbar">
-                    <a class="categories" href="#">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 5px;">
-                            <line x1="3" y1="6" x2="21" y2="6"></line>
-                            <line x1="3" y1="12" x2="21" y2="12"></line>
-                            <line x1="3" y1="18" x2="21" y2="18"></line>
-                        </svg>
-                        Categorias
-                    </a>
+                    <div class="header-category-wrapper">
+                        <button class="header-category-btn" type="button">
+                            <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                            <span>Categorías</span>
+                        </button>
+                        <ul class="categories-dropdown">
+                            <li><a href="#">Tecnología</a></li>
+                            <li><a href="#">Smartwatches</a></li>
+                            <li><a href="#">Audio y Sonido</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="#">Celulares</a></li>
+                            <li><a href="#">Computación</a></li>
+                        </ul>
+                    </div>
                     <input type="search" class="search" placeholder="Buscar por producto, marca y más..." name="" id="">
                 </div>
 
@@ -128,7 +138,7 @@
                                 <hr>
                                 <ul>
                                     <li class="colapse_menu_item"><a href="best_sellers.html" class="colapse_menu_link">Lo Más Vendido</a></li>
-                                    <li class="colapse_menu_item"><a href="#" class="colapse_menu_link">Liquidación</a></li>
+                                    <li class="colapse_menu_item"><a href="outlet.html" class="colapse_menu_link">Liquidación</a></li>
                                     <li class="colapse_menu_item"><a href="#" class="colapse_menu_link">Lanzamientos</a></li>
                                 </ul>
                             </div>
@@ -300,7 +310,7 @@
                     </ul>
                 </details>
 
-                <!-- 5. Filtro de Garantia -->
+                <!-- 6. Filtro de Garantia -->
                 <details class="filter_group" open>
                     <summary class="filter_title">Garantia</summary>
                     <ul class="filter_list">
@@ -317,7 +327,7 @@
                     </ul>
                 </details>
 
-                <!-- 6. Filtro de Valoración -->
+                <!-- 7. Filtro de Valoración -->
                 <details class="filter_group" open>
                     <summary class="filter_title">Valoración</summary>
                     <div class="star-filter-container">

@@ -10,9 +10,9 @@ html{
 }
 
 span{
-    color: #969696;
+    color: #444444;
     font-family: 'Montserrat';
-    font-weight: bold;
+    font-weight: 500;
 }
 
 /* ==========================================
@@ -71,6 +71,83 @@ header{
 
 .categories:hover{
     background-color: #f3af02;
+}
+
+/*=================================
+  HEADER CATEGORIES DROPDOWN
+===================================*/
+
+.header-category-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.header-category-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 24px;
+    background-color: #f3af02;
+    color: #1F3A5F;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.header-category-btn .category-icon {
+    width: 18px;
+    height: 18px;
+    stroke: #1F3A5F;
+    flex-shrink: 0;
+}
+
+.header-category-btn:hover {
+    background-color: #e0a102;
+}
+
+/* Menú Desplegable */
+.categories-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 220px;
+    margin-top: 8px;
+    padding: 8px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    border: 1px solid #e2e8f0;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+    z-index: 1000;
+}
+
+.header-category-wrapper:hover .categories-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.categories-dropdown li a {
+    display: block;
+    padding: 10px 18px;
+    font-size: 13px;
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.categories-dropdown li a:hover {
+    background-color: #f4f6f8;
+    color: #1F3A5F;
 }
 
 .search{
@@ -596,15 +673,16 @@ li .main_nav_link:hover{
 }
 
 .club_register_container{
-    padding: 0 20px 45px 20px;
+    padding: 0 20px 10px 20px;
     width: 100%;
 }
 
 .club_banner{
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
+    max-width: 1500px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1421,6 +1499,70 @@ select{
     width: 100%;
 }
 
+/*===============================
+  OUTLET (PRODUCTS)
+=================================*/
+
+.outlet-technical_grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 5fr));
+    gap: 20px;
+    align-items: stretch;
+}
+
+.condition-tag{
+    padding: 5px 10px 5px 10px;
+    margin: 10px auto;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    background-color: #b5fcc5;
+}
+
+.card-tag-refubrished{
+    font-size: 10px;
+    font-weight: 500;
+    color: green;
+}
+
+.product-card{
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-top: 2px solid #1F3A5F;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.outlet-img{
+    width: 100px;
+}
+
+.outlet-product-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #222222;
+}
+
+.outlet-product-details{
+    margin-top: 10px;
+    font-size: 11px;
+    color: #999;
+}
+
+.outlet-btn{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+    border-radius: 20px;
+    background-color: #222222;
+    color: #fff;
+}
+
 .related-product-card{
     margin: auto;
     width: 1000px;
@@ -2011,11 +2153,12 @@ details.filter_group summary:hover::after {
     background-size: cover;
     padding: 30px;
     width: 100%;
-    height: auto;
+    height: 250px;
     box-sizing: border-box;
 }
 
 .category_banner{
+    margin-top: 40px;
     width: 100%;
     height: auto;
     box-sizing: border-box;
@@ -2508,6 +2651,7 @@ details.filter_group summary:hover::after {
 .buy_now{
     width: 100%;
     padding: 8px;
+    margin-bottom: 10px;
     border: none;
     border-radius: 20px;
     background-color: #222222;
@@ -2519,6 +2663,23 @@ details.filter_group summary:hover::after {
     background-color: #f3af02a6;
     transition: all ease-in-out .3s;
 }
+
+.details{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #222222;
+    color: white;
+    font-weight: 300;
+}
+
+.detalis:hover{
+    background-color: #f3af02a6;
+    transition: all ease-in-out .3s;
+}
+
 
 /* ==========================================
    AJUSTES RESPONSIVOS DE GALERÍA Y BANNER (TABLET Y MÓVIL)

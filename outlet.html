@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquidación</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+
+    <header>
+        <nav class="upper_nav">
+            <div class="main_container">
+                <!-- 1. Logo a la izquierda -->
+                <div class="site_logo">
+                    <a href="index.html">
+                        <img src="src/logo_tecnostore_Mesa de trabajo 1.svg" class="logo" alt="Tecnostore Logo">
+                    </a>
+                </div>
+
+                <!-- 2. Botón Hamburguesa (solo móvil) -->
+                <button class="mobile_menu_btn" id="mobile_menu_btn" aria-label="Abrir menú">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+
+                <!-- 3. Categorías + Buscador en el Centro -->
+                <div class="searchbar">
+                    <div class="header-category-wrapper">
+                        <button class="header-category-btn" type="button">
+                            <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                            <span>Categorías</span>
+                        </button>
+                        <ul class="categories-dropdown">
+                            <li><a href="#">Tecnología</a></li>
+                            <li><a href="#">Smartwatches</a></li>
+                            <li><a href="#">Audio y Sonido</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="#">Celulares</a></li>
+                            <li><a href="#">Computación</a></li>
+                        </ul>
+                    </div>
+                    <input type="search" class="search" placeholder="Buscar por producto, marca y más..." name="" id="">
+                </div>
+
+                <!-- 4. Login, Registrate y Carrito a la Derecha -->
+                <div class="user_login">
+                    <input type="button" class="login_btn" value="LOGIN">
+                    <ul class="nav_list">
+                        <li><a class="nav_link" href="register.html">Registrate</a></li>
+                        <li>
+                            <a class="nav_link_cart" href="cart.html">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Menú Principal Navegable -->
+        <nav class="main_nav" id="main_nav_menu">
+            <div class="navbar">
+                <ul class="nav_list_main">
+                    <li><a class="main_nav_link" href="index.html">Home</a></li>
+                    <li class="menu_con_submenu">
+                        <a class="main_nav_link submenu_toggle" href="#">Productos ▾</a>
+                        <div class="colapse_main_container">
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Computacion & Hardware</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Componentes</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Perifericos</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Almacenamiento</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Conectividad</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Telefonia & Tablets</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smartphones</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Tablets</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smartwaches</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Accesorios</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Audio & Video</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Auriculares</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Parlantes y sonido</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smart TV</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Streaming y Fotografía</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Gaming</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Consolas</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Videoguegos</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Accesorios Gamer</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Periféricos Gamer</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Hogar Inteligente</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Asistentes Virtuales</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Iluminación Inteligente</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Seguridad Wi-Fi</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Redes y Routers</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu_con_submenu">
+                        <a class="main_nav_link submenu_toggle" href="#">Ofertas ▾</a>
+                        <div class="colapse_main_container">
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Ofertas y Destacados</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="best_sellers.html" class="colapse_menu_link">Lo Más Vendido</a></li>
+                                    <li class="colapse_menu_item"><a href="#" class="colapse_menu_link">Liquidación</a></li>
+                                    <li class="colapse_menu_item"><a href="#" class="colapse_menu_link">Lanzamientos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="main_nav_link" href="#">Club TecStore</a></li>
+                    <li><a class="main_nav_link" href="#">Novedades</a></li>
+                    <li><a class="main_nav_link" href="#">Ayuda</a></li>
+                    <li><a class="main_nav_link" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+<section>
+        <div class="product_gallery_main">
+            
+            <!-- SECCIÓN DE FILTROS MEJORADA -->
+            <aside class="product_gallery_filter">
+                <div class="filter_header">
+                    <h3 class="sidebar_title">Filtros</h3>
+                    <button type="button" id="clearFiltersBtn" class="clear_filters_btn">Limpiar filtros</button>
+                </div>
+                
+
+                <!-- 1. Filtro de Disponibilidad -->
+                <details class="filter_group" open>
+                    <summary class="filter_title">Estado del Producto</summary>
+                    <ul class="filter_list">
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="stock" value="available"> Open Box / Caja Abierta
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="shipping" value="free"> Reacondicionado
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="pickup" value="store"> Reparado de Fábrica
+                            </label>
+                        </li>
+                    </ul>
+                </details>
+
+                <!-- 2. Filtro de Descuentos y Promociones -->
+                <details class="filter_group" open>
+                    <summary class="filter_title">Categorías Outlet</summary>
+                    <ul class="filter_list">
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="discount" value="10"> Celulares
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="discount" value="20"> Smartwatches
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="payment" value="cash"> Consolas
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="discount" value="30"> Audio
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="payment" value="cash"> Notebooks y PC
+                            </label>
+                        </li>
+                    </ul>
+                </details>
+
+                <!-- 3. Filtro de Condicion -->
+                <details class="filter_group" open>
+                    <summary class="filter_title">Condición</summary>
+                    <ul class="filter_list">
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="stock" value="available"> Nuevo
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="shipping" value="today"> Outlet
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="shipping" value="free"> Reacondicionado
+                            </label>
+                        </li>
+                    </ul>
+                </details>
+
+                <!-- 4. Filtro de Compatibilidad -->
+                <details class="filter_group" open>
+                    <summary class="filter_title">Oportunidades</summary>
+                    <ul class="filter_list">
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="stock" value="available"> Últimas Unidades
+                            </label>
+                        </li>
+                    </ul>
+                </details>
+
+                <!-- 5. Filtro de Garantia -->
+                <details class="filter_group" open>
+                    <summary class="filter_title">Garantia</summary>
+                    <ul class="filter_list">
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="stock" value="available"> Garantía Oficial del Fabricante
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="shipping" value="today"> Garantía Directa de la Tienda
+                            </label>
+                        </li>
+                    </ul>
+                </details>
+
+                <details class="filter_group" open>
+                    <summary class="filter_title">Descuentos y Promociones</summary>
+                    <ul class="filter_list">
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="discount" value="10"> 10% OFF o más
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="discount" value="20"> 20% OFF o más
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="discount" value="30"> 30% OFF o más
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="discount" value="30"> 40% OFF o más
+                            </label>
+                        </li>
+                        <li class="filter_list_item">
+                            <label class="checkbox_label">
+                                <input type="checkbox" name="discount" value="30"> 50% OFF o más
+                            </label>
+                        </li>
+                    </ul>
+                </details>
+
+            </aside>
+
+            <!-- CONTENEDOR DERECHO: BANNER + GRILLA -->
+            <div class="products_content_wrapper">
+                
+                <!-- BANNER DE PORTADA -->
+                <div class="category_banner_container">
+                    <div class="category_banner">
+                        <div class="banner_text">
+                            <span class="page_category">Outlet</span>
+                            <h1 class="banner_main_title">Todo en tecnología</h1>
+                            <p class="banner_description">Descubre todo en tecnología a precios increibles hasta con un -50% OFF</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+                <!-- GRILLA DE PRODUCTOS -->
+                <section>
+
+                    <div class="best_sellers_banners_main">
+                        <div class="best_seller_favorites">
+                            <h4 class="best_seller_favorites_main_title">Los Favoritos de la Comunidad</h4>
+                            <p class="best_seller_favorites_main_description">Productos que no solo se venden mucho, sino que tienen <br> las mejores calificaciones (5 estrellas)</p>
+                        </div>
+                        <div class="best_seller_quality_upgrade_main">
+                            <div class="best_seller_quality_banner">
+                                <h4 class="best_seller_quality_main_title">Calidad-Precio Imbatible</h4>
+                                <p class="best_seller_quality_main_description">Hardware que ofrece el mejor rendimiento por cada peso invertido, <br> ideal para presupuestos ajustados.</p>
+                            </div>
+                            <div class="best_seller_upgrade_banner">
+                                <h4 class="best_seller_upgrade_main_title">Upgrades del Mes</h4>
+                                <p class="best_seller_upgrade_main_description">Los componentes internos (discos SSD, memorias RAM) <br> más comprados por los usuarios para actualizar sus PCs actuales.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="product-details-container">
+                    <div class="technical_specs_wrapper">
+                        <h3 class="technical_section_title">Celulares</h3>
+                        <div>
+                            <div class="outlet-technical_grid">
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="product-details-container">
+                    <div class="technical_specs_wrapper">
+                        <h3 class="technical_section_title">Smartwatches</h3>
+                        <div>
+                            <div class="outlet-technical_grid">
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="product-details-container">
+                    <div class="technical_specs_wrapper">
+                        <h3 class="technical_section_title">Consolas</h3>
+                        <div>
+                            <div class="outlet-technical_grid">
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="club_register_container">
+                    <div class="club_banner">
+                        <div class="club_register_text">
+                            <h4 class="banner_category">Unite al Club TechStore</h4>
+                            <h4 class="club_title_text">¿Querés tu 10% OFF de bienvenida?</h4>
+                            <p class="club_banner_description">Dejanos tu email y te enviamos el cupón al instante.</p>
+                        </div>
+                        <div class="club_mail_input">
+                            <input class="mail_input" type="email" placeholder="Ingresá tu mail" name="" id="">
+                        </div>
+                    </div>
+                </div>
+
+                <section class="product-details-container">
+                    <div class="technical_specs_wrapper">
+                        <h3 class="technical_section_title">Audio</h3>
+                        <div>
+                            <div class="outlet-technical_grid">
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="product-details-container">
+                    <div class="technical_specs_wrapper">
+                        <h3 class="technical_section_title">Notebooks y PC's</h3>
+                        <div>
+                            <div class="outlet-technical_grid">
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+
+                                <div class="product-card">
+                                    <div class="condition-tags-header">
+                                        <div class="condition-tag">
+                                            <h4 class="card-tag-refubrished">Reformado</h4>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                    <img class="outlet-img" src="src/apple_watch.png" alt="">
+                                    <h4 class="outlet-product-title">Apple IWatch</h4>
+                                    <p class="outlet-product-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <input class="outlet-btn" type="button" value="Ver detalles">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer_main">
+            <div class="social">
+                <img src="src/logo_tecnostore_Mesa de trabajo 1.svg" class="logo" alt="">
+                <h5 class="follow">Seguinos en nuestras redes sociales</h5>
+            </div>
+            <div class="footer_info">
+                <ul class="footer_nav_list">
+                    <h4 class="section_title">Soporte</h4>
+                    <li><a class="footer_nav_link" href="#">Preguntas Frecuentes</a></li>
+                    <li><a class="footer_nav_link" href="#">Políticas de Envío</a></li>
+                    <li><a class="footer_nav_link" href="#">Cambios y Devoluciones</a></li>
+                    <li><a class="footer_nav_link" href="#">Seguimiento de Pedido</a></li>
+                </ul>
+            </div>
+            <div class="footer_info">
+                <ul class="footer_nav_list">
+                    <h4 class="section_title">Sobre la empresa</h4>
+                    <li><a class="footer_nav_link" href="#">Quiénes Somos</a></li>
+                    <li><a class="footer_nav_link" href="#">Sustentabilidad</a></li>
+                    <li><a class="footer_nav_link" href="#">Trabajá con Nosotros</a></li>
+                    <li><a class="footer_nav_link" href="#">Blog</a></li>
+                    <li><a class="footer_nav_link" href="#">Venta Mayorista</a></li>
+                </ul>
+            </div>
+            <div class="footer_info">
+                <ul class="footer_nav_list">
+                    <h4 class="section_title">Categorías Destacadas</h4>
+                    <li><a class="footer_nav_link" href="#">Productos Populares</a></li>
+                    <li><a class="footer_nav_link" href="#">Ofertas</a></li>
+                    <li><a class="footer_nav_link" href="#">Trabajá con Nosotros</a></li>
+                    <li><a class="footer_nav_link" href="#">Nuevos Ingresos</a></li>
+                </ul>
+            </div>
+            <div class="footer_contact">
+                <h4 class="section_title">Contacto</h4>
+                <p class="address">1879 Quilmes - Buenos Aires<br>B1879BTQ</p>
+                <p class="chat">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    Habla con un experto
+                </p>
+                <p class="phone">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    Llamanos: +54341464 5482
+                </p>
+                <p class="mail">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Mail: ventas@tecnostore.com
+                </p>
+            </div>
+        </div>
+        <div class="sub-footer_container">
+            <div class="copy_container">
+                <p class="copy">&copy; 2026 Tecnostore. Todos los derechos reservados.</p>
+            </div>
+            <div class="legal_container">
+                <ul class="legal_navbar">
+                    <li><a class="legal_link" href="#">Home</a></li>
+                    <li><a class="legal_link" href="#">Sitemap</a></li>
+                    <li><a class="legal_link" href="#">Politicas de privacidad</a></li>
+                    <li><a class="legal_link" href="#">Terminos de uso</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuBtn = document.getElementById("mobile_menu_btn");
+            const mainNav = document.getElementById("main_nav_menu");
+
+            if (menuBtn && mainNav) {
+                menuBtn.addEventListener("click", function() {
+                    mainNav.classList.toggle("active");
+                });
+            }
+
+            const submenuToggles = document.querySelectorAll(".submenu_toggle");
+            
+            submenuToggles.forEach(toggle => {
+                toggle.addEventListener("click", function(e) {
+                    if (window.innerWidth <= 992) {
+                        e.preventDefault();
+                        const parentLi = this.parentElement;
+                        parentLi.classList.toggle("open");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
