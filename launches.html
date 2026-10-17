@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanzamientos | TecnoStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body class="launches-page">
+
+    <header>
+        <nav class="upper_nav">
+            <div class="main_container">
+                <!-- 1. Logo a la izquierda -->
+                <div class="site_logo">
+                    <a href="index.html">
+                        <img src="src/logo_tecnostore_Mesa de trabajo 1.svg" class="logo" alt="Tecnostore Logo">
+                    </a>
+                </div>
+
+                <!-- 2. Botón Hamburguesa (solo móvil) -->
+                <button class="mobile_menu_btn" id="mobile_menu_btn" aria-label="Abrir menú">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+
+                <!-- 3. Categorías + Buscador en el Centro -->
+                <div class="searchbar">
+                    <div class="header-category-wrapper">
+                        <button class="header-category-btn" type="button">
+                            <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                            <span>Categorías</span>
+                        </button>
+                        <ul class="categories-dropdown">
+                            <li><a href="#">Tecnología</a></li>
+                            <li><a href="#">Smartwatches</a></li>
+                            <li><a href="#">Audio y Sonido</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="#">Celulares</a></li>
+                            <li><a href="#">Computación</a></li>
+                        </ul>
+                    </div>
+                    <input type="search" class="search" placeholder="Buscar por producto, marca y más..." name="" id="">
+                </div>
+
+                <!-- 4. Login, Registrate y Carrito a la Derecha -->
+                <div class="user_login">
+                    <input type="button" class="login_btn" value="LOGIN">
+                    <ul class="nav_list">
+                        <li><a class="nav_link" href="register.html">Registrate</a></li>
+                        <li>
+                            <a class="nav_link_cart" href="cart.html">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Menú Principal Navegable -->
+        <nav class="main_nav" id="main_nav_menu">
+            <div class="navbar">
+                <ul class="nav_list_main">
+                    <li><a class="main_nav_link" href="index.html">Home</a></li>
+                    <li class="menu_con_submenu">
+                        <a class="main_nav_link submenu_toggle" href="#">Productos ▾</a>
+                        <div class="colapse_main_container">
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Computacion & Hardware</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Componentes</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Perifericos</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Almacenamiento</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Conectividad</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Telefonia & Tablets</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smartphones</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Tablets</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smartwaches</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Accesorios</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Audio & Video</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Auriculares</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Parlantes y sonido</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smart TV</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Streaming y Fotografía</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Gaming</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Consolas</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Videoguegos</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Accesorios Gamer</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Periféricos Gamer</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Hogar Inteligente</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Asistentes Virtuales</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Iluminación Inteligente</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Seguridad Wi-Fi</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Redes y Routers</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu_con_submenu">
+                        <a class="main_nav_link submenu_toggle" href="#">Ofertas ▾</a>
+                        <div class="colapse_main_container">
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Ofertas y Destacados</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="best_sellers.html" class="colapse_menu_link">Lo Más Vendido</a></li>
+                                    <li class="colapse_menu_item"><a href="outlet.html" class="colapse_menu_link">Liquidación</a></li>
+                                    <li class="colapse_menu_item"><a href="launches.html" class="colapse_menu_link">Lanzamientos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="main_nav_link" href="#">Club TecStore</a></li>
+                    <li><a class="main_nav_link" href="#">Novedades</a></li>
+                    <li><a class="main_nav_link" href="help.html">Ayuda</a></li>
+                    <li><a class="main_nav_link" href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="launches-hero" aria-labelledby="launches-title">
+            <div class="launches-hero_inner">
+                <div class="launches-hero_copy">
+                    <p class="launches-kicker">NOVEDADES TECNOLÓGICAS</p>
+                    <h1 class="launches-title" id="launches-title">Próximos lanzamientos</h1>
+                    <p class="launches-intro">Conocé los productos que pronto vas a encontrar en TecnoStore.</p>
+                    <div class="launches-feature">
+                        <span class="launches-status">Muy pronto</span>
+                        <p class="launches-category">Smartphones</p>
+                        <h2>iPhone 17 Pro Max 1TB</h2>
+                        <p class="launches-feature_description">Una nueva generación está por llegar. Próximamente en TecnoStore.</p>
+                    </div>
+                    <a class="launches-primary_link" href="#proximamente">Ver próximos productos</a>
+                </div>
+                <div class="launches-hero_media">
+                    <img src="src/IPhone 17 Promax.png" alt="iPhone 17 Pro Max">
+                </div>
+            </div>
+        </section>
+
+        <section class="launches-list" id="proximamente" aria-labelledby="launches-list-title">
+            <div class="launches-section_header">
+                <div>
+                    <p class="launches-kicker launches-kicker_dark">EN CAMINO</p>
+                    <h2 class="launches-section_title" id="launches-list-title">Descubrí lo que llega</h2>
+                </div>
+                <a class="launches-secondary_link" href="products_category.html">Explorar catálogo</a>
+            </div>
+
+            <div class="launches-grid">
+                <article class="launch-card">
+                    <div class="launch-card_media">
+                        <img src="src/apple_watch.png" alt="Apple Watch">
+                        <span class="launch-card_status">Muy pronto</span>
+                    </div>
+                    <div class="launch-card_content">
+                        <p class="launch-card_category">Smartwatches</p>
+                        <h3>Apple Watch</h3>
+                        <p class="launch-card_description">Tecnología para acompañarte todos los días.</p>
+                        <a href="products_category.html" class="launch-card_link">Explorar categoría</a>
+                    </div>
+                </article>
+
+                <article class="launch-card">
+                    <div class="launch-card_media">
+                        <img src="src/ef249eef98d84df83ee9470248f86d43.png" alt="Auriculares JBL Bluetooth">
+                        <span class="launch-card_status">Muy pronto</span>
+                    </div>
+                    <div class="launch-card_content">
+                        <p class="launch-card_category">Audio</p>
+                        <h3>Auriculares JBL Bluetooth</h3>
+                        <p class="launch-card_description">Sonido inalámbrico para llevar tu música con vos.</p>
+                        <a href="products_category.html" class="launch-card_link">Explorar categoría</a>
+                    </div>
+                </article>
+
+                <article class="launch-card">
+                    <div class="launch-card_media">
+                        <img src="src/play station control.png" alt="Mando Sony PlayStation 5">
+                        <span class="launch-card_status">Muy pronto</span>
+                    </div>
+                    <div class="launch-card_content">
+                        <p class="launch-card_category">Gaming</p>
+                        <h3>Mando Sony PlayStation 5</h3>
+                        <p class="launch-card_description">Un nuevo accesorio para tus partidas en PlayStation.</p>
+                        <a href="products_category.html" class="launch-card_link">Explorar categoría</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_main">
+            <div class="social">
+                <img src="src/logo_tecnostore_Mesa de trabajo 1.svg" class="logo" alt="">
+                <h5 class="follow">Seguinos en nuestras redes sociales</h5>
+            </div>
+            <div class="footer_info">
+                <ul class="footer_nav_list">
+                    <h4 class="section_title">Soporte</h4>
+                    <li><a class="footer_nav_link" href="#">Preguntas Frecuentes</a></li>
+                    <li><a class="footer_nav_link" href="#">Políticas de Envío</a></li>
+                    <li><a class="footer_nav_link" href="#">Cambios y Devoluciones</a></li>
+                    <li><a class="footer_nav_link" href="#">Seguimiento de Pedido</a></li>
+                </ul>
+            </div>
+            <div class="footer_info">
+                <ul class="footer_nav_list">
+                    <h4 class="section_title">Sobre la empresa</h4>
+                    <li><a class="footer_nav_link" href="#">Quiénes Somos</a></li>
+                    <li><a class="footer_nav_link" href="#">Sustentabilidad</a></li>
+                    <li><a class="footer_nav_link" href="#">Trabajá con Nosotros</a></li>
+                    <li><a class="footer_nav_link" href="#">Blog</a></li>
+                    <li><a class="footer_nav_link" href="#">Venta Mayorista</a></li>
+                </ul>
+            </div>
+            <div class="footer_info">
+                <ul class="footer_nav_list">
+                    <h4 class="section_title">Categorías Destacadas</h4>
+                    <li><a class="footer_nav_link" href="#">Productos Populares</a></li>
+                    <li><a class="footer_nav_link" href="#">Ofertas</a></li>
+                    <li><a class="footer_nav_link" href="#">Trabajá con Nosotros</a></li>
+                    <li><a class="footer_nav_link" href="#">Nuevos Ingresos</a></li>
+                </ul>
+            </div>
+            <div class="footer_contact">
+                <h4 class="section_title">Contacto</h4>
+                <p class="address">1879 Quilmes - Buenos Aires<br>B1879BTQ</p>
+                <p class="chat">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    Habla con un experto
+                </p>
+                <p class="phone">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    Llamanos: +54341464 5482
+                </p>
+                <p class="mail">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Mail: ventas@tecnostore.com
+                </p>
+            </div>
+        </div>
+        <div class="sub-footer_container">
+            <div class="copy_container">
+                <p class="copy">&copy; 2026 Tecnostore. Todos los derechos reservados.</p>
+            </div>
+            <div class="legal_container">
+                <ul class="legal_navbar">
+                    <li><a class="legal_link" href="#">Home</a></li>
+                    <li><a class="legal_link" href="#">Sitemap</a></li>
+                    <li><a class="legal_link" id="privacy" href="#">Politicas de privacidad</a></li>
+                    <li><a class="legal_link" href="#">Terminos de uso</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuBtn = document.getElementById("mobile_menu_btn");
+            const mainNav = document.getElementById("main_nav_menu");
+
+            if (menuBtn && mainNav) {
+                menuBtn.addEventListener("click", function() {
+                    const isOpen = mainNav.classList.toggle("active");
+                    menuBtn.setAttribute("aria-expanded", String(isOpen));
+                });
+            }
+
+            document.querySelectorAll(".submenu_toggle").forEach(toggle => {
+                toggle.addEventListener("click", function(event) {
+                    if (window.innerWidth <= 992) {
+                        event.preventDefault();
+                        this.parentElement.classList.toggle("open");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
