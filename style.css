@@ -441,7 +441,7 @@ li .main_nav_link:hover{
 /* Product Showcase */
 .product_showcase{
     margin: auto;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     justify-content: center;
     padding: 50px 20px;
@@ -3303,8 +3303,8 @@ details.filter_group summary:hover::after {
 
 .home-page .product_showcase {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    max-width: 1440px;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    width: 100%;
     padding: 40px 24px;
     gap: 20px;
 }
@@ -3360,6 +3360,10 @@ details.filter_group summary:hover::after {
 }
 
 .home-page .description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;  
+    overflow: hidden;
     padding: 0 20px;
 }
 
