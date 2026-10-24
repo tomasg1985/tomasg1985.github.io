@@ -1,6 +1,44 @@
+const productContainer = document.getElementById('product-container')
+const searchInput = document.getElementById('search-input')
+
+const URL_API = 'https://fakestoreapi.com/products/category/electronics';
+
+let allProducts = [];
+
+const localProducts = [
+
+    {
+        id: 101,
+        title: "iPhone 15 Pro Max 256GB",
+        price: 1199.99,
+        description: "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
+        image: "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
+    },
+    {
+        id: 101,
+        title: "iPhone 15 Pro Max 256GB",
+        price: 1199.99,
+        description: "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
+        image: "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
+    },
+    {
+        id: 103,
+        title: "MacBook Pro 14' M3 Chip",
+        price: 1599.99,
+        description: "Rendimiento extremo para profesionales con pantalla Liquid Retina XDR.",
+        image: "https://idestiny.in/wp-content/uploads/2024/10/Macbook-Pro-14_-600x600.png",
+    }
+]
+
+
 function showProducts(productList) {
     
     let htmlContent = '';
+
+    if (productList.length === 0) {
+        productContainer.innerHTML = `<p>No se encontraron productos.</p>`;
+        return;
+    }
     
     productList.forEach(products => {
         
@@ -42,17 +80,23 @@ function showProducts(productList) {
 }
 
 
-const productContainer = document.getElementById('product-container')
+searchInput.addEventListener ('input', (event) => {
+    const searchTerm = event.target.value.toLowerCase();
+    
+    const filteredProducts = allProducts.filter(products => products.title.toLowerCase().includes(searchTerm)
+);
 
-const URL_API = 'https://fakestoreapi.com/products/category/electronics';
+showProducts(filteredProducts);
+});
+
 
 async function obtainProducts() {
     const response = await fetch(URL_API);
-    const products = await response.json();
+    const apiProducts = await response.json();
 
-    console.log(products);
+    allProducts = [...apiProducts, ...localProducts];
 
-    showProducts(products)
+    showProducts(allProducts)
 }
 
 obtainProducts();
