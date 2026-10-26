@@ -1,35 +1,12 @@
 const productContainer = document.getElementById('product-container')
 const searchInput = document.getElementById('search-input')
+const searchResultsContainer = document.getElementById('search-results')
+const loadMoreBtn = document.getElementById('load-more-btn');
 
 const URL_API = 'https://fakestoreapi.com/products/category/electronics';
 
 let allProducts = [];
-
-const localProducts = [
-
-    {
-        id: 101,
-        title: "iPhone 15 Pro Max 256GB",
-        price: 1199.99,
-        description: "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        image: "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        id: 101,
-        title: "iPhone 15 Pro Max 256GB",
-        price: 1199.99,
-        description: "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        image: "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        id: 103,
-        title: "MacBook Pro 14' M3 Chip",
-        price: 1599.99,
-        description: "Rendimiento extremo para profesionales con pantalla Liquid Retina XDR.",
-        image: "https://idestiny.in/wp-content/uploads/2024/10/Macbook-Pro-14_-600x600.png",
-    }
-]
-
+let isExpanded = false;
 
 function showProducts(productList) {
     
@@ -79,24 +56,93 @@ function showProducts(productList) {
     productContainer.innerHTML = htmlContent;
 }
 
+if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+    
+        if (!isExpanded) {
+        showProducts(allProducts);
+        loadMoreBtn.innerText = 'Mostrar menos';
+        isExpanded = true;
+        } else {
+            const initialProducts = allProducts.slice(0, 6);
+            showProducts(initialProducts);
+            loadMoreBtn.innerText = 'Mostrar más productos';
+            isExpanded = false;
+        }
+    });
+}
+
 
 searchInput.addEventListener ('input', (event) => {
-    const searchTerm = event.target.value.toLowerCase();
+    const searchTerm = event.target.value.toLowerCase().trim();
     
-    const filteredProducts = allProducts.filter(products => products.title.toLowerCase().includes(searchTerm)
-);
+    if (searchTerm === '') {
+        searchResultsContainer.innerHTML = '';
+        searchResultsContainer.classList.remove('active');
+        return;
+    }
 
-showProducts(filteredProducts);
+    const filteredProducts = allProducts.filter(products => products.title.toLowerCase().includes(searchTerm)
+    );
+
+    if(filteredProducts.length === 0) {
+        searchResultsContainer.innerHTML = `<div>No se encontraron productos coincidentes.</div>`;
+        searchResultsContainer.classList.add('active');
+        return;
+    }
+
+    let dropdownHTML = '';
+
+    filteredProducts.forEach(products => {
+        dropdownHTML += `
+            <div class="dropdown_item">
+                <img src="${products.image}" class="dropdown_image" alt="${products.title}">
+                <div class="dropdown_info">
+                    <h5>${products.title}</h5>
+                    <p>$${products.price}</p>
+                </div>
+            </div>
+        `;
+    });
+
+    searchResultsContainer.innerHTML = dropdownHTML;
+    searchResultsContainer.classList.add('active');
+});
+
+document.addEventListener('click',  (event) => {
+    
+    if (!searchInput.contains(event.target) && !searchResultsContainer.contains(event.target)) {
+        searchResultsContainer.classList.remove('active');
+    }
+
 });
 
 
 async function obtainProducts() {
-    const response = await fetch(URL_API);
-    const apiProducts = await response.json();
-
-    allProducts = [...apiProducts, ...localProducts];
-
-    showProducts(allProducts)
+    try {
+        const response = await fetch(URL_API);
+        const apiProducts = await response.json();
+    
+        const responseLocal = await fetch('products.json')
+        const localProducts = await responseLocal.json();
+    
+        allProducts = [...apiProducts, ...localProducts];
+    
+        const initialProducts = allProducts.slice(0, 6);
+    
+        showProducts(initialProducts)
+    
+        if (loadMoreBtn) {
+            if (allProducts.length > 6) {
+                loadMoreBtn.style.display = 'inline-block';
+            }
+            else {
+                loadMoreBtn.style.display = 'none'
+            }
+        }
+    } catch (error) {
+        console.log("Error al cargar los productos:", error);
+    }
 }
 
 obtainProducts();

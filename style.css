@@ -18,13 +18,14 @@ span{
 /* ==========================================
     HEADER Y NAVEGACIÓN (PC & MÓVIL)
    ========================================== */
-header{
+header {
     width: 100%;
     position: sticky;
     top: 0;
     z-index: 10000;
     background-color: rgb(247, 247, 247);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: visible !important;
 }
 
 .upper_nav{
@@ -52,8 +53,92 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 55%;
+    width: 100%;
     gap: 10px;
+}
+
+/* El HTML usa guiones (search-wrapper / search-dropdown); se mantienen
+   también las versiones con guion bajo por compatibilidad con otras páginas. */
+.search-wrapper,
+.search_wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+#search-input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Dropdown flotante: sale del flujo (absolute) y se ancla al wrapper,
+   así no empuja ni agranda el header. */
+.search-dropdown,
+.search_dropdown {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    max-height: 350px;
+    overflow-y: auto;
+    z-index: 99999;
+    display: none;
+}
+
+.search-dropdown.active,
+.search-dropdown.is-open,
+.search_dropdown.active,
+.search_dropdown.is-open {
+    width: 670px;
+    display: block;
+}
+
+.dropdown_item { 
+    display: flex; 
+    align-items: center; 
+    padding: 12px 16px; 
+    border-bottom: 1px solid #f0f0f0; 
+    gap: 15px; cursor: pointer; 
+    transition: background 0.2s ease; 
+}
+
+.dropdown_item:hover { 
+    background-color: #f8f9fa; 
+}
+
+.dropdown_image {
+    width: 50px; 
+    height: 50px; 
+    object-fit: contain; 
+}
+
+.dropdown_info h5 { 
+    margin: 0; 
+    font-size: 15px; 
+    color: #333; 
+} 
+
+.dropdown_info p { 
+    margin: 4px 0 0 0; 
+    font-size: 14px; 
+    color: #28a745; 
+    font-weight: bold; 
+} 
+
+.dropdown_empty {
+    padding: 15px; 
+    text-align: center; 
+    color: #777; 
 }
 
 .categories{
@@ -78,6 +163,8 @@ header{
 ===================================*/
 
 .header-category-wrapper {
+    width: 100%;
+    max-width: 640px;
     position: relative;
     display: inline-block;
 }
@@ -152,6 +239,7 @@ header{
 
 .search{
     width: 100%;
+    box-sizing: border-box;
     padding: 10px 20px;
     border: 1px solid lightgray;
     border-radius: 20px;
@@ -549,6 +637,29 @@ li .main_nav_link:hover{
     background-color: #FFB703;
     color: rgb(34, 34, 34);
     transition: all ease-in-out .2s;
+}
+
+.load_more_container { 
+    text-align: center; 
+    margin: 30px auto; 
+    width: 100%; 
+}
+
+.load_more_btn { 
+    background-color: #f3af02; 
+    color: #ffffff; 
+    padding: 12px 28px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+} 
+
+.load_more_btn:hover { 
+    background-color: #f3af02; 
+    transform: translateY(-2px); 
 }
 
 /* Offer Section */
@@ -4930,5 +5041,186 @@ details.filter_group summary:hover::after {
 
     .launch-card_media img {
         height: 155px;
+    }
+}
+/* ==========================================
+   HOME: CARRUSEL DE PRODUCTOS (6 por página)
+   ========================================== */
+.home-page .products_carousel {
+    --per-view: 6;
+    --carousel-gap: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.home-page .products_carousel .product_showcase {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+    gap: var(--carousel-gap) !important;
+    width: 100% !important;
+    padding: 40px 24px !important;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 24px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.home-page .products_carousel .product_showcase::-webkit-scrollbar {
+    display: none;
+}
+
+.home-page .products_carousel .product_showcase > .product_card {
+    flex: 0 0 calc((100% - (var(--per-view) - 1) * var(--carousel-gap)) / var(--per-view)) !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    margin: 0 !important;
+    scroll-snap-align: start;
+}
+
+.home-page .carousel_btn {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    border: 1px solid #1F3A5F;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #1F3A5F;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition: background-color 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+}
+
+.home-page .carousel_btn:hover:not(:disabled) {
+    border-color: #FFB703;
+    background-color: #FFB703;
+}
+
+.home-page .carousel_btn:disabled {
+    opacity: 0.35;
+    cursor: default;
+}
+
+.home-page .carousel_btn[hidden] {
+    display: none;
+}
+
+.home-page .carousel_btn_prev { left: 4px; }
+.home-page .carousel_btn_next { right: 4px; }
+
+@media (max-width: 1200px) {
+    .home-page .products_carousel { --per-view: 4; }
+}
+
+@media (max-width: 992px) {
+    .home-page .products_carousel { --per-view: 2; }
+}
+
+@media (max-width: 576px) {
+    .home-page .products_carousel {
+        --per-view: 1;
+        --carousel-gap: 16px;
+    }
+
+    .home-page .products_carousel .product_showcase {
+        padding: 24px 16px !important;
+        scroll-padding-inline: 16px;
+    }
+
+    .home-page .carousel_btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .home-page .carousel_btn_prev { left: 2px; }
+    .home-page .carousel_btn_next { right: 2px; }
+}
+
+/* ==========================================
+   HEADER: BUSCADOR MÁS GRANDE Y CENTRADO
+   ========================================== */
+.searchbar {
+    gap: 12px;
+}
+
+/* El botón Categorías toma solo su ancho; el buscador ocupa el resto */
+.searchbar .header-category-wrapper {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+}
+
+.searchbar .search-wrapper,
+.searchbar .search_wrapper {
+    flex: 1 1 auto;
+    width: auto;
+    max-width: none;
+    min-width: 0;
+}
+
+.searchbar #search-input {
+    min-height: 50px;
+    padding: 14px 22px;
+    font-size: 16px;
+}
+
+.searchbar .header-category-btn {
+    min-height: 50px;
+    padding: 12px 26px;
+    font-size: 15px;
+}
+
+/* Desktop: logo | [Categorías + buscador] | login, con el bloque central
+   siempre centrado respecto del header (columnas laterales iguales). */
+@media (min-width: 993px) {
+    .main_container {
+        display: grid;
+        grid-template-columns: minmax(auto, 1fr) minmax(0, 840px) minmax(auto, 1fr);
+        align-items: center;
+        column-gap: 24px;
+    }
+
+    .main_container .site_logo,
+    .main_container .user_login {
+        width: auto;
+    }
+
+    .main_container .site_logo {
+        justify-self: start;
+    }
+
+    .main_container .user_login {
+        justify-self: end;
+    }
+
+    .main_container .searchbar {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .searchbar #search-input,
+    .searchbar .header-category-btn {
+        min-height: 42px;
+    }
+
+    .searchbar #search-input {
+        padding: 10px 14px;
+        font-size: 14px;
     }
 }

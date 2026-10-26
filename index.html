@@ -48,7 +48,10 @@
                             <li><a href="#">Computación</a></li>
                         </ul>
                     </div>
-                    <input type="search" class="search" placeholder="Buscar por producto, marca y más..." name="" id="search-input">
+                    <div class="search-wrapper">
+                        <input type="search" class="search" placeholder="Buscar por producto, marca y más..." name="" id="search-input">
+                        <div id="search-results" class="search-dropdown"></div>
+                    </div>
                 </div>
 
                 <!-- 4. Login, Registrate y Carrito a la Derecha -->
@@ -172,8 +175,11 @@
             </div>
             <div class="product_showcase" id="product-container">
 
-                
-        </section>
+            </section>
+            <section id="product-container"></section>
+            <div class="load_more_container">
+                <button id="load-more-btn" class="load_more_btn">Mostrar más productos</button>
+            </div>
 
         <section>
             <div class="offer_container">
@@ -231,7 +237,9 @@
                         <p class="club_banner_description">Dejanos tu email y te enviamos el cupón al instante.</p>
                     </div>
                     <div class="club_mail_input">
-                        <input class="mail_input" type="email" placeholder="Ingresá tu mail" name="" id="">
+                        <form action="https://formspree.io/f/xbgdganp" method="POST">
+                            <input class="mail_input" type="email" placeholder="Ingresá tu mail" name="" id="">
+                        </form>
                     </div>
                 </div>
             </div>
