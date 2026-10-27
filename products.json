@@ -8,10 +8,10 @@
     },
     {
         "id": 102,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
+        "title": "Auriculares Inalámbricos Bluetooth Sony WH-CH520 Negro",
+        "price": 81.99,
+        "description": "Auriculares Sony Bluetooth Inalámbricos WH-CH520",
+        "image": "/src/auriculares bluetooth sony vincha.png"
     },
     {
         "id": 103,
@@ -25,146 +25,20 @@
         "title": "Sony PlayStation 5 Slim Digital CFI-2016B 825GB Standard Color blanco 2023",
         "price": 1499.99,
         "description": "Con tu consola PlayStation 5 tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos.",
-        "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$"
+        "image": "/src/ps5-product-thumbnail-01-en-14sep21.png"
     },
     {
-        "id": 102,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
+        "id": 105,
+        "title": "Casco de realidad virtual",
+        "price": 2399.99,
+        "description": "Conquista cumbres colosales, enfréntate a temibles máquinas y descubre un peligro oculto para el mundo en el paquete Horizon Call of the Mountain de PlayStation VR2.",
+        "image": "/src/casco realidad virtual.png"
     },
     {
-        "id": 103,
-        "title": "MacBook Pro 14' M3 Chip",
+        "id": 106,
+        "title": "Apple Watch SE 3 GPS • Caja de aluminio color medianoche de 44 mm",
         "price": 1599.99,
-        "description": "Rendimiento extremo para profesionales con pantalla Liquid Retina XDR.",
-        "image": "https://idestiny.in/wp-content/uploads/2024/10/Macbook-Pro-14_-600x600.png"
-    },
-    {
-        "id": 101,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        "id": 102,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        "id": 103,
-        "title": "MacBook Pro 14' M3 Chip",
-        "price": 1599.99,
-        "description": "Rendimiento extremo para profesionales con pantalla Liquid Retina XDR.",
-        "image": "https://idestiny.in/wp-content/uploads/2024/10/Macbook-Pro-14_-600x600.png"
-    },
-    {
-        "id": 101,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        "id": 102,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        "id": 103,
-        "title": "MacBook Pro 14' M3 Chip",
-        "price": 1599.99,
-        "description": "Rendimiento extremo para profesionales con pantalla Liquid Retina XDR.",
-        "image": "https://idestiny.in/wp-content/uploads/2024/10/Macbook-Pro-14_-600x600.png"
-    },
-    {
-        "id": 101,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        "id": 102,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        "id": 103,
-        "title": "MacBook Pro 14' M3 Chip",
-        "price": 1599.99,
-        "description": "Rendimiento extremo para profesionales con pantalla Liquid Retina XDR.",
-        "image": "https://idestiny.in/wp-content/uploads/2024/10/Macbook-Pro-14_-600x600.png"
-    },
-    {
-        "id": 101,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        "id": 102,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        "id": 103,
-        "title": "MacBook Pro 14' M3 Chip",
-        "price": 1599.99,
-        "description": "Rendimiento extremo para profesionales con pantalla Liquid Retina XDR.",
-        "image": "https://idestiny.in/wp-content/uploads/2024/10/Macbook-Pro-14_-600x600.png"
-    },
-    {
-        "id": 101,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        "id": 102,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        "id": 103,
-        "title": "MacBook Pro 14' M3 Chip",
-        "price": 1599.99,
-        "description": "Rendimiento extremo para profesionales con pantalla Liquid Retina XDR.",
-        "image": "https://idestiny.in/wp-content/uploads/2024/10/Macbook-Pro-14_-600x600.png"
-    },
-    {
-        "id": 101,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        "id": 102,
-        "title": "iPhone 15 Pro Max 256GB",
-        "price": 1199.99,
-        "description": "El último smartphone de Apple con chip A17 Pro y cámara de 48 MP.",
-        "image": "https://i0.wp.com/shop.litecorp.com.ar/wp-content/uploads/2024/02/iphone-15-pro-max-natural-titanium.--e1771435890944.webp?fit=1125%2C1125&ssl=1"
-    },
-    {
-        "id": 103,
-        "title": "MacBook Pro 14' M3 Chip",
-        "price": 1599.99,
-        "description": "Rendimiento extremo para profesionales con pantalla Liquid Retina XDR.",
-        "image": "https://idestiny.in/wp-content/uploads/2024/10/Macbook-Pro-14_-600x600.png"
+        "description": "El Apple Watch SE 3 trae funcionalidades de salud, fitness, conectividad y seguridad. Conoce tu Puntuación de Sueño, consulta datos importantes de tu salud en la app Signos Vitales¹, lleva una vida más activa con una gran variedad de entrenamientos, sácale provecho a la carga rápida² y no pierdas de vista la información que necesitas, gracias a la pantalla siempre activa. Todo con 18 horas de batería³ para todo el día.",
+        "image": "/src/apple-watch-series4_ecg-heartrate_09122018_carousel.jpg.large.jpg"
     }
 ]
