@@ -2,11 +2,37 @@ const productContainer = document.getElementById('product-container')
 const searchInput = document.getElementById('search-input')
 const searchResultsContainer = document.getElementById('search-results')
 const loadMoreBtn = document.getElementById('load-more-btn');
+const cartCountElement = document.getElementById('cart-count');
 
 const URL_API = 'https://fakestoreapi.com/products/category/electronics';
 
+let cart = JSON.parse(localStorage.getItem('carrito')) || [];
 let allProducts = [];
 let isExpanded = false;
+
+function updateCartCount() {
+    const totalItems = cart.reduce((total, product) => total + product.quantity, 0);
+    cartCountElement.innerText = totalItems;
+}
+
+function addToCart(productId) {
+    const productToAdd = allProducts.find(p => p.id === productId);
+
+    if (!productToAdd) return;
+
+    const existingProduct = cart.find(p => p.id === productId);
+
+    if (existingProduct) {
+        existingProduct.quantity += 1;
+    } else {
+        cart.push({ ...productToAdd, quantity: 1 });
+    }
+
+    localStorage.setItem('carrito', JSON.stringify(cart));
+    updateCartCount();
+}
+
+updateCartCount();
 
 function showProducts(productList) {
     
@@ -41,7 +67,7 @@ function showProducts(productList) {
         </div>
         <div class="card_btn_container">
         <div class="buy_btn">
-        <input type="button" class="purchase_btn" value="Añadir al carrito">
+        <input type="button" class="purchase_btn" value="Añadir al carrito" onclick="addToCart(${products.id})">
         </div>
         <div class="buy_btn">
         <a href="product_details.html">

@@ -113,7 +113,7 @@ header {
 }
 
 .dropdown_item:hover { 
-    background-color: #f8f9fa; 
+    background-color: #dfdfdf; 
 }
 
 .dropdown_image {
@@ -276,6 +276,17 @@ header {
 
 .login_btn:hover{
     background-color: #f3af02;
+}
+
+.cart-count-items{
+    position: relative;
+    top: -15px;
+    left: -11px;
+    padding: 3px 6px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: rgb(255, 31, 31);
+    font-size: 9px;
 }
 
 .nav_list{
@@ -1138,6 +1149,14 @@ footer {
     color: #222222; 
 }
 
+.detailed_product_description{
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    color: #969696;
+}
+
 .product_caracteristic_container{ 
     display: flex; 
     align-items: center; 
@@ -1152,7 +1171,8 @@ footer {
 .product_caracteristic, 
 .product_shipment, 
 .product_condition{ 
-    font-size: 11px; 
+    margin-bottom: 5px;
+    font-size: 12px; 
     color: #747373; 
 }
 
@@ -1234,6 +1254,10 @@ select{
     padding: 15px; 
     width: 100%; 
     text-align: right; 
+}
+
+.cancel_button_link{
+    text-decoration: none;
 }
 
 .cancel, .proceed{ 

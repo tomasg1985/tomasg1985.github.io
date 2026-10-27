@@ -30,125 +30,7 @@
         </div>
     </div>
 
-    <!-- Product 1 -->
-    <div class="purchase_details_container">
-        <div class="product_section">
-            <img src="src/IPhone 17 Promax.png" class="cart_product_image" alt="">
-            <div class="product_info">
-                <h4 class="product_name">IPhone 17 ProMax</h4>
-                <div class="product_caracteristic_container">
-                    <p class="product_caracteristic"> Color: Grafito</p>
-                    <p class="separator"> | </p>
-                    <p class="product_caracteristic"> Capacidad: 1TB</p>
-                </div>
-                <p class="product_shipment">Llega a su domicillio: Fecha...</p>
-                <p class="product_condition">Producto original</p>
-            </div>
-            <div class="quantity_container">
-                <label for="opciones_1">QTY.</label>
-                <select id="opciones_1" name="opciones">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-            </div>
-            <div class="price_container">
-                <a class="delete_btn" href="#">&#128465;</a>
-                <p class="price_text">1x USD 1500</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Product 2 -->
-    <div class="purchase_details_container">
-        <div class="product_section">
-            <img src="src/apple_watch.png" class="cart_product_image" alt="">
-            <div class="product_info">
-                <h4 class="product_name">Apple Watch</h4>
-                <div class="product_caracteristic_container">
-                    <p class="product_caracteristic"> Color: Crema</p>
-                    <p class="separator"> | </p>
-                    <p class="product_caracteristic"> Capacidad: N/A</p>
-                </div>
-                <p class="product_shipment">Llega a su domicillio: Fecha...</p>
-                <p class="product_condition">Producto original</p>
-            </div>
-            <div class="quantity_container">
-                <label for="opciones_2">QTY.</label>
-                <select id="opciones_2" name="opciones">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-            </div>
-            <div class="price_container">
-                <a class="delete_btn" href="#">&#128465;</a>
-                <p class="price_text">1x USD 1500</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Product 3 -->
-    <div class="purchase_details_container">
-        <div class="product_section">
-            <img src="src/play station control.png" class="cart_product_image" alt="">
-            <div class="product_info">
-                <h4 class="product_name">Mando PlayStation 5</h4>
-                <div class="product_caracteristic_container">
-                    <p class="product_caracteristic"> Color: Blanco</p>
-                    <p class="separator"> | </p>
-                    <p class="product_caracteristic"> Capacidad: N/A</p>
-                </div>
-                <p class="product_shipment">Llega a su domicillio: Fecha...</p>
-                <p class="product_condition">Producto original</p>
-            </div>
-            <div class="quantity_container">
-                <label for="opciones_3">QTY.</label>
-                <select id="opciones_3" name="opciones">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-            </div>
-            <div class="price_container">
-                <a class="delete_btn" href="#">&#128465;</a>
-                <p class="price_text">1x USD 1500</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Product 4 -->
-    <div class="purchase_details_container">
-        <div class="product_section">
-            <img src="src/ef249eef98d84df83ee9470248f86d43.png" class="cart_product_image" alt="">
-            <div class="product_info">
-                <h4 class="product_name">Auriculares JBL Bluetooth</h4>
-                <div class="product_caracteristic_container">
-                    <p class="product_caracteristic"> Color: Grafito Oscuro</p>
-                    <p class="separator"> | </p>
-                    <p class="product_caracteristic"> Capacidad: N/A</p>
-                </div>
-                <p class="product_shipment">Llega a su domicillio: Fecha...</p>
-                <p class="product_condition">Producto original</p>
-            </div>
-            <div class="quantity_container">
-                <label for="opciones_4">QTY.</label>
-                <select id="opciones_4" name="opciones">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-            </div>
-            <div class="price_container">
-                <a class="delete_btn" href="#">&#128465;</a>
-                <p class="price_text">1x USD 1500</p>
-            </div>
-        </div>
-    </div>
+    <div id="cart-items-container"></div>
     
     <div class="price_description_container">
         <div class="price_title">
@@ -158,16 +40,18 @@
             <h4 class="tag">Total:</h4>
         </div>
         <div class="price_ammount">
-            <h4 class="ammount">USD 1500,00</h4>
-            <h4 class="ammount">USD 15,00</h4>
-            <h4 class="ammount">-10%</h4>
-            <h4 class="ammount">USD 1350,00</h4>
+            <h4 id="subtotal-amount" class="ammount"></h4>
+            <h4 id="shipping-amount" class="ammount"></h4>
+            <h4 id="discount-amount" class="ammount"></h4>
+            <h4 id="total-amount" class="ammount"></h4>
         </div>
     </div>
 
     <div class="proceed_purchase_container">
         <div class="payment_buttons">
-            <input type="button" class="cancel" value="Cancelar">
+            <a class="cancel_button_link" href="index.html">
+                <input type="button" class="cancel" value="Cancelar">
+            </a>
             <input type="button" class="proceed" value="Continuar con el pago">
         </div>
     </div>
@@ -245,5 +129,6 @@
         </div>
     </footer>
 
+    <script src="cart.js" defer></script>
 </body>
 </html>
