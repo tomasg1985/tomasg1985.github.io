@@ -71,7 +71,11 @@ function showProducts(productList) {
         </div>
         <div class="buy_btn">
         <a href="product_details.html">
-        <input type="button" class="purchase_btn_more_info" value="Detalles">
+        <div class="buy_btn">
+        <button class="purchase_btn_more_info" onclick="goToDetails(${products.id})">
+        Detalles
+        </button>
+        </div>
         </a>
         </div>
         </div>
@@ -80,6 +84,11 @@ function showProducts(productList) {
     });
 
     productContainer.innerHTML = htmlContent;
+}
+
+function goToDetails(productId) {
+    localStorage.setItem('selectedProductId', productId);
+    window.location.href = 'product_detail.html';
 }
 
 if (loadMoreBtn) {

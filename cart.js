@@ -12,9 +12,9 @@ const DISCOUNT_RATE = 0.15;
 function renderCartDetails() {
     if (cart.length === 0) {
         cartItemsContainer.innerHTML = `
-            <div style="text-align: center; padding: 40px;">
-                <h3>Tu carrito está vacío 🛒</h3>
-                <a href="index.html">Volver al catálogo para agregar productos</a>
+            <div style="text-align: center; padding: 40px; margin-top: 20px;">
+                <h3 clas="empty_title" style="margin-bottom:35px; font-weight:400; font-size: 40px; color: grey;">Tu carrito está vacío</h3>
+                <a class="back_btn" href="index.html">Volver al catálogo para agregar productos</a>
             </div>
         `;
         calculateTotals();

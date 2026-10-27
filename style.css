@@ -628,7 +628,7 @@ li .main_nav_link:hover{
 }
 
 .buy_btn{
-    width: 50%;
+    width: 100%;
 }
 
 .purchase_btn, .purchase_btn_more_info{
@@ -1116,6 +1116,16 @@ footer {
     font-size: 20px; 
     font-weight: 500; 
     color: #343535; 
+}
+
+.back_btn{
+    margin-top: 50px;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #f3af02;
+    border: none;
+    color: #fff;
+    font-weight: 300;
 }
 
 .purchase_details_container{ 
