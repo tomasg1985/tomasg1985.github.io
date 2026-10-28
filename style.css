@@ -1618,13 +1618,15 @@ select{
 
 .product-details-container {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
 }
 
 .technical_specs_wrapper {
+    margin: auto;
     width: 100%;
+    max-width: 1500px;
 }
 
 .technical_section_title {
