@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos por Categoría</title>
+    <title>Productos por Categoría - TecnoStore</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fonts.css">
 </head>
 <body class="category-page">
-
     <header>
         <nav class="upper_nav">
             <div class="main_container">
-                <!-- 1. Logo a la izquierda -->
+                <!-- Logo -->
                 <div class="site_logo">
                     <a href="index.html">
                         <img src="src/logo_tecnostore_Mesa de trabajo 1.svg" class="logo" alt="Tecnostore Logo">
                     </a>
                 </div>
 
-                <!-- 2. Botón Hamburguesa (solo móvil) -->
+                <!-- Botón Menú Móvil -->
                 <button class="mobile_menu_btn" id="mobile_menu_btn" aria-label="Abrir menú">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <line x1="3" y1="12" x2="21" y2="12"></line>
@@ -28,7 +27,7 @@
                     </svg>
                 </button>
 
-                <!-- 3. Categorías + Buscador en el Centro -->
+                <!-- Buscador -->
                 <div class="searchbar">
                     <div class="header-category-wrapper">
                         <button class="header-category-btn" type="button">
@@ -40,21 +39,20 @@
                             <span>Categorías</span>
                         </button>
                         <ul class="categories-dropdown">
-                            <li><a href="#">Tecnología</a></li>
-                            <li><a href="#">Smartwatches</a></li>
-                            <li><a href="#">Audio y Sonido</a></li>
-                            <li><a href="#">Accesorios</a></li>
-                            <li><a href="#">Celulares</a></li>
-                            <li><a href="#">Computación</a></li>
+                            <li><a href="products_category.html">Computación & Hardware</a></li>
+                            <li><a href="products_category.html">Telefonía & Tablets</a></li>
+                            <li><a href="products_category.html">Audio & Video</a></li>
+                            <li><a href="products_category.html">Gaming</a></li>
+                            <li><a href="products_category.html">Hogar Inteligente</a></li>
                         </ul>
                     </div>
                     <div class="search-wrapper">
-                        <input type="search" class="search" placeholder="Buscar por producto, marca y más..." name="" id="search-input">
+                        <input type="search" class="search" placeholder="Buscar por producto, marca y más..." id="search-input">
                         <div id="search-results" class="search-dropdown"></div>
                     </div>
                 </div>
 
-                <!-- 4. Login, Registrate y Carrito a la Derecha -->
+                <!-- Usuario y Carrito -->
                 <div class="user_login">
                     <input type="button" class="login_btn" value="LOGIN">
                     <ul class="nav_list">
@@ -76,87 +74,16 @@
             </div>
         </nav>
 
-        <!-- Menú Principal Navegable -->
+        <!-- Navegación Principal -->
         <nav class="main_nav" id="main_nav_menu">
             <div class="navbar">
                 <ul class="nav_list_main">
                     <li><a class="main_nav_link" href="index.html">Home</a></li>
                     <li class="menu_con_submenu">
-                        <a class="main_nav_link submenu_toggle" href="#">Productos ▾</a>
-                        <div class="colapse_main_container">
-                            <div class="colapse_nav_menu">
-                                <h4 class="sub_menu_title">Computacion & Hardware</h4>
-                                <hr>
-                                <ul>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Componentes</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Perifericos</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Almacenamiento</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Conectividad</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
-                                </ul>
-                            </div>
-                            <div class="colapse_nav_menu">
-                                <h4 class="sub_menu_title">Telefonia & Tablets</h4>
-                                <hr>
-                                <ul>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smartphones</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Tablets</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smartwaches</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Accesorios</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
-                                </ul>
-                            </div>
-                            <div class="colapse_nav_menu">
-                                <h4 class="sub_menu_title">Audio & Video</h4>
-                                <hr>
-                                <ul>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Auriculares</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Parlantes y sonido</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smart TV</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Streaming y Fotografía</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
-                                </ul>
-                            </div>
-                            <div class="colapse_nav_menu">
-                                <h4 class="sub_menu_title">Gaming</h4>
-                                <hr>
-                                <ul>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Consolas</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Videoguegos</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Accesorios Gamer</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Periféricos Gamer</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
-                                </ul>
-                            </div>
-                            <div class="colapse_nav_menu">
-                                <h4 class="sub_menu_title">Hogar Inteligente</h4>
-                                <hr>
-                                <ul>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Asistentes Virtuales</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Iluminación Inteligente</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Seguridad Wi-Fi</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Redes y Routers</a></li>
-                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <a class="main_nav_link submenu_toggle" href="products_category.html">Productos ▾</a>
                     </li>
-                    <li class="menu_con_submenu">
-                        <a class="main_nav_link submenu_toggle" href="#">Ofertas ▾</a>
-                        <div class="colapse_main_container">
-                            <div class="colapse_nav_menu">
-                                <h4 class="sub_menu_title">Ofertas y Destacados</h4>
-                                <hr>
-                                <ul>
-                                    <li class="colapse_menu_item"><a href="best_sellers.html" class="colapse_menu_link">Lo Más Vendido</a></li>
-                                    <li class="colapse_menu_item"><a href="outlet.html" class="colapse_menu_link">Liquidación</a></li>
-                                    <li class="colapse_menu_item"><a href="launches.html" class="colapse_menu_link">Lanzamientos</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
+                    <li><a class="main_nav_link" href="#">Ofertas</a></li>
                     <li><a class="main_nav_link" href="#">Club TecStore</a></li>
-                    <li><a class="main_nav_link" href="#">Novedades</a></li>
                     <li><a class="main_nav_link" href="help.html">Ayuda</a></li>
                     <li><a class="main_nav_link" href="contact.html">Contacto</a></li>
                 </ul>
@@ -166,8 +93,7 @@
 
     <section>
         <div class="product_gallery_main">
-            
-            <!-- SECCIÓN DE FILTROS MEJORADA -->
+            <!-- SIDEBAR ORIGINAL ESTABLE -->
             <aside class="product_gallery_filter">
                 <div class="filter_header">
                     <h3 class="sidebar_title">Filtros</h3>
@@ -189,7 +115,6 @@
                                 <input type="number" id="maxPriceInput" value="1500" min="0" max="2000">
                             </div>
                         </div>
-
                         <div class="slider-container">
                             <div class="price-track"></div>
                             <input type="range" id="minRange" min="0" max="2000" value="100" step="10">
@@ -272,23 +197,23 @@
                     </ul>
                 </details>
 
-                <!-- 4. Filtro de Condicion -->
+                <!-- 4. Filtro de Condición -->
                 <details class="filter_group" open>
                     <summary class="filter_title">Condición</summary>
                     <ul class="filter_list">
                         <li class="filter_list_item">
                             <label class="checkbox_label">
-                                <input type="checkbox" name="stock" value="available"> Nuevo
+                                <input type="checkbox" name="condition" value="Nuevo"> Nuevo
                             </label>
                         </li>
                         <li class="filter_list_item">
                             <label class="checkbox_label">
-                                <input type="checkbox" name="shipping" value="today"> Outlet
+                                <input type="checkbox" name="condition" value="Outlet"> Outlet
                             </label>
                         </li>
                         <li class="filter_list_item">
                             <label class="checkbox_label">
-                                <input type="checkbox" name="shipping" value="free"> Reacondicionado
+                                <input type="checkbox" name="condition" value="Reacondicionado"> Reacondicionado
                             </label>
                         </li>
                     </ul>
@@ -300,39 +225,39 @@
                     <ul class="filter_list">
                         <li class="filter_list_item">
                             <label class="checkbox_label">
-                                <input type="checkbox" name="stock" value="available"> Compatible con Windows
+                                <input type="checkbox" name="compatibility" value="Windows"> Compatible con Windows
                             </label>
                         </li>
                         <li class="filter_list_item">
                             <label class="checkbox_label">
-                                <input type="checkbox" name="shipping" value="today"> Compatible con Apple
+                                <input type="checkbox" name="compatibility" value="Apple"> Compatible con Apple
                             </label>
                         </li>
                         <li class="filter_list_item">
                             <label class="checkbox_label">
-                                <input type="checkbox" name="shipping" value="free"> Compatible con consolas
+                                <input type="checkbox" name="compatibility" value="Consolas"> Compatible con consolas
                             </label>
                         </li>
                         <li class="filter_list_item">
                             <label class="checkbox_label">
-                                <input type="checkbox" name="shipping" value="free"> Universal / Bluetooth
+                                <input type="checkbox" name="compatibility" value="Bluetooth"> Universal / Bluetooth
                             </label>
                         </li>
                     </ul>
                 </details>
 
-                <!-- 6. Filtro de Garantia -->
+                <!-- 6. Filtro de Garantía -->
                 <details class="filter_group" open>
-                    <summary class="filter_title">Garantia</summary>
+                    <summary class="filter_title">Garantía</summary>
                     <ul class="filter_list">
                         <li class="filter_list_item">
                             <label class="checkbox_label">
-                                <input type="checkbox" name="stock" value="available"> Garantía Oficial del Fabricante
+                                <input type="checkbox" name="warranty" value="official"> Garantía Oficial del Fabricante
                             </label>
                         </li>
                         <li class="filter_list_item">
                             <label class="checkbox_label">
-                                <input type="checkbox" name="shipping" value="today"> Garantía Directa de la Tienda
+                                <input type="checkbox" name="warranty" value="store"> Garantía Directa de la Tienda
                             </label>
                         </li>
                     </ul>
@@ -354,1148 +279,31 @@
                 </details>
             </aside>
 
-            <!-- CONTENEDOR DERECHO: BANNER + GRILLA -->
+            <!-- GRILLA PRINCIPAL DE PRODUCTOS -->
             <div class="products_content_wrapper">
-                
-                <!-- BANNER DE PORTADA -->
                 <div class="category_banner_container">
                     <div class="category_banner">
                         <div class="banner_text">
                             <span class="page_category">Colección Destacada</span>
                             <h1 class="banner_main_title">Tecnología y Accesorios</h1>
-                            <p class="banner_description">Descubrí todos nuestros productos de tecnologia con envios gratis</p>
+                            <p class="banner_description">Descubrí todos nuestros productos de tecnología con envíos gratis</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- GRILLA DE PRODUCTOS -->
                 <div class="products_cards_container">
-
-                <!-- Producto 1 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
+                    <!-- category.js inyectará los productos aquí -->
                 </div>
 
-                </a>
-
-                <!-- Producto 2 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-
-                <!-- Producto 3 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-
-                <!-- Producto 4 -->
-                <a class="product_details_link" href="product_details.html">
-
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-
-                <!-- Producto 5 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-
-                <!-- Producto 6 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-
-                <!-- Producto 7 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-
-                <!-- Producto 8 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-                
-                <!-- Producto 9 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-
-                <!-- Producto 10 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-
-                <!-- Producto 11 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-
-                <!-- Producto 12 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-
-                <!-- Producto 13 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-
-                <!-- Producto 14 -->
-                <a class="product_details_link" href="product_details.html">
-
-                <div class="product_card_container">
-                    <div class="condition_header">
-                        <div class="single_product_condition">
-                            <p class="condition">Nuevo</p>
-                        </div>
-                        <div class="single_product_discount">
-                            <p class="discount">-30% OFF</p>
-                        </div>
-                    </div>
-                    <div class="img_container">
-                        <div class="product_img">
-                            <img class="picture" src="src/apple_watch.png" alt="">
-                        </div>
-                    </div>
-                    <div class="product_info_container">
-                        <div class="product_data">
-                            <h4 class="product_name">Apple IWatch</h4>
-                            <p class="product_seller">TecnoStore</p>
-                            <span class="product_rating">
-                                <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                </svg>
-                                <span class="rating_number">4.8</span>
-                            </span>
-                            <p class="single_product_price">USD 650</p>
-                            <input class="cart" type="button" value="Agregar al Carrito">
-                            <input class="purchase" type="button" value="Comprar">
-                        </div>
-                    </div>
-                </div>
-
-                </a>
-
-                <!-- Producto 15 -->
-                <a class="product_details_link" href="product_details.html">
-
-                    <div class="product_card_container">
-                        <div class="condition_header">
-                            <div class="single_product_condition">
-                                <p class="condition">Nuevo</p>
-                            </div>
-                            <div class="single_product_discount">
-                                <p class="discount">-30% OFF</p>
-                            </div>
-                        </div>
-                        <div class="img_container">
-                            <div class="product_img">
-                                <img class="picture" src="src/apple_watch.png" alt="">
-                            </div>
-                        </div>
-                        <div class="product_info_container">
-                            <div class="product_data">
-                                <h4 class="product_name">Apple IWatch</h4>
-                                <p class="product_seller">TecnoStore</p>
-                                <span class="product_rating">
-                                    <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                    </svg>
-                                    <span class="rating_number">4.8</span>
-                                </span>
-                                <p class="single_product_price">USD 650</p>
-                                <input class="cart" type="button" value="Agregar al Carrito">
-                                <input class="purchase" type="button" value="Comprar">
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <!-- Producto 16 -->
-                <a class="product_details_link" href="product_details.html">
-
-                    <div class="product_card_container">
-                        <div class="condition_header">
-                            <div class="single_product_condition">
-                                <p class="condition">Nuevo</p>
-                            </div>
-                            <div class="single_product_discount">
-                                <p class="discount">-30% OFF</p>
-                            </div>
-                        </div>
-                        <div class="img_container">
-                            <div class="product_img">
-                                <img class="picture" src="src/apple_watch.png" alt="">
-                            </div>
-                        </div>
-                        <div class="product_info_container">
-                            <div class="product_data">
-                                <h4 class="product_name">Apple IWatch</h4>
-                                <p class="product_seller">TecnoStore</p>
-                                <span class="product_rating">
-                                    <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                    </svg>
-                                    <span class="rating_number">4.8</span>
-                                </span>
-                                <p class="single_product_price">USD 650</p>
-                                <input class="cart" type="button" value="Agregar al Carrito">
-                                <input class="purchase" type="button" value="Comprar">
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <!-- Producto 17 -->
-                <a class="product_details_link" href="product_details.html">
-
-                    <div class="product_card_container">
-                        <div class="condition_header">
-                            <div class="single_product_condition">
-                                <p class="condition">Nuevo</p>
-                            </div>
-                            <div class="single_product_discount">
-                                <p class="discount">-30% OFF</p>
-                            </div>
-                        </div>
-                        <div class="img_container">
-                            <div class="product_img">
-                                <img class="picture" src="src/apple_watch.png" alt="">
-                            </div>
-                        </div>
-                        <div class="product_info_container">
-                            <div class="product_data">
-                                <h4 class="product_name">Apple IWatch</h4>
-                                <p class="product_seller">TecnoStore</p>
-                                <span class="product_rating">
-                                    <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                    </svg>
-                                    <span class="rating_number">4.8</span>
-                                </span>
-                                <p class="single_product_price">USD 650</p>
-                                <input class="cart" type="button" value="Agregar al Carrito">
-                                <input class="purchase" type="button" value="Comprar">
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <!-- Producto 18 -->
-                <a class="product_details_link" href="product_details.html">
-
-                    <div class="product_card_container">
-                        <div class="condition_header">
-                            <div class="single_product_condition">
-                                <p class="condition">Nuevo</p>
-                            </div>
-                            <div class="single_product_discount">
-                                <p class="discount">-30% OFF</p>
-                            </div>
-                        </div>
-                        <div class="img_container">
-                            <div class="product_img">
-                                <img class="picture" src="src/apple_watch.png" alt="">
-                            </div>
-                        </div>
-                        <div class="product_info_container">
-                            <div class="product_data">
-                                <h4 class="product_name">Apple IWatch</h4>
-                                <p class="product_seller">TecnoStore</p>
-                                <span class="product_rating">
-                                    <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                    </svg>
-                                    <span class="rating_number">4.8</span>
-                                </span>
-                                <p class="single_product_price">USD 650</p>
-                                <input class="cart" type="button" value="Agregar al Carrito">
-                                <input class="purchase" type="button" value="Comprar">
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <!-- Producto 19 -->
-                <a class="product_details_link" href="product_details.html">
-
-                    <div class="product_card_container">
-                        <div class="condition_header">
-                            <div class="single_product_condition">
-                                <p class="condition">Nuevo</p>
-                            </div>
-                            <div class="single_product_discount">
-                                <p class="discount">-30% OFF</p>
-                            </div>
-                        </div>
-                        <div class="img_container">
-                            <div class="product_img">
-                                <img class="picture" src="src/apple_watch.png" alt="">
-                            </div>
-                        </div>
-                        <div class="product_info_container">
-                            <div class="product_data">
-                                <h4 class="product_name">Apple IWatch</h4>
-                                <p class="product_seller">TecnoStore</p>
-                                <span class="product_rating">
-                                    <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                    </svg>
-                                    <span class="rating_number">4.8</span>
-                                </span>
-                                <p class="single_product_price">USD 650</p>
-                                <input class="cart" type="button" value="Agregar al Carrito">
-                                <input class="purchase" type="button" value="Comprar">
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <!-- Producto 20 -->
-                <a class="product_details_link" href="product_details.html">
-
-                    <div class="product_card_container">
-                        <div class="condition_header">
-                            <div class="single_product_condition">
-                                <p class="condition">Nuevo</p>
-                            </div>
-                            <div class="single_product_discount">
-                                <p class="discount">-30% OFF</p>
-                            </div>
-                        </div>
-                        <div class="img_container">
-                            <div class="product_img">
-                                <img class="picture" src="src/apple_watch.png" alt="">
-                            </div>
-                        </div>
-                        <div class="product_info_container">
-                            <div class="product_data">
-                                <h4 class="product_name">Apple IWatch</h4>
-                                <p class="product_seller">TecnoStore</p>
-                                <span class="product_rating">
-                                    <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                    </svg>
-                                    <span class="rating_number">4.8</span>
-                                </span>
-                                <p class="single_product_price">USD 650</p>
-                                <input class="cart" type="button" value="Agregar al Carrito">
-                                <input class="purchase" type="button" value="Comprar">
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <!-- Producto 21 -->
-                <a class="product_details_link" href="product_details.html">
-
-                    <div class="product_card_container">
-                        <div class="condition_header">
-                            <div class="single_product_condition">
-                                <p class="condition">Nuevo</p>
-                            </div>
-                            <div class="single_product_discount">
-                                <p class="discount">-30% OFF</p>
-                            </div>
-                        </div>
-                        <div class="img_container">
-                            <div class="product_img">
-                                <img class="picture" src="src/apple_watch.png" alt="">
-                            </div>
-                        </div>
-                        <div class="product_info_container">
-                            <div class="product_data">
-                                <h4 class="product_name">Apple IWatch</h4>
-                                <p class="product_seller">TecnoStore</p>
-                                <span class="product_rating">
-                                    <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                                    </svg>
-                                    <span class="rating_number">4.8</span>
-                                </span>
-                                <p class="single_product_price">USD 650</p>
-                                <input class="cart" type="button" value="Agregar al Carrito">
-                                <input class="purchase" type="button" value="Comprar">
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                </div>
-
-                <!--<div class="pagination_section">
-                    <div class="pagination_numbers">
-                        <a class="pagination_link" href="">1</a>
-                        <a class="pagination_link" href="">2</a>
-                        <a class="pagination_link" href="">3</a>
-                        <a class="pagination_link" href="">4</a>
-                        <a class="pagination_link" href="">5</a>
-                        <a class="pagination_link" href="">Siguiente</a>
-                    </div>
-                </div>-->
-
-                <!-- GRILLA DE EXPLORA SUGERENCIAS -->
                 <h4 class="recomendation_text">Explorá nuestras recomendaciones</h4>
                 <div class="recomendation_container">
-
-                    <div class="recomendation_card">
-                        <a class="recomendation_card_link" href="product_details.html">
-
-                            <div class="products_recomendations">
-                                <div class="recomendation">
-                                    <img class="recomendation_picture" src="src/apple_watch.png" alt="">
-                                    <h4 class="related_product_title">Apple Iwatch</h4>
-                                    <p class="related_product_provider">TecnoStore</p>
-                                    <p class="related_product_price">USD 650</p>
-                                </div>
-                                
-                            </div>
-
-                        </a>
-                    </div>
-
-                    <div class="recomendation_card">
-                        <a class="recomendation_card_link" href="product_details.html">
-
-                            <div class="products_recomendations">
-                                <div class="recomendation">
-                                    <img class="recomendation_picture" src="src/apple_watch.png" alt="">
-                                    <h4 class="related_product_title">Apple Iwatch</h4>
-                                    <p class="related_product_provider">TecnoStore</p>
-                                    <p class="related_product_price">USD 650</p>
-                                </div>
-                                
-                            </div>
-
-                        </a>
-                    </div>
-
-                    <div class="recomendation_card">
-                        <a class="recomendation_card_link" href="product_details.html">
-
-                            <div class="products_recomendations">
-                                <div class="recomendation">
-                                    <img class="recomendation_picture" src="src/apple_watch.png" alt="">
-                                    <h4 class="related_product_title">Apple Iwatch</h4>
-                                    <p class="related_product_provider">TecnoStore</p>
-                                    <p class="related_product_price">USD 650</p>
-                                </div>
-                                
-                            </div>
-
-                        </a>
-                    </div>
-
-                    <div class="recomendation_card">
-                        <a class="recomendation_card_link" href="product_details.html">
-
-                            <div class="products_recomendations">
-                                <div class="recomendation">
-                                    <img class="recomendation_picture" src="src/apple_watch.png" alt="">
-                                    <h4 class="related_product_title">Apple Iwatch</h4>
-                                    <p class="related_product_provider">TecnoStore</p>
-                                    <p class="related_product_price">USD 650</p>
-                                </div>
-                                
-                            </div>
-
-                        </a>
-                    </div>
-
-                    <div class="recomendation_card">
-                        <a class="recomendation_card_link" href="product_details.html">
-
-                            <div class="products_recomendations">
-                                <div class="recomendation">
-                                    <img class="recomendation_picture" src="src/apple_watch.png" alt="">
-                                    <h4 class="related_product_title">Apple Iwatch</h4>
-                                    <p class="related_product_provider">TecnoStore</p>
-                                    <p class="related_product_price">USD 650</p>
-                                </div>
-                                
-                            </div>
-
-                        </a>
-                    </div>
-
-                </div>
-                
-                <div class="club_register_container">
-                <div class="club_banner">
-                    <div class="club_register_text">
-                        <h4 class="banner_category">Unite al Club TechStore</h4>
-                        <h4 class="club_title_text">¿Querés tu 10% OFF de bienvenida?</h4>
-                        <p class="club_banner_description">Dejanos tu email y te enviamos el cupón al instante.</p>
-                    </div>
-                    <div class="club_mail_input">
-                        <input class="mail_input" type="email" placeholder="Ingresá tu mail" name="" id="">
-                    </div>
+                    <!-- category.js inyectará las recomendaciones aquí -->
                 </div>
             </div>
-
-            </div>
-
         </div>
     </section>
 
-    <footer>
-        <div class="footer_main">
-            <div class="social">
-                <img src="src/logo_tecnostore_Mesa de trabajo 1.svg" class="logo" alt="">
-                <h5 class="follow">Seguinos en nuestras redes sociales</h5>
-            </div>
-            <div class="footer_info">
-                <ul class="footer_nav_list">
-                    <h4 class="section_title">Soporte</h4>
-                    <li><a class="footer_nav_link" href="#">Preguntas Frecuentes</a></li>
-                    <li><a class="footer_nav_link" href="#">Políticas de Envío</a></li>
-                    <li><a class="footer_nav_link" href="#">Cambios y Devoluciones</a></li>
-                    <li><a class="footer_nav_link" href="#">Seguimiento de Pedido</a></li>
-                </ul>
-            </div>
-            <div class="footer_info">
-                <ul class="footer_nav_list">
-                    <h4 class="section_title">Sobre la empresa</h4>
-                    <li><a class="footer_nav_link" href="#">Quiénes Somos</a></li>
-                    <li><a class="footer_nav_link" href="#">Sustentabilidad</a></li>
-                    <li><a class="footer_nav_link" href="#">Trabajá con Nosotros</a></li>
-                    <li><a class="footer_nav_link" href="#">Blog</a></li>
-                    <li><a class="footer_nav_link" href="#">Venta Mayorista</a></li>
-                </ul>
-            </div>
-            <div class="footer_info">
-                <ul class="footer_nav_list">
-                    <h4 class="section_title">Categorías Destacadas</h4>
-                    <li><a class="footer_nav_link" href="#">Productos Populares</a></li>
-                    <li><a class="footer_nav_link" href="#">Ofertas</a></li>
-                    <li><a class="footer_nav_link" href="#">Trabajá con Nosotros</a></li>
-                    <li><a class="footer_nav_link" href="#">Nuevos Ingresos</a></li>
-                </ul>
-            </div>
-            <div class="footer_contact">
-                <h4 class="section_title">Contacto</h4>
-                <p class="address">1879 Quilmes - Buenos Aires<br>B1879BTQ</p>
-                <p class="chat">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;">
-                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                    </svg>
-                    Habla con un experto
-                </p>
-                <p class="phone">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;">
-                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                    </svg>
-                    Llamanos: +54341464 5482
-                </p>
-                <p class="mail">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                        <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
-                    Mail: ventas@tecnostore.com
-                </p>
-            </div>
-        </div>
-        <div class="sub-footer_container">
-            <div class="copy_container">
-                <p class="copy">&copy; 2026 Tecnostore. Todos los derechos reservados.</p>
-            </div>
-            <div class="legal_container">
-                <ul class="legal_navbar">
-                    <li><a class="legal_link" href="#">Home</a></li>
-                    <li><a class="legal_link" href="#">Sitemap</a></li>
-                    <li><a class="legal_link" href="#">Politicas de privacidad</a></li>
-                    <li><a class="legal_link" href="#">Terminos de uso</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts de la navegación -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const menuBtn = document.getElementById("mobile_menu_btn");
-            const mainNav = document.getElementById("main_nav_menu");
-
-            if (menuBtn && mainNav) {
-                menuBtn.addEventListener("click", function() {
-                    mainNav.classList.toggle("active");
-                });
-            }
-
-            const submenuToggles = document.querySelectorAll(".submenu_toggle");
-            
-            submenuToggles.forEach(toggle => {
-                toggle.addEventListener("click", function(e) {
-                    if (window.innerWidth <= 992) {
-                        e.preventDefault();
-                        const parentLi = this.parentElement;
-                        parentLi.classList.toggle("open");
-                    }
-                });
-            });
-        });
-    </script>
-
-    <!-- Script del Filtro por Estrellas -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const stars = document.querySelectorAll("#starFilter .star");
-            const ratingText = document.getElementById("ratingText");
-            let currentRating = 0;
-
-            stars.forEach(star => {
-                star.addEventListener("mouseenter", function() {
-                    const hoverValue = parseInt(this.getAttribute("data-value"));
-                    highlightStars(hoverValue, "hover");
-                });
-
-                star.addEventListener("mouseleave", function() {
-                    clearHighlights("hover");
-                });
-
-                star.addEventListener("click", function() {
-                    const clickedValue = parseInt(this.getAttribute("data-value"));
-
-                    if (currentRating === clickedValue) {
-                        currentRating = 0;
-                    } else {
-                        currentRating = clickedValue;
-                    }
-
-                    updateStarUI();
-                    aplicarFiltroProductos();
-                });
-            });
-
-            function highlightStars(value, className) {
-                stars.forEach(star => {
-                    const starValue = parseInt(star.getAttribute("data-value"));
-                    if (starValue <= value) {
-                        star.classList.add(className);
-                    } else {
-                        star.classList.remove(className);
-                    }
-                });
-            }
-
-            function clearHighlights(className) {
-                stars.forEach(star => star.classList.remove(className));
-            }
-
-            window.resetStarsUI = function() {
-                currentRating = 0;
-                updateStarUI();
-            };
-
-            function updateStarUI() {
-                stars.forEach(star => {
-                    const starValue = parseInt(star.getAttribute("data-value"));
-                    if (starValue <= currentRating) {
-                        star.classList.add("active");
-                    } else {
-                        star.classList.remove("active");
-                    }
-                });
-
-                if (currentRating === 0) {
-                    ratingText.textContent = "Todas las calificaciones";
-                } else if (currentRating === 1) {
-                    ratingText.textContent = "1 estrella o más";
-                } else {
-                    ratingText.textContent = `${currentRating} estrellas o más`;
-                }
-            }
-        });
-    </script>
-
-    <!-- Script del Filtro de Precios y Limpieza -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const minRange = document.getElementById("minRange");
-            const maxRange = document.getElementById("maxRange");
-            const minPriceInput = document.getElementById("minPriceInput");
-            const maxPriceInput = document.getElementById("maxPriceInput");
-            const priceTrack = document.querySelector(".price-track");
-            const clearFiltersBtn = document.getElementById("clearFiltersBtn");
-
-            const priceGap = 50;
-
-            function updateTrack() {
-                const minVal = parseInt(minRange.value);
-                const maxVal = parseInt(maxRange.value);
-                const maxLimit = parseInt(minRange.max);
-
-                const leftPercent = (minVal / maxLimit) * 100;
-                const rightPercent = 100 - ((maxVal / maxLimit) * 100);
-
-                priceTrack.style.left = leftPercent + "%";
-                priceTrack.style.right = rightPercent + "%";
-            }
-
-            minRange.addEventListener("input", function() {
-                if (parseInt(maxRange.value) - parseInt(minRange.value) < priceGap) {
-                    minRange.value = parseInt(maxRange.value) - priceGap;
-                }
-                minPriceInput.value = minRange.value;
-                updateTrack();
-                aplicarFiltroProductos();
-            });
-
-            maxRange.addEventListener("input", function() {
-                if (parseInt(maxRange.value) - parseInt(minRange.value) < priceGap) {
-                    maxRange.value = parseInt(minRange.value) + priceGap;
-                }
-                maxPriceInput.value = maxRange.value;
-                updateTrack();
-                aplicarFiltroProductos();
-            });
-
-            minPriceInput.addEventListener("change", function() {
-                let val = parseInt(minPriceInput.value);
-                if (val < 0) val = 0;
-                if (parseInt(maxPriceInput.value) - val < priceGap) {
-                    val = parseInt(maxPriceInput.value) - priceGap;
-                }
-                minPriceInput.value = val;
-                minRange.value = val;
-                updateTrack();
-                aplicarFiltroProductos();
-            });
-
-            maxPriceInput.addEventListener("change", function() {
-                let val = parseInt(maxPriceInput.value);
-                if (val > parseInt(maxRange.max)) val = parseInt(maxRange.max);
-                if (val - parseInt(minPriceInput.value) < priceGap) {
-                    val = parseInt(minPriceInput.value) + priceGap;
-                }
-                maxPriceInput.value = val;
-                maxRange.value = val;
-                updateTrack();
-                aplicarFiltroProductos();
-            });
-
-            // Restablecer todos los filtros
-            if (clearFiltersBtn) {
-                clearFiltersBtn.addEventListener("click", function() {
-                    document.querySelectorAll('.filter_list input[type="checkbox"]').forEach(cb => cb.checked = false);
-                    minRange.value = 0;
-                    maxRange.value = 2000;
-                    minPriceInput.value = 0;
-                    maxPriceInput.value = 2000;
-                    updateTrack();
-                    if (window.resetStarsUI) window.resetStarsUI();
-                    aplicarFiltroProductos();
-                });
-            }
-
-            updateTrack();
-
-            window.aplicarFiltroProductos = function() {
-                console.log("Filtros actualizados.");
-            };
-        });
-    </script>
-
-    <script src="main.js"></script>
+    <!-- Script sin interferencias CSS -->
+    <script src="category.js" defer></script>
 </body>
 </html>
