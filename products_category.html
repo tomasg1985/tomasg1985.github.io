@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="fonts.css">
 </head>
 <body class="category-page">
+
     <header>
         <nav class="upper_nav">
             <div class="main_container">
-                <!-- Logo -->
+                <!-- 1. Logo a la izquierda -->
                 <div class="site_logo">
                     <a href="index.html">
                         <img src="src/logo_tecnostore_Mesa de trabajo 1.svg" class="logo" alt="Tecnostore Logo">
                     </a>
                 </div>
 
-                <!-- Botón Menú Móvil -->
+                <!-- 2. Botón Hamburguesa (solo móvil) -->
                 <button class="mobile_menu_btn" id="mobile_menu_btn" aria-label="Abrir menú">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <line x1="3" y1="12" x2="21" y2="12"></line>
@@ -27,7 +28,7 @@
                     </svg>
                 </button>
 
-                <!-- Buscador -->
+                <!-- 3. Categorías + Buscador en el Centro -->
                 <div class="searchbar">
                     <div class="header-category-wrapper">
                         <button class="header-category-btn" type="button">
@@ -39,20 +40,21 @@
                             <span>Categorías</span>
                         </button>
                         <ul class="categories-dropdown">
-                            <li><a href="products_category.html">Computación & Hardware</a></li>
-                            <li><a href="products_category.html">Telefonía & Tablets</a></li>
-                            <li><a href="products_category.html">Audio & Video</a></li>
-                            <li><a href="products_category.html">Gaming</a></li>
-                            <li><a href="products_category.html">Hogar Inteligente</a></li>
+                            <li><a href="#">Tecnología</a></li>
+                            <li><a href="#">Smartwatches</a></li>
+                            <li><a href="#">Audio y Sonido</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="#">Celulares</a></li>
+                            <li><a href="#">Computación</a></li>
                         </ul>
                     </div>
                     <div class="search-wrapper">
-                        <input type="search" class="search" placeholder="Buscar por producto, marca y más..." id="search-input">
+                        <input type="search" class="search" placeholder="Buscar por producto, marca y más..." name="" id="search-input">
                         <div id="search-results" class="search-dropdown"></div>
                     </div>
                 </div>
 
-                <!-- Usuario y Carrito -->
+                <!-- 4. Login, Registrate y Carrito a la Derecha -->
                 <div class="user_login">
                     <input type="button" class="login_btn" value="LOGIN">
                     <ul class="nav_list">
@@ -74,16 +76,87 @@
             </div>
         </nav>
 
-        <!-- Navegación Principal -->
+        <!-- Menú Principal Navegable -->
         <nav class="main_nav" id="main_nav_menu">
             <div class="navbar">
                 <ul class="nav_list_main">
                     <li><a class="main_nav_link" href="index.html">Home</a></li>
                     <li class="menu_con_submenu">
-                        <a class="main_nav_link submenu_toggle" href="products_category.html">Productos ▾</a>
+                        <a class="main_nav_link submenu_toggle" href="#">Productos ▾</a>
+                        <div class="colapse_main_container">
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Computacion & Hardware</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Componentes</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Perifericos</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Almacenamiento</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Conectividad</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Telefonia & Tablets</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smartphones</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Tablets</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smartwaches</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Accesorios</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Audio & Video</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Auriculares</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Parlantes y sonido</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smart TV</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Streaming y Fotografía</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Gaming</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Consolas</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Videoguegos</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Accesorios Gamer</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Periféricos Gamer</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Hogar Inteligente</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Asistentes Virtuales</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Iluminación Inteligente</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Seguridad Wi-Fi</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Redes y Routers</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </li>
-                    <li><a class="main_nav_link" href="#">Ofertas</a></li>
+                    <li class="menu_con_submenu">
+                        <a class="main_nav_link submenu_toggle" href="#">Ofertas ▾</a>
+                        <div class="colapse_main_container">
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Ofertas y Destacados</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="best_sellers.html" class="colapse_menu_link">Lo Más Vendido</a></li>
+                                    <li class="colapse_menu_item"><a href="outlet.html" class="colapse_menu_link">Liquidación</a></li>
+                                    <li class="colapse_menu_item"><a href="launches.html" class="colapse_menu_link">Lanzamientos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
                     <li><a class="main_nav_link" href="#">Club TecStore</a></li>
+                    <li><a class="main_nav_link" href="#">Novedades</a></li>
                     <li><a class="main_nav_link" href="help.html">Ayuda</a></li>
                     <li><a class="main_nav_link" href="contact.html">Contacto</a></li>
                 </ul>
@@ -303,6 +376,7 @@
         </div>
     </section>
 
+    <script src="header.js"></script>
     <!-- Script sin interferencias CSS -->
     <script src="category.js" defer></script>
 </body>
