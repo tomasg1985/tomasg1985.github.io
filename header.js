@@ -1,6 +1,11 @@
+// =======================================================================
+// HEADER.JS - LÓGICA GLOBAL DE CABECERA (BUSCADOR + CARRITO + NAVEGACIÓN DE MENÚ)
+// =======================================================================
+
 const API_SEARCH_URL = 'https://fakestoreapi.com/products/category/electronics';
 let globalHeaderProducts = [];
 
+// Inicializar cabecera
 async function initHeaderSearch() {
     const searchInput = document.getElementById('search-input');
     const searchResults = document.getElementById('search-results');
@@ -8,14 +13,20 @@ async function initHeaderSearch() {
     const mobileMenuBtn = document.getElementById('mobile_menu_btn');
     const mainNavMenu = document.getElementById('main_nav_menu');
 
+    // 1. Contador del carrito
     updateGlobalCartCount();
 
+    // 2. Menú móvil
     if (mobileMenuBtn && mainNavMenu) {
         mobileMenuBtn.addEventListener('click', () => {
             mainNavMenu.classList.toggle('active');
         });
     }
 
+    // 3. Enlazar automáticamente los links del menú desplegable con sus query params
+    setupHeaderCategoryLinks();
+
+    // Cargar productos para el buscador
     if (!searchInput || !searchResults) return;
 
     try {
@@ -29,9 +40,10 @@ async function initHeaderSearch() {
 
         globalHeaderProducts = [...apiProds, ...localProds];
     } catch (err) {
-        console.error("Error al cargar productos para el buscador:", err);
+        console.error("Error al cargar productos para buscador:", err);
     }
 
+    // Buscador en tiempo real
     searchInput.addEventListener('input', (e) => {
         const query = e.target.value.trim().toLowerCase();
 
@@ -55,11 +67,26 @@ async function initHeaderSearch() {
             searchResults.style.display = 'none';
         }
     });
+}
 
-    searchInput.addEventListener('focus', () => {
-        if (searchInput.value.trim().length >= 2) {
-            searchInput.dispatchEvent(new Event('input'));
-        }
+// Configurar clicks en los enlaces del menú desplegable para asegurar que envíen query params (?cat= o ?sub=)
+function setupHeaderCategoryLinks() {
+    const categoryLinks = document.querySelectorAll('.colapse_menu_link, .categories-dropdown a, .sub_menu_title');
+
+    categoryLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            const text = link.innerText.trim();
+            if (!text) return;
+
+            // Si el enlace es de una subcategoría específica
+            if (link.classList.contains('colapse_menu_link') || link.closest('.categories-dropdown')) {
+                e.preventDefault();
+                window.location.href = `products_category.html?sub=${encodeURIComponent(text)}`;
+            } else if (link.classList.contains('sub_menu_title')) {
+                e.preventDefault();
+                window.location.href = `products_category.html?cat=${encodeURIComponent(text)}`;
+            }
+        });
     });
 }
 
@@ -75,7 +102,6 @@ function renderSearchResults(products, container) {
     }
 
     let html = '';
-
     products.slice(0, 6).forEach(product => {
         html += `
             <div class="search-result-item" onclick="selectSearchResult(${product.id})" style="display: flex; align-items: center; gap: 12px; padding: 10px 15px; cursor: pointer; border-bottom: 1px solid #eee; transition: background-color 0.2s;">

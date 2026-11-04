@@ -2359,8 +2359,9 @@ details.filter_group summary:hover::after {
 
 .product_card_container {
     width: 100%;
+    max-width: 1500px;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     border-top: 4px solid #FFB703;
     border-radius: 10px;
     background-color: #ffffff;
@@ -2415,8 +2416,8 @@ details.filter_group summary:hover::after {
 }
 
 .product_name{
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .product_seller{
@@ -3921,7 +3922,7 @@ details.filter_group summary:hover::after {
 .category-page .cart,
 .category-page .purchase {
     width: 100%;
-    min-width: 0;
+    min-width: 115px;
     margin: 4px 0 0;
     padding: 10px 6px;
     font-size: 11px;
