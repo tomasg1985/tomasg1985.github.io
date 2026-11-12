@@ -3,12 +3,15 @@
 // =======================================================================
 
 const URL_API = 'https://fakestoreapi.com/products/category/electronics';
+const PRODUCTS_PER_PAGE = 21;
 let cart = JSON.parse(localStorage.getItem('carrito')) || [];
 let allCategoryProducts = [];
 let filteredProducts = [];
+let currentPage = 1;
 
 // Elementos del DOM
 const productsCardsContainer = document.querySelector('.products_cards_container');
+const productsPagination = document.getElementById('products-pagination');
 const recomendationContainer = document.querySelector('.recomendation_container');
 const cartCountElement = document.getElementById('cart-count');
 
@@ -75,6 +78,51 @@ function mapProductCategory(product) {
     return { category: "Computacion & Hardware", subcategory: "Componentes" };
 }
 
+function getProductFilterData(product) {
+    const productText = `${product.title || ''} ${product.description || ''} ${JSON.stringify(product.specs || {})}`.toLowerCase();
+    const bluetoothSpec = product.specs?.connectivity?.bluetooth;
+    const inferredCompatibility = [];
+
+    if (/windows|pc|computadora|notebook|laptop|teclado|mouse|monitor|motherboard|placa de video/.test(productText)) {
+        inferredCompatibility.push('Windows');
+    }
+    if (/apple|iphone|ipad|macbook|airpods/.test(productText)) {
+        inferredCompatibility.push('Apple');
+    }
+    if (/gaming|consola|playstation|xbox|nintendo|ps5|ps4/.test(productText)) {
+        inferredCompatibility.push('Consolas');
+    }
+    if (/bluetooth/.test(`${product.title || ''} ${product.description || ''}`.toLowerCase())
+        || (bluetoothSpec && !/^no$/i.test(String(bluetoothSpec)))) {
+        inferredCompatibility.push('Bluetooth');
+    }
+
+    return {
+        stock: Number(product.stock ?? product.inventory?.stock ?? 1),
+        shippingToday: product.shipping?.today ?? false,
+        freeShipping: product.shipping?.free ?? true,
+        pickupAvailable: product.pickupAvailable ?? false,
+        upcoming: product.upcoming ?? false,
+        clearance: product.clearance ?? false,
+        discount: Number(product.discount ?? 15),
+        payment: {
+            cash: product.payment?.cash ?? true,
+            installments: product.payment?.installments ?? true
+        },
+        condition: product.condition || 'Nuevo',
+        compatibility: Array.isArray(product.compatibility)
+            ? product.compatibility
+            : product.compatibility
+                ? [product.compatibility]
+                : inferredCompatibility,
+        warranty: {
+            official: product.warranty?.official ?? true,
+            store: product.warranty?.store ?? true
+        },
+        rating: Number(product.rating?.rate ?? product.rating ?? 4.8)
+    };
+}
+
 // =======================================================================
 // 2. CARGA DE DATOS
 // =======================================================================
@@ -97,7 +145,8 @@ async function loadCategoryProducts() {
             return {
                 ...p,
                 category: catInfo.category,
-                subcategory: catInfo.subcategory
+                subcategory: catInfo.subcategory,
+                ...getProductFilterData(p)
             };
         });
 
@@ -125,24 +174,65 @@ function applyFilters() {
     // Actualizar Encabezado del Banner según la URL
     updateBannerHeader(catParam, subParam);
 
-    // Obtener checkboxes seleccionados en Sidebar
-    const checkedConditions = Array.from(document.querySelectorAll('input[name="condition"]:checked')).map(cb => cb.value);
+    const selectedValues = name => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(input => input.value);
+    const checkedConditions = selectedValues('condition');
+    const checkedStock = selectedValues('stock');
+    const checkedShipping = selectedValues('shipping');
+    const checkedPickup = selectedValues('pickup');
+    const checkedUpcoming = selectedValues('upcoming');
+    const checkedDiscount = selectedValues('discount');
+    const checkedPayment = selectedValues('payment');
+    const checkedCompatibility = selectedValues('compatibility');
+    const checkedWarranty = selectedValues('warranty');
 
     filteredProducts = allCategoryProducts.filter(product => {
+        const filterData = getProductFilterData(product);
+
         // 1. Filtro por precio
         if (product.price < minP || product.price > maxP) return false;
 
         // 2. Filtro por estrellas
-        const rating = product.rating?.rate || product.rating || 5;
-        if (currentStarRating > 0 && rating < currentStarRating) return false;
+        if (currentStarRating > 0 && filterData.rating < currentStarRating) return false;
 
         // 3. Filtro por condición
-        if (checkedConditions.length > 0) {
-            const prodCondition = product.condition || "Nuevo";
-            if (!checkedConditions.includes(prodCondition)) return false;
+        if (checkedConditions.length > 0 && !checkedConditions.includes(filterData.condition)) return false;
+
+        // 4. Disponibilidad
+        if (checkedStock.includes('available') && filterData.stock <= 0) return false;
+        if (checkedStock.includes('clearance') && !filterData.clearance) return false;
+        if (checkedShipping.length > 0) {
+            const matchesShipping = checkedShipping.some(value =>
+                value === 'today' ? filterData.shippingToday : filterData.freeShipping
+            );
+            if (!matchesShipping) return false;
+        }
+        if (checkedPickup.length > 0 && !filterData.pickupAvailable) return false;
+        if (checkedUpcoming.length > 0 && !filterData.upcoming) return false;
+
+        // 5. Descuentos y medios de pago
+        if (checkedDiscount.length > 0) {
+            const discount = Number(filterData.discount) || 0;
+            const matchesDiscount = checkedDiscount.some(value =>
+                value === 'all_offers' ? discount > 0 : discount >= Number(value)
+            );
+            if (!matchesDiscount) return false;
+        }
+        if (checkedPayment.length > 0) {
+            const matchesPayment = checkedPayment.some(value => filterData.payment[value]);
+            if (!matchesPayment) return false;
         }
 
-        // 4. FILTRADO POR SUBCATEGORÍA O CATEGORÍA DESDE LA URL
+        // 6. Compatibilidad y garantía
+        if (checkedCompatibility.length > 0) {
+            const productCompatibility = filterData.compatibility.map(value => value.toLowerCase());
+            if (!checkedCompatibility.some(value => productCompatibility.includes(value.toLowerCase()))) return false;
+        }
+        if (checkedWarranty.length > 0) {
+            const matchesWarranty = checkedWarranty.some(value => filterData.warranty[value]);
+            if (!matchesWarranty) return false;
+        }
+
+        // 7. Filtrado por subcategoría o categoría desde la URL
         if (subParam) {
             if (product.subcategory.toLowerCase() !== subParam.toLowerCase()) return false;
         } else if (catParam) {
@@ -152,6 +242,7 @@ function applyFilters() {
         return true;
     });
 
+    currentPage = 1;
     renderProductsGrid(filteredProducts, subParam || catParam);
 }
 
@@ -183,6 +274,7 @@ function renderProductsGrid(productsList, activeFilterName) {
     if (!productsCardsContainer) return;
 
     if (productsList.length === 0) {
+        if (productsPagination) productsPagination.innerHTML = '';
         const filterText = activeFilterName ? ` en "${activeFilterName}"` : '';
         productsCardsContainer.innerHTML = `
             <div style="grid-column: 1/-1; text-align: center; padding: 50px; background: #f8f9fa; border-radius: 8px; margin: 20px 0;">
@@ -194,12 +286,16 @@ function renderProductsGrid(productsList, activeFilterName) {
         return;
     }
 
+    const totalPages = Math.ceil(productsList.length / PRODUCTS_PER_PAGE);
+    currentPage = Math.min(currentPage, totalPages);
+    const firstProductIndex = (currentPage - 1) * PRODUCTS_PER_PAGE;
+    const productsForCurrentPage = productsList.slice(firstProductIndex, firstProductIndex + PRODUCTS_PER_PAGE);
     let cardsHtml = '';
 
-    productsList.forEach(product => {
+    productsForCurrentPage.forEach(product => {
         const rating = product.rating?.rate || product.rating || 4.8;
         const condition = product.condition || "Nuevo";
-        const discountTag = product.discount ? `-${product.discount}% OFF` : "-15% OFF";
+        const discountTag = product.discount > 0 ? `-${product.discount}% OFF` : "Sin descuento";
 
         cardsHtml += `
             <div class="product_card_container">
@@ -243,6 +339,43 @@ function renderProductsGrid(productsList, activeFilterName) {
     });
 
     productsCardsContainer.innerHTML = cardsHtml;
+    renderProductsPagination(totalPages);
+}
+
+function renderProductsPagination(totalPages) {
+    if (!productsPagination) return;
+    if (totalPages <= 1) {
+        productsPagination.innerHTML = '';
+        return;
+    }
+
+    let visiblePages;
+    if (totalPages <= 5) {
+        visiblePages = Array.from({ length: totalPages }, (_, index) => index + 1);
+    } else if (currentPage <= 3) {
+        visiblePages = [1, 2, 3, 4, 'ellipsis', totalPages];
+    } else if (currentPage >= totalPages - 2) {
+        visiblePages = [1, 'ellipsis', totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+    } else {
+        visiblePages = [1, 'ellipsis', currentPage - 1, currentPage, currentPage + 1, 'ellipsis', totalPages];
+    }
+
+    const pageButtons = visiblePages.map(page => {
+        if (page === 'ellipsis') {
+            return '<span class="pagination_ellipsis" aria-hidden="true">…</span>';
+        }
+
+        const currentPageAttributes = page === currentPage ? ' aria-current="page"' : '';
+        return `<button type="button" class="pagination_link" data-page="${page}" aria-label="Ir a la página ${page}"${currentPageAttributes}>${page}</button>`;
+    }).join('');
+
+    productsPagination.innerHTML = `
+        <div class="pagination_numbers">
+            <button type="button" class="pagination_link" data-page="${currentPage - 1}" aria-label="Página anterior" ${currentPage === 1 ? 'disabled' : ''}>Anterior</button>
+            ${pageButtons}
+            <button type="button" class="pagination_link" data-page="${currentPage + 1}" aria-label="Página siguiente" ${currentPage === totalPages ? 'disabled' : ''}>Siguiente</button>
+        </div>
+    `;
 }
 
 // =======================================================================
@@ -283,6 +416,16 @@ function renderRecommendations() {
 // 6. EVENTOS DE FILTROS EN SIDEBAR Y PRECIOS
 // =======================================================================
 function setupEventListeners() {
+    if (productsPagination) {
+        productsPagination.addEventListener('click', event => {
+            const pageButton = event.target.closest('button[data-page]');
+            if (!pageButton || pageButton.disabled) return;
+
+            currentPage = Number(pageButton.dataset.page);
+            renderProductsGrid(filteredProducts);
+        });
+    }
+
     if (minRange && minPriceInput) {
         minRange.addEventListener('input', () => { minPriceInput.value = minRange.value; applyFilters(); });
         minPriceInput.addEventListener('input', () => { minRange.value = minPriceInput.value; applyFilters(); });

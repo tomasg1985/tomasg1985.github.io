@@ -3966,6 +3966,18 @@ details.filter_group summary:hover::after {
 .category-page .pagination_link {
     margin: 0;
     padding: 9px 13px;
+    border: 0;
+    cursor: pointer;
+}
+
+.category-page .pagination_link[aria-current="page"] {
+    background-color: #12233b;
+    color: #ffffff;
+}
+
+.category-page .pagination_link:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
 }
 
 .category-page .recomendation_container {
