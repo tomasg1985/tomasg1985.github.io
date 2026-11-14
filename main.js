@@ -1,14 +1,17 @@
 const productContainer = document.getElementById('product-container')
 const searchInput = document.getElementById('search-input')
 const searchResultsContainer = document.getElementById('search-results')
-const loadMoreBtn = document.getElementById('load-more-btn');
+const previousProductsButton = document.getElementById('products-prev');
+const nextProductsButton = document.getElementById('products-next');
+const reviewsContainer = document.getElementById('opinion-carousel');
+const previousReviewsButton = document.getElementById('reviews-prev');
+const nextReviewsButton = document.getElementById('reviews-next');
 const cartCountElement = document.getElementById('cart-count');
 
 const URL_API = 'https://fakestoreapi.com/products/category/electronics';
 
 let cart = JSON.parse(localStorage.getItem('carrito')) || [];
 let allProducts = [];
-let isExpanded = false;
 
 function updateCartCount() {
     const totalItems = cart.reduce((total, product) => total + product.quantity, 0);
@@ -35,16 +38,15 @@ function addToCart(productId) {
 updateCartCount();
 
 function showProducts(productList) {
-    
     let htmlContent = '';
 
     if (productList.length === 0) {
         productContainer.innerHTML = `<p>No se encontraron productos.</p>`;
+        updateCarouselButtons();
         return;
     }
-    
+
     productList.forEach(products => {
-        
         htmlContent += `
         
         <div class="product_card">
@@ -84,6 +86,20 @@ function showProducts(productList) {
     });
 
     productContainer.innerHTML = htmlContent;
+    productContainer.scrollLeft = 0;
+    updateCarouselButtons();
+}
+
+function updateCarouselButtons() {
+    if (!previousProductsButton || !nextProductsButton) return;
+
+    const maxScrollLeft = productContainer.scrollWidth - productContainer.clientWidth;
+    const hasOverflow = maxScrollLeft > 1;
+
+    previousProductsButton.hidden = !hasOverflow;
+    nextProductsButton.hidden = !hasOverflow;
+    previousProductsButton.disabled = productContainer.scrollLeft <= 1;
+    nextProductsButton.disabled = productContainer.scrollLeft >= maxScrollLeft - 1;
 }
 
 function goToDetails(productId) {
@@ -91,22 +107,42 @@ function goToDetails(productId) {
     window.location.href = 'product_detail.html';
 }
 
-if (loadMoreBtn) {
-    loadMoreBtn.addEventListener('click', () => {
-    
-        if (!isExpanded) {
-        showProducts(allProducts);
-        loadMoreBtn.innerText = 'Mostrar menos';
-        isExpanded = true;
-        } else {
-            const initialProducts = allProducts.slice(0, 6);
-            showProducts(initialProducts);
-            loadMoreBtn.innerText = 'Mostrar más productos';
-            isExpanded = false;
-        }
+if (previousProductsButton && nextProductsButton) {
+    previousProductsButton.addEventListener('click', () => {
+        productContainer.scrollBy({ left: -productContainer.clientWidth, behavior: 'smooth' });
     });
+
+    nextProductsButton.addEventListener('click', () => {
+        productContainer.scrollBy({ left: productContainer.clientWidth, behavior: 'smooth' });
+    });
+
+    productContainer.addEventListener('scroll', updateCarouselButtons);
+    window.addEventListener('resize', updateCarouselButtons);
 }
 
+if (reviewsContainer && previousReviewsButton && nextReviewsButton) {
+    const updateReviewsCarouselButtons = () => {
+        const maxScrollLeft = reviewsContainer.scrollWidth - reviewsContainer.clientWidth;
+        const hasOverflow = maxScrollLeft > 1;
+
+        previousReviewsButton.hidden = !hasOverflow;
+        nextReviewsButton.hidden = !hasOverflow;
+        previousReviewsButton.disabled = reviewsContainer.scrollLeft <= 1;
+        nextReviewsButton.disabled = reviewsContainer.scrollLeft >= maxScrollLeft - 1;
+    };
+
+    previousReviewsButton.addEventListener('click', () => {
+        reviewsContainer.scrollBy({ left: -reviewsContainer.clientWidth, behavior: 'smooth' });
+    });
+
+    nextReviewsButton.addEventListener('click', () => {
+        reviewsContainer.scrollBy({ left: reviewsContainer.clientWidth, behavior: 'smooth' });
+    });
+
+    reviewsContainer.addEventListener('scroll', updateReviewsCarouselButtons);
+    window.addEventListener('resize', updateReviewsCarouselButtons);
+    updateReviewsCarouselButtons();
+}
 
 searchInput.addEventListener ('input', (event) => {
     const searchTerm = event.target.value.toLowerCase().trim();
@@ -163,18 +199,7 @@ async function obtainProducts() {
     
         allProducts = [...apiProducts, ...localProducts];
     
-        const initialProducts = allProducts.slice(0, 6);
-    
-        showProducts(initialProducts)
-    
-        if (loadMoreBtn) {
-            if (allProducts.length > 6) {
-                loadMoreBtn.style.display = 'inline-block';
-            }
-            else {
-                loadMoreBtn.style.display = 'none'
-            }
-        }
+        showProducts(allProducts);
     } catch (error) {
         console.log("Error al cargar los productos:", error);
     }

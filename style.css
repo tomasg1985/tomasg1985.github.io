@@ -4236,99 +4236,212 @@ details.filter_group summary:hover::after {
     overflow-wrap: anywhere;
 }
 
+.best-sellers-page .recommendations_slider {
+    --per-view: 4;
+    --carousel-gap: 20px;
+    position: relative;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
 .best-sellers-page .other_recomendations_container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: var(--carousel-gap);
+    width: 100%;
     max-width: none;
     margin: 0;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+    padding: 32px clamp(48px, 4vw, 64px);
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: clamp(48px, 4vw, 64px);
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
 }
 
-.best-sellers-page .other_recomendations_container > div {
-    display: flex;
-    min-width: 0;
-    justify-content: center;
+.best-sellers-page .other_recomendations_container::-webkit-scrollbar {
+    display: none;
 }
 
-.best-sellers-page .recomendation_product_card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+.best-sellers-page .other_recomendations_container .product_card_container {
+    flex: 0 0 calc((100% - (var(--per-view) - 1) * var(--carousel-gap)) / var(--per-view));
+    width: auto;
     height: 100%;
     min-height: 390px;
-    padding: 20px;
+    min-width: 0;
+    max-width: none;
+    margin: 0;
     border: 1px solid #e5e5e5;
     border-top: 3px solid #FFB703;
     border-radius: 10px;
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    scroll-snap-align: start;
 }
 
-.best-sellers-page .recomendation_product_card:hover {
+.best-sellers-page .other_recomendations_container .product_card_container:hover {
     transform: translateY(-3px);
     box-shadow: 0 9px 20px rgba(0, 0, 0, 0.14);
 }
 
-.best-sellers-page .recomendation_img {
-    width: 100%;
-    max-width: 190px;
-    height: 160px;
-    margin-bottom: 10px;
+.best-sellers-page .other_recomendations_container .condition_header {
+    gap: 8px;
+}
+
+.best-sellers-page .other_recomendations_container .single_product_condition {
+    width: auto;
+    margin-right: 0;
+    white-space: nowrap;
+}
+
+.best-sellers-page .other_recomendations_container .img_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 175px;
+}
+
+.best-sellers-page .other_recomendations_container .product_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.best-sellers-page .other_recomendations_container .picture {
+    max-width: 100%;
+    height: 150px;
     object-fit: contain;
 }
 
-.best-sellers-page .recomendation_product_title {
-    margin-bottom: 4px;
-    font-size: 18px;
-    line-height: 1.3;
+.best-sellers-page .other_recomendations_container .product_data {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(80px, 0.65fr);
+    align-items: center;
+    gap: 4px 8px;
 }
 
-.best-sellers-page .recomendation_product_provider {
-    margin-bottom: 8px;
+.best-sellers-page .other_recomendations_container .product_name,
+.best-sellers-page .other_recomendations_container .product_seller,
+.best-sellers-page .other_recomendations_container .single_product_price {
+    grid-column: 1 / -1;
 }
 
-.best-sellers-page .recomendation_product_price {
-    margin: 8px 0 14px;
+.best-sellers-page .other_recomendations_container .product_name {
+    overflow-wrap: anywhere;
+}
+
+.best-sellers-page .other_recomendations_container .single_product_price {
+    margin-bottom: 10px;
     color: #1F3A5F;
-    font-size: 24px;
-}
-
-.best-sellers-page .buy_now_btn {
-    display: block;
-    width: 100%;
-}
-
-.best-sellers-page .buy_now,
-.best-sellers-page .details {
-    width: 100%;
-    min-height: 42px;
-    margin-bottom: 8px;
-    border-radius: 6px;
-    font-size: 13px;
     font-weight: 600;
+}
+
+.best-sellers-page .other_recomendations_container .product_card_actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    width: 100%;
+    grid-column: 1 / -1;
+}
+
+.best-sellers-page .other_recomendations_container .cart,
+.best-sellers-page .other_recomendations_container .purchase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+    min-width: 0;
+    margin: 4px 0 0;
+    padding: 10px 6px;
+    border: 1px solid #1F3A5F;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
     cursor: pointer;
     transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
-.best-sellers-page .buy_now {
+.best-sellers-page .other_recomendations_container .cart {
+    border-color: #FFB703;
     background-color: #FFB703;
     color: #1F3A5F;
 }
 
-.best-sellers-page .buy_now:hover {
+.best-sellers-page .other_recomendations_container .cart:hover {
+    border-color: #f3af02;
     background-color: #f3af02;
+    color: #1F3A5F;
 }
 
-.best-sellers-page .buy_now_btn + .buy_now_btn .buy_now,
-.best-sellers-page .details {
-    border: 1px solid #1F3A5F;
+.best-sellers-page .other_recomendations_container .purchase {
     background-color: transparent;
     color: #1F3A5F;
 }
 
-.best-sellers-page .buy_now_btn + .buy_now_btn .buy_now:hover,
-.best-sellers-page .details:hover {
+.best-sellers-page .other_recomendations_container .purchase:hover {
+    border-color: #1F3A5F;
     background-color: #1F3A5F;
     color: #ffffff;
+}
+
+@media (max-width: 1199px) {
+    .best-sellers-page .recommendations_slider {
+        --per-view: 3;
+    }
+}
+
+.best-sellers-page .recommendations_carousel_btn {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    border: 1px solid #1F3A5F;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #1F3A5F;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+    font-size: 30px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition: background-color 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+}
+
+.best-sellers-page .recommendations_carousel_btn:hover:not(:disabled) {
+    border-color: #FFB703;
+    background-color: #FFB703;
+}
+
+.best-sellers-page .recommendations_carousel_btn:disabled {
+    opacity: 0.35;
+    cursor: default;
+}
+
+.best-sellers-page .recommendations_carousel_btn[hidden] {
+    display: none;
+}
+
+.best-sellers-page .recommendations_carousel_btn_prev {
+    left: 12px;
+}
+
+.best-sellers-page .recommendations_carousel_btn_next {
+    right: 12px;
+}
+
+@media (max-width: 992px) {
+    .best-sellers-page .recommendations_slider {
+        --per-view: 2;
+    }
 }
 
 @media (max-width: 992px) {
@@ -4398,13 +4511,17 @@ details.filter_group summary:hover::after {
     }
 
     .best-sellers-page .other_recomendations_container {
-        grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
-        padding: 24px 20px;
-        gap: 16px;
+        padding: 24px 52px;
+        scroll-padding-inline: 52px;
     }
 }
 
 @media (max-width: 576px) {
+    .best-sellers-page .recommendations_slider {
+        --per-view: 1;
+        --carousel-gap: 16px;
+    }
+
     .best-sellers-page .upper_nav {
         padding: 8px;
     }
@@ -4454,12 +4571,22 @@ details.filter_group summary:hover::after {
     }
 
     .best-sellers-page .other_recomendations_container {
-        grid-template-columns: minmax(0, 1fr);
-        padding: 20px 16px;
+        padding: 24px 48px;
+        scroll-padding-inline: 48px;
     }
 
-    .best-sellers-page .recomendation_product_card {
-        max-width: none;
+    .best-sellers-page .recommendations_carousel_btn {
+        width: 36px;
+        height: 36px;
+        font-size: 26px;
+    }
+
+    .best-sellers-page .recommendations_carousel_btn_prev {
+        left: 6px;
+    }
+
+    .best-sellers-page .recommendations_carousel_btn_next {
+        right: 6px;
     }
 
     .best-sellers-page .related_products_container {
@@ -5093,14 +5220,13 @@ details.filter_group summary:hover::after {
     }
 }
 /* ==========================================
-   HOME: CARRUSEL DE PRODUCTOS (6 por página)
+   HOME: CARRUSEL DE PRODUCTOS
    ========================================== */
 .home-page .products_carousel {
     --per-view: 6;
     --carousel-gap: 20px;
     position: relative;
     width: 100%;
-    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -5271,5 +5397,783 @@ details.filter_group summary:hover::after {
     .searchbar #search-input {
         padding: 10px 14px;
         font-size: 14px;
+    }
+}
+
+.home-page .opinions_section {
+    position: relative;
+    left: 50%;
+    width: 100vw;
+    padding: 48px 0 56px;
+    overflow: hidden;
+    background-color: #f7f9fc;
+    transform: translateX(-50%);
+}
+
+.home-page .opinions_title {
+    margin: 0 16px 8px;
+}
+
+.home-page .opinions_note {
+    margin: 0 16px 12px;
+    color: #64748b;
+    font-size: 13px;
+}
+
+.home-page .opinion_slider {
+    --review-count: 3;
+    --review-gap: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.home-page .opinion_main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: var(--review-gap);
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 24px 44px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 44px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.home-page .opinion_main::-webkit-scrollbar {
+    display: none;
+}
+
+.home-page .opinion_card {
+    display: flex;
+    flex: 0 0 calc((100% - (var(--review-count) - 1) * var(--review-gap)) / var(--review-count));
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    min-width: 0;
+    min-height: 240px;
+    padding: 24px;
+    border: 1px solid #e2e8f0;
+    border-top: 3px solid #ffb703;
+    border-radius: 14px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 24px rgba(31, 58, 95, 0.08);
+    scroll-snap-align: start;
+}
+
+.home-page .review_profile {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+.home-page .review_user {
+    flex: 0 0 64px;
+    width: 64px;
+    height: 64px;
+    border: 3px solid #fff3cc;
+    object-fit: cover;
+}
+
+.home-page .review_profile .name {
+    margin: 0;
+    color: #1f3a5f;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.home-page .review_profile .carreer {
+    margin: 4px 0 0;
+    color: #64748b;
+    font-size: 12px;
+}
+
+.home-page .review_stars {
+    display: block;
+    width: 92px;
+    height: auto;
+    margin: 0 0 12px;
+}
+
+.home-page .review {
+    margin: 0;
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.65;
+    text-align: left;
+}
+
+@media (max-width: 992px) {
+    .home-page .opinion_slider {
+        --review-count: 2;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-page .opinions_section {
+        padding: 36px 0 40px;
+    }
+
+    .home-page .opinion_slider {
+        --review-count: 1;
+        --review-gap: 16px;
+    }
+
+    .home-page .opinion_main {
+        padding: 20px 40px;
+        scroll-padding-inline: 40px;
+    }
+
+    .home-page .opinion_card {
+        min-height: 220px;
+        padding: 20px;
+    }
+}
+
+/* Club TecStore */
+.club-experience {
+    padding: clamp(42px, 6vw, 84px) 24px;
+    background: linear-gradient(180deg, #f4f7fb 0%, #ffffff 100%);
+    scroll-margin-top: 120px;
+}
+
+.club-experience__inner {
+    width: min(100%, 1280px);
+    margin: 0 auto;
+}
+
+.club-hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+    align-items: center;
+    min-height: 390px;
+    padding: clamp(30px, 5vw, 68px);
+    overflow: hidden;
+    border-radius: 26px;
+    background: #1F3A5F;
+    box-shadow: 0 20px 50px rgba(31, 58, 95, 0.18);
+}
+
+.club-hero::before,
+.club-hero::after {
+    position: absolute;
+    content: "";
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.club-hero::before {
+    width: 540px;
+    height: 540px;
+    right: -230px;
+    top: -290px;
+}
+
+.club-hero::after {
+    width: 390px;
+    height: 390px;
+    right: -145px;
+    bottom: -275px;
+}
+
+.club-hero__copy,
+.club-hero__visual {
+    position: relative;
+    z-index: 1;
+}
+
+.club-hero__copy {
+    max-width: 650px;
+}
+
+.club-kicker,
+.club-section-kicker {
+    color: #FFB703;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+}
+
+.club-hero h1,
+.club-hero h2 {
+    max-width: 630px;
+    margin: 16px 0;
+    color: #ffffff;
+    font-size: clamp(38px, 5vw, 62px);
+    font-weight: 800;
+    line-height: 1.04;
+}
+
+.club-hero h1 span,
+.club-hero h2 span {
+    color: #FFB703;
+    font-weight: 800;
+}
+
+.club-hero__description {
+    max-width: 560px;
+    color: #dce5f1;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.club-hero__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 26px;
+    padding: 14px 20px;
+    border-radius: 999px;
+    background: #FFB703;
+    color: #1F3A5F;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.club-hero__link:hover {
+    transform: translateY(-2px);
+    background: #f3af02;
+}
+
+.club-hero__link svg,
+.club-submit svg {
+    width: 18px;
+    height: 18px;
+}
+
+.club-member-card {
+    position: relative;
+    width: min(100%, 340px);
+    min-height: 250px;
+    margin: 0 auto;
+    padding: 26px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ffffff 0%, #edf3fa 100%);
+    box-shadow: 0 22px 50px rgba(7, 22, 43, 0.3);
+    color: #1F3A5F;
+    transform: rotate(3deg);
+}
+
+.club-member-card::after {
+    position: absolute;
+    right: -54px;
+    bottom: 36px;
+    width: 150px;
+    height: 150px;
+    border: 22px solid rgba(255, 183, 3, 0.22);
+    border-radius: 50%;
+    content: "";
+}
+
+.club-member-card__top,
+.club-member-card__bottom {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.club-member-card__top {
+    gap: 10px;
+    color: #52657e;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+
+.club-member-card__logo {
+    display: grid;
+    width: 36px;
+    height: 36px;
+    place-items: center;
+    border-radius: 50%;
+    background: #1F3A5F;
+    color: #FFB703;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.club-member-card__offer {
+    position: relative;
+    z-index: 1;
+    margin: 20px 0 18px;
+}
+
+.club-member-card__offer strong {
+    color: #1F3A5F;
+    font-size: 74px;
+    font-weight: 800;
+    letter-spacing: -5px;
+    line-height: 0.95;
+}
+
+.club-member-card__offer strong span {
+    color: #1F3A5F;
+    font-size: 38px;
+    letter-spacing: -2px;
+}
+
+.club-member-card__offer p {
+    margin-top: 5px;
+    color: #1F3A5F;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.club-member-card__bottom {
+    color: #667991;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.club-member-card__bottom svg {
+    width: 28px;
+    height: 28px;
+    color: #1F3A5F;
+}
+
+.club-experience .tecstore_club_container {
+    padding: 56px 0 20px;
+    scroll-margin-top: 120px;
+}
+
+.club-experience .club_title {
+    font-size: clamp(25px, 3vw, 34px);
+}
+
+.club-experience .club_description {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.club-experience .benefits_container {
+    max-width: none;
+    margin: 20px auto 0;
+    padding: 20px 0;
+    gap: 18px;
+}
+
+.club-experience .benefit {
+    max-width: none;
+    min-height: 205px;
+    padding: 28px 22px;
+    border: 1px solid #e8edf4;
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(31, 58, 95, 0.06);
+    text-align: left;
+}
+
+.club-experience .benefit:hover {
+    border-color: rgba(255, 183, 3, 0.65);
+    box-shadow: 0 14px 30px rgba(31, 58, 95, 0.1);
+}
+
+.club-experience .benefit_icon {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 18px;
+    color: #1F3A5F;
+}
+
+.club-experience .benefit_title {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.club-experience .benefit_description {
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.club-experience .club_register_container {
+    padding: 0;
+}
+
+.club-experience .club_banner {
+    max-width: none;
+    margin: 16px auto 0;
+    padding: clamp(26px, 4vw, 42px);
+    gap: 28px;
+    border-radius: 20px;
+}
+
+.club-experience .club_register_text {
+    width: auto;
+    flex: 1 1 360px;
+}
+
+.club-experience .club_title_text {
+    font-size: clamp(24px, 3vw, 34px);
+    line-height: 1.2;
+}
+
+.club-experience .club_banner_description {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.club-experience .club_mail_input {
+    display: flex;
+    align-items: stretch;
+    width: min(100%, 490px);
+    gap: 10px;
+}
+
+.club-experience .mail_input {
+    float: none;
+    width: auto;
+    min-width: 0;
+    min-height: 52px;
+    flex: 1 1 auto;
+    padding: 14px 18px;
+    border: 1px solid #e3e8ef;
+    border-radius: 12px;
+    background: #ffffff;
+    font-size: 14px;
+}
+
+.club-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 52px;
+    padding: 12px 16px;
+    border: 0;
+    border-radius: 12px;
+    background: #FFB703;
+    color: #1F3A5F;
+    cursor: pointer;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.club-submit:hover {
+    transform: translateY(-1px);
+    background: #f3af02;
+}
+
+.club-hero__link:focus-visible,
+.club-submit:focus-visible,
+.club-experience .mail_input:focus-visible {
+    outline: 3px solid #FFB703;
+    outline-offset: 3px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+@media (max-width: 992px) {
+    .club-hero {
+        grid-template-columns: minmax(0, 1fr) minmax(240px, 0.8fr);
+        gap: 16px;
+    }
+
+    .club-experience .benefits_container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .club-experience {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .club-hero {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 30px;
+        padding: 34px 28px;
+    }
+
+    .club-hero__copy {
+        text-align: center;
+    }
+
+    .club-hero__description {
+        margin: 0 auto;
+    }
+
+    .club-hero__visual {
+        padding: 5px 0 12px;
+    }
+
+    .club-experience .club_banner {
+        justify-content: flex-start;
+    }
+
+    .club-experience .club_register_text {
+        text-align: left;
+    }
+
+    .club-experience .club_title_text {
+        text-align: left;
+    }
+
+    .club-experience .club_mail_input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .club-experience {
+        padding: 36px 14px;
+    }
+
+    .club-hero {
+        padding: 30px 20px;
+        border-radius: 20px;
+    }
+
+    .club-hero h1,
+    .club-hero h2 {
+        font-size: 38px;
+    }
+
+    .club-hero__description {
+        font-size: 14px;
+    }
+
+    .club-member-card {
+        min-height: 230px;
+        padding: 22px;
+    }
+
+    .club-experience .tecstore_club_container {
+        padding: 40px 0 12px;
+    }
+
+    .club-experience .benefits_container {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 20px 0;
+    }
+
+    .club-experience .benefit {
+        min-height: 0;
+    }
+
+    .club-experience .club_banner {
+        padding: 24px 20px;
+    }
+
+    .club-experience .club_register_text,
+    .club-experience .club_title_text {
+        width: 100%;
+        text-align: left;
+    }
+
+    .club-experience .club_mail_input {
+        flex-direction: column;
+    }
+
+    .club-submit {
+        width: 100%;
+    }
+}
+
+.club_dropdown {
+    min-width: 250px;
+    padding: 24px;
+}
+
+.club_dropdown .colapse_nav_menu {
+    margin-right: 0;
+}
+
+.club_menu_title {
+    margin-bottom: 12px;
+    color: #1F3A5F;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.club_menu_item {
+    margin-top: 12px;
+    list-style: none;
+}
+
+.club_menu_link {
+    display: block;
+    color: #747373;
+    font-size: 13px;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.club_menu_link:hover {
+    color: #f3af02;
+}
+
+.club-page .main_nav_link[aria-current="page"] {
+    color: #1F3A5F;
+}
+
+.club-page #inicio,
+.club-page #beneficios,
+.club-page #como-funciona,
+.club-page #tecpuntos,
+.club-page #sumarme {
+    scroll-margin-top: 120px;
+}
+
+.club-process {
+    padding: 30px 0 64px;
+}
+
+.club-process__heading {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.club-process__heading h2 {
+    margin: 10px 0;
+    color: #1F3A5F;
+    font-size: clamp(26px, 3vw, 36px);
+}
+
+.club-process__heading > p:last-child {
+    color: #747373;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.club-process__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.club-step {
+    min-height: 210px;
+    padding: 26px;
+    border: 1px solid #e8edf4;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(31, 58, 95, 0.06);
+}
+
+.club-step__number {
+    display: grid;
+    width: 42px;
+    height: 42px;
+    margin-bottom: 22px;
+    place-items: center;
+    border-radius: 50%;
+    background: #fff3cc;
+    color: #1F3A5F;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.club-step h3 {
+    margin-bottom: 8px;
+    color: #1F3A5F;
+    font-size: 17px;
+}
+
+.club-step p {
+    color: #747373;
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.club-points {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 28px;
+    margin: 0 0 58px;
+    padding: clamp(28px, 4vw, 44px);
+    border-radius: 20px;
+    background: #1F3A5F;
+    color: #ffffff;
+}
+
+.club-points h2 {
+    margin: 10px 0;
+    font-size: clamp(25px, 3vw, 36px);
+    line-height: 1.2;
+}
+
+.club-points > div > p:last-child {
+    max-width: 650px;
+    color: #dce5f1;
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+.club-points__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 12px 20px;
+    border-radius: 999px;
+    background: #FFB703;
+    color: #1F3A5F;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.club-points__link:hover {
+    background: #f3af02;
+}
+
+@media (max-width: 992px) {
+    .club-process__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .club-points {
+        grid-template-columns: minmax(0, 1fr);
+        justify-items: start;
+    }
+}
+
+@media (max-width: 576px) {
+    .club-process {
+        padding: 20px 0 42px;
+    }
+
+    .club-process__grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .club-step {
+        min-height: 0;
+    }
+
+    .club-points {
+        margin-bottom: 40px;
+        padding: 24px 20px;
     }
 }

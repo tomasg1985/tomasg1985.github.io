@@ -155,7 +155,22 @@
                             </div>
                         </div>
                     </li>
-                    <li><a class="main_nav_link" href="#">Club TecStore</a></li>
+                    <li class="menu_con_submenu">
+                        <a class="main_nav_link submenu_toggle" href="club.html">Club TecStore ▾</a>
+                        <div class="colapse_main_container club_dropdown">
+                            <div class="colapse_nav_menu">
+                                <h4 class="club_menu_title">Explorá el Club</h4>
+                                <hr>
+                                <ul>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#inicio">Inicio del Club</a></li>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#beneficios">Beneficios</a></li>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#como-funciona">Cómo funciona</a></li>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#tecpuntos">TecPuntos</a></li>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#sumarme">Unirme al Club</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
                     <li><a class="main_nav_link" href="#">Novedades</a></li>
                     <li><a class="main_nav_link" href="help.html">Ayuda</a></li>
                     <li><a class="main_nav_link" href="contact.html">Contacto</a></li>
@@ -176,13 +191,12 @@
                 <h4 class="section_main_title">Descubrí nuestros nuevos ingresos</h4>
                 <p class="section_subtitle">Lo más nuevo del mercado ya está disponible acá. No te quedes afuera.</p>
             </div>
-            <div class="product_showcase" id="product-container">
-
-            </section>
-            <section id="product-container"></section>
-            <div class="load_more_container">
-                <button id="load-more-btn" class="load_more_btn">Mostrar más productos</button>
+            <div class="products_carousel">
+                <button type="button" class="carousel_btn carousel_btn_prev" id="products-prev" aria-label="Productos anteriores" hidden>&lsaquo;</button>
+                <div class="product_showcase" id="product-container"></div>
+                <button type="button" class="carousel_btn carousel_btn_next" id="products-next" aria-label="Productos siguientes" hidden>&rsaquo;</button>
             </div>
+        </section>
 
         <section>
             <div class="offer_container">
@@ -195,10 +209,44 @@
             </div>
         </section>
 
-        <section>
-            <div class="tecstore_club_container">
-                <h4 class="club_title">Unite a Club TecStore</h4>
-                <p class="club_description">Accedé antes que nadie a ofertas exclusivas, sumá puntos con cada compra <br> y recibí cupones de descuento directo en tu correo.</p>
+        <section class="club-experience" id="club">
+            <div class="club-experience__inner">
+                <div class="club-hero">
+                    <div class="club-hero__copy">
+                        <p class="club-kicker">TECNOLOGÍA QUE TE DEVUELVE MÁS</p>
+                        <h2>La tecnología también <span>te premia.</span></h2>
+                        <p class="club-hero__description">Sumate a Club TecStore: accedé a beneficios exclusivos, sumá TecPuntos y enterate antes de nuestras novedades.</p>
+                        <a class="club-hero__link" href="#club-benefits">
+                            Descubrí tus beneficios
+                            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="club-hero__visual" aria-hidden="true">
+                        <div class="club-member-card">
+                            <div class="club-member-card__top">
+                                <span class="club-member-card__logo">T</span>
+                                <span>MEMBRESÍA TECSTORE</span>
+                            </div>
+                            <div class="club-member-card__offer">
+                                <strong>10<span>%</span></strong>
+                                <p>OFF de bienvenida</p>
+                            </div>
+                            <div class="club-member-card__bottom">
+                                <span>UN BENEFICIO PARA VOS</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                    <path d="M12 7v10M15 9.5c0-1.1-1.3-2-3-2s-3 .9-3 2 1.3 2 3 2 3 .9 3 2-1.3 2-3 2-3-.9-3-2"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tecstore_club_container" id="club-benefits">
+                <h4 class="club_title">Beneficios para disfrutar más</h4>
+                <p class="club_description">Todo lo que necesitás para sacarle más provecho a cada compra.</p>
                 <div class="benefits_container">
                     <div class="benefit">
                         <svg class="benefit_icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -206,7 +254,7 @@
                             <line x1="7" y1="7" x2="7.01" y2="7"></line>
                         </svg>
                         <h4 class="benefit_title">10% OFF Bienvenida</h4>
-                        <p class="benefit_description">Tu primera compra con un descuento especial automático.</p>
+                        <p class="benefit_description">Recibí tu cupón de bienvenida para usar en tu primera compra.</p>
                     </div>
                     <div class="benefit">
                         <svg class="benefit_icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -231,17 +279,24 @@
                         <p class="benefit_description"> Atención prioritaria por WhatsApp con técnicos especializados para resolver tus dudas antes y después de comprar.</p>
                     </div>
                 </div>
-            </div>
-            <div class="club_register_container">
-                <div class="club_banner">
-                    <div class="club_register_text">
-                        <h4 class="banner_category">Unite al Club TechStore</h4>
-                        <h4 class="club_title_text">¿Querés tu 10% OFF de bienvenida?</h4>
-                        <p class="club_banner_description">Dejanos tu email y te enviamos el cupón al instante.</p>
-                    </div>
-                    <div class="club_mail_input">
-                        <form action="https://formspree.io/f/xbgdganp" method="POST">
-                            <input class="mail_input" type="email" placeholder="Ingresá tu mail" name="" id="">
+                </div>
+                <div class="club_register_container">
+                    <div class="club_banner">
+                        <div class="club_register_text">
+                            <h4 class="banner_category">Unite a Club TecStore</h4>
+                            <h4 class="club_title_text">¿Querés tu 10% OFF de bienvenida?</h4>
+                            <p class="club_banner_description">Dejanos tu email y te enviamos el cupón al instante.</p>
+                        </div>
+                        <form class="club_mail_input" action="https://formspree.io/f/xbgdganp" method="POST">
+                            <label class="sr-only" for="club-email">Tu correo electrónico</label>
+                            <input class="mail_input" id="club-email" type="email" placeholder="Ingresá tu email" name="email" autocomplete="email" required>
+                            <button class="club-submit" type="submit">
+                                Quiero mi cupón
+                                <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="m12 5 7 7-7 7"></path>
+                                </svg>
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -250,69 +305,53 @@
 
         <section>
             <div class="opinions_section">
-                <h4 class="opinions_title">Opiniones de nuestros clientes</h4>
-                <div class="opinion_main">
-                    <!-- Opinions -->
-                    <div class="opinion_card">
-                        <div class="personal_data_review">
-                            <img class="review_user" src="src/user.png" alt="">
-                            <div class="personal_data">
-                                <img class="review_stars" src="src/icons/stars-01.svg" alt="">
-                                <h4 class="name">Nombre y apellido</h4>
-                                <p class="carreer">Profesión</p>
-                                <hr>
-                                <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore velit soluta quasi similique, et est optio enim sunt perferendis placeat ipsam modi quibusdam natus cumque sequi aspernatur dignissimos beatae ducimus.</p>
+                <h4 class="opinions_title">Lo que dicen nuestros clientes</h4>
+                <p class="opinions_note">Perfiles y opiniones simulados para mostrar el dise&ntilde;o.</p>
+                <div class="opinion_slider">
+                    <button type="button" class="carousel_btn carousel_btn_prev" id="reviews-prev" aria-label="Opiniones anteriores" hidden>&lsaquo;</button>
+                    <div class="opinion_main" id="opinion-carousel" role="region" aria-label="Opiniones de clientes de ejemplo" tabindex="0">
+                        <article class="opinion_card">
+                            <div class="review_profile">
+                                <img class="review_user" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Retrato de Valentina Sosa" loading="lazy">
+                                <div><h4 class="name">Valentina Sosa</h4><p class="carreer">Dise&ntilde;adora gr&aacute;fica</p></div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="opinion_card">
-                        <div class="personal_data_review">
-                            <img class="review_user" src="src/user.png" alt="">
-                            <div class="personal_data">
-                                <img class="review_stars" src="src/icons/stars-01.svg" alt="">
-                                <h4 class="name">Nombre y apellido</h4>
-                                <p class="carreer">Profesión</p>
-                                <hr>
-                                <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore velit soluta quasi similique, et est optio enim sunt perferendis placeat ipsam modi quibusdam natus cumque sequi aspernatur dignissimos beatae ducimus.</p>
+                            <img class="review_stars" src="src/icons/stars-01.svg" alt="Calificaci&oacute;n: 5 de 5 estrellas" loading="lazy">
+                            <p class="review">El monitor lleg&oacute; r&aacute;pido y la imagen es excelente. Pude terminar mi espacio de trabajo justo a tiempo.</p>
+                        </article>
+                        <article class="opinion_card">
+                            <div class="review_profile">
+                                <img class="review_user" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Retrato de Juli&aacute;n Pereyra" loading="lazy">
+                                <div><h4 class="name">Juli&aacute;n Pereyra</h4><p class="carreer">Analista de sistemas</p></div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="opinion_card">
-                        <div class="personal_data_review">
-                            <img class="review_user" src="src/user.png" alt="">
-                            <div class="personal_data">
-                                <img class="review_stars" src="src/icons/stars-01.svg" alt="">
-                                <h4 class="name">Nombre y apellido</h4>
-                                <p class="carreer">Profesión</p>
-                                <hr>
-                                <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore velit soluta quasi similique, et est optio enim sunt perferendis placeat ipsam modi quibusdam natus cumque sequi aspernatur dignissimos beatae ducimus.</p>
+                            <img class="review_stars" src="src/icons/stars-01.svg" alt="Calificaci&oacute;n: 5 de 5 estrellas" loading="lazy">
+                            <p class="review">Encontr&eacute; todos los componentes que necesitaba y el proceso de compra fue simple y claro.</p>
+                        </article>
+                        <article class="opinion_card">
+                            <div class="review_profile">
+                                <img class="review_user" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Retrato de Camila Torres" loading="lazy">
+                                <div><h4 class="name">Camila Torres</h4><p class="carreer">Estudiante de arquitectura</p></div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="opinion_card">
-                        <div class="personal_data_review">
-                            <img class="review_user" src="src/user.png" alt="">
-                            <div class="personal_data">
-                                <img class="review_stars" src="src/icons/stars-01.svg" alt="">
-                                <h4 class="name">Nombre y apellido</h4>
-                                <p class="carreer">Profesión</p>
-                                <hr>
-                                <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore velit soluta quasi similique, et est optio enim sunt perferendis placeat ipsam modi quibusdam natus cumque sequi aspernatur dignissimos beatae ducimus.</p>
+                            <img class="review_stars" src="src/icons/stars-01.svg" alt="Calificaci&oacute;n: 5 de 5 estrellas" loading="lazy">
+                            <p class="review">Compr&eacute; una tablet para la facultad. Me result&oacute; muy f&aacute;cil comparar opciones y elegir.</p>
+                        </article>
+                        <article class="opinion_card">
+                            <div class="review_profile">
+                                <img class="review_user" src="https://randomuser.me/api/portraits/men/75.jpg" alt="Retrato de Nicol&aacute;s Fern&aacute;ndez" loading="lazy">
+                                <div><h4 class="name">Nicol&aacute;s Fern&aacute;ndez</h4><p class="carreer">Fot&oacute;grafo</p></div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="opinion_card">
-                        <div class="personal_data_review">
-                            <img class="review_user" src="src/user.png" alt="">
-                            <div class="personal_data">
-                                <img class="review_stars" src="src/icons/stars-01.svg" alt="">
-                                <h4 class="name">Nombre y apellido</h4>
-                                <p class="carreer">Profesión</p>
-                                <hr>
-                                <p class="review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore velit soluta quasi similique, et est optio enim sunt perferendis placeat ipsam modi quibusdam natus cumque sequi aspernatur dignissimos beatae ducimus.</p>
+                            <img class="review_stars" src="src/icons/stars-01.svg" alt="Calificaci&oacute;n: 5 de 5 estrellas" loading="lazy">
+                            <p class="review">La c&aacute;mara lleg&oacute; bien protegida y en la fecha acordada. La recomiendo para trabajar.</p>
+                        </article>
+                        <article class="opinion_card">
+                            <div class="review_profile">
+                                <img class="review_user" src="https://randomuser.me/api/portraits/women/21.jpg" alt="Retrato de Luc&iacute;a M&eacute;ndez" loading="lazy">
+                                <div><h4 class="name">Luc&iacute;a M&eacute;ndez</h4><p class="carreer">Docente</p></div>
                             </div>
-                        </div>
+                            <img class="review_stars" src="src/icons/stars-01.svg" alt="Calificaci&oacute;n: 5 de 5 estrellas" loading="lazy">
+                            <p class="review">Compr&eacute; auriculares para mis clases virtuales. El sonido es muy bueno y el env&iacute;o fue r&aacute;pido.</p>
+                        </article>
                     </div>
+                    <button type="button" class="carousel_btn carousel_btn_next" id="reviews-next" aria-label="Opiniones siguientes" hidden>&rsaquo;</button>
                 </div>
             </div>
         </section>

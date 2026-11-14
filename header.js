@@ -78,8 +78,12 @@ function setupHeaderCategoryLinks() {
             const text = link.innerText.trim();
             if (!text) return;
 
-            // Si el enlace es de una subcategoría específica
-            if (link.classList.contains('colapse_menu_link') || link.closest('.categories-dropdown')) {
+            const href = link.getAttribute('href') || '';
+            const isCatalogSubcategory = link.classList.contains('colapse_menu_link')
+                && href.startsWith('products_category.html');
+            const isCategoryDropdownLink = link.closest('.categories-dropdown');
+
+            if (isCatalogSubcategory || isCategoryDropdownLink) {
                 e.preventDefault();
                 window.location.href = `products_category.html?sub=${encodeURIComponent(text)}`;
             } else if (link.classList.contains('sub_menu_title')) {

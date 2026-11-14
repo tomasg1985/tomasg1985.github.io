@@ -148,7 +148,22 @@
                             </div>
                         </div>
                     </li>
-                    <li><a class="main_nav_link" href="#">Club TecStore</a></li>
+                    <li class="menu_con_submenu">
+                        <a class="main_nav_link submenu_toggle" href="club.html">Club TecStore ▾</a>
+                        <div class="colapse_main_container club_dropdown">
+                            <div class="colapse_nav_menu">
+                                <h4 class="club_menu_title">Explorá el Club</h4>
+                                <hr>
+                                <ul>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#inicio">Inicio del Club</a></li>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#beneficios">Beneficios</a></li>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#como-funciona">Cómo funciona</a></li>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#tecpuntos">TecPuntos</a></li>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#sumarme">Unirme al Club</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
                     <li><a class="main_nav_link" href="#">Novedades</a></li>
                     <li><a class="main_nav_link" href="help.html">Ayuda</a></li>
                     <li><a class="main_nav_link" href="contact.html">Contacto</a></li>
@@ -269,97 +284,180 @@
             <h4 class="recomendations_title">También te recomendamos estos productos</h4>
         </div>
 
-        <div class="other_recomendations_container">
-            <div>
-                <div class="recomendation_product_card">
-                    <img class="recomendation_img" src="src/apple_watch.png" alt="">
-                    <h4 class="recomendation_product_title">Apple Iwatch</h4>
-                    <p class="recomendation_product_provider">TecStore</p>
-                    <p class="recomendation_product_price">USD 650</p>
-                    <a class="buy_now_btn" href="#">
-                        <input type="button" class="buy_now" value="Comprar ahora">
-                    </a>
-                    <a class="buy_now_btn" href="product_details.html">
-                        <input type="button" class="buy_now" value="Detalles">
-                    </a>
+        <div class="recommendations_slider">
+            <button type="button" class="recommendations_carousel_btn recommendations_carousel_btn_prev" id="recommendations-prev" aria-label="Productos recomendados anteriores" aria-controls="recommended-products-carousel" hidden>&lsaquo;</button>
+            <div class="other_recomendations_container" id="recommended-products-carousel" role="region" aria-label="Productos recomendados" tabindex="0">
+            <div class="product_card_container">
+                <div class="condition_header">
+                    <div class="single_product_condition"><p class="condition">Recomendado</p></div>
+                </div>
+                <div class="img_container">
+                    <div class="product_img">
+                        <img class="picture" src="src/apple-watch-series4_ecg-heartrate_09122018_carousel.jpg.large.jpg" alt="Apple Watch Series 4" loading="lazy" decoding="async">
+                    </div>
+                </div>
+                <div class="product_info_container">
+                    <div class="product_data">
+                        <h4 class="product_name">Apple Watch Series 4</h4>
+                        <p class="product_seller">Smartwatches</p>
+                        <p class="single_product_price">USD 199</p>
+                        <div class="product_card_actions">
+                            <a class="cart" href="#">Comprar ahora</a>
+                            <a class="purchase" href="product_details.html?recommendation=9001" data-product-id="9001">Detalles</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div>
-                <div class="recomendation_product_card">
-                    <img class="recomendation_img" src="src/apple_watch.png" alt="">
-                    <h4 class="recomendation_product_title">Apple Iwatch</h4>
-                    <p class="recomendation_product_provider">TecStore</p>
-                    <p class="recomendation_product_price">USD 650</p>
-                    <a class="buy_now_btn" href="#">
-                        <input type="button" class="buy_now" value="Comprar ahora">
-                    </a>
-                    <a class="buy_now_btn" href="product_details.html">
-                        <input type="button" class="buy_now" value="Detalles">
-                    </a>
+            <div class="product_card_container">
+                <div class="condition_header">
+                    <div class="single_product_condition"><p class="condition">Recomendado</p></div>
+                </div>
+                <div class="img_container">
+                    <div class="product_img">
+                        <img class="picture" src="src/auriculares bluetooth sony vincha.png" alt="Auriculares Sony WH-CH520" loading="lazy" decoding="async">
+                    </div>
+                </div>
+                <div class="product_info_container">
+                    <div class="product_data">
+                        <h4 class="product_name">Auriculares Sony WH-CH520</h4>
+                        <p class="product_seller">Auriculares</p>
+                        <p class="single_product_price">USD 59</p>
+                        <div class="product_card_actions">
+                            <a class="cart" href="#">Comprar ahora</a>
+                            <a class="purchase" href="product_details.html?recommendation=9002" data-product-id="9002">Detalles</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div>
-                <div class="recomendation_product_card">
-                    <img class="recomendation_img" src="src/apple_watch.png" alt="">
-                    <h4 class="recomendation_product_title">Apple Iwatch</h4>
-                    <p class="recomendation_product_provider">TecStore</p>
-                    <p class="recomendation_product_price">USD 650</p>
-                    <a class="buy_now_btn" href="#">
-                        <input type="button" class="buy_now" value="Comprar ahora">
-                    </a>
-                    <a class="buy_now_btn" href="product_details.html">
-                        <input type="button" class="buy_now" value="Detalles">
-                    </a>
+            <div class="product_card_container">
+                <div class="condition_header">
+                    <div class="single_product_condition"><p class="condition">Recomendado</p></div>
+                </div>
+                <div class="img_container">
+                    <div class="product_img">
+                        <img class="picture" src="src/casco realidad virtual.png" alt="Casco de realidad virtual" loading="lazy" decoding="async">
+                    </div>
+                </div>
+                <div class="product_info_container">
+                    <div class="product_data">
+                        <h4 class="product_name">Casco de realidad virtual</h4>
+                        <p class="product_seller">Accesorios gamer</p>
+                        <p class="single_product_price">USD 299</p>
+                        <div class="product_card_actions">
+                            <a class="cart" href="#">Comprar ahora</a>
+                            <a class="purchase" href="product_details.html?recommendation=9003" data-product-id="9003">Detalles</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div>
-                <div class="recomendation_product_card">
-                    <img class="recomendation_img" src="src/apple_watch.png" alt="">
-                    <h4 class="recomendation_product_title">Apple Iwatch</h4>
-                    <p class="recomendation_product_provider">TecStore</p>
-                    <p class="recomendation_product_price">USD 650</p>
-                    <a class="buy_now_btn" href="#">
-                        <input type="button" class="buy_now" value="Comprar ahora">
-                    </a>
-                    <a class="buy_now_btn" href="product_details.html">
-                        <input type="button" class="buy_now" value="Detalles">
-                    </a>
+            <div class="product_card_container">
+                <div class="condition_header">
+                    <div class="single_product_condition"><p class="condition">Recomendado</p></div>
+                </div>
+                <div class="img_container">
+                    <div class="product_img">
+                        <img class="picture" src="src/play station control.png" alt="Control DualSense para PlayStation 5" loading="lazy" decoding="async">
+                    </div>
+                </div>
+                <div class="product_info_container">
+                    <div class="product_data">
+                        <h4 class="product_name">Control DualSense para PS5</h4>
+                        <p class="product_seller">Accesorios gamer</p>
+                        <p class="single_product_price">USD 69</p>
+                        <div class="product_card_actions">
+                            <a class="cart" href="#">Comprar ahora</a>
+                            <a class="purchase" href="product_details.html?recommendation=9004" data-product-id="9004">Detalles</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div>
-                <div class="recomendation_product_card">
-                    <img class="recomendation_img" src="src/apple_watch.png" alt="">
-                    <h4 class="recomendation_product_title">Apple Iwatch</h4>
-                    <p class="recomendation_product_provider">TecStore</p>
-                    <p class="recomendation_product_price">USD 650</p>
-                    <a class="buy_now_btn" href="#">
-                        <input type="button" class="buy_now" value="Comprar ahora">
-                    </a>
-                    <a class="buy_now_btn" href="product_details.html">
-                        <input type="button" class="buy_now" value="Detalles">
-                    </a>
+            <div class="product_card_container">
+                <div class="condition_header">
+                    <div class="single_product_condition"><p class="condition">Recomendado</p></div>
+                </div>
+                <div class="img_container">
+                    <div class="product_img">
+                        <img class="picture" src="src/ps5-product-thumbnail-01-en-14sep21.png" alt="Consola PlayStation 5" loading="lazy" decoding="async">
+                    </div>
+                </div>
+                <div class="product_info_container">
+                    <div class="product_data">
+                        <h4 class="product_name">Consola PlayStation 5</h4>
+                        <p class="product_seller">Consolas</p>
+                        <p class="single_product_price">USD 499</p>
+                        <div class="product_card_actions">
+                            <a class="cart" href="#">Comprar ahora</a>
+                            <a class="purchase" href="product_details.html?recommendation=9005" data-product-id="9005">Detalles</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div>
-                <div class="recomendation_product_card">
-                    <img class="recomendation_img" src="src/apple_watch.png" alt="">
-                    <h4 class="recomendation_product_title">Apple Iwatch</h4>
-                    <p class="recomendation_product_provider">TecStore</p>
-                    <p class="recomendation_product_price">USD 650</p>
-                    <a class="buy_now_btn" href="#">
-                        <input type="button" class="buy_now" value="Comprar ahora">
-                    </a>
-                    <a class="buy_now_btn" href="product_details.html">
-                        <input type="button" class="details" value="Detalles">
-                    </a>
+            <div class="product_card_container">
+                <div class="condition_header">
+                    <div class="single_product_condition"><p class="condition">Recomendado</p></div>
+                </div>
+                <div class="img_container">
+                    <div class="product_img">
+                        <img class="picture" src="src/1.png" alt="Auriculares gamer RGB con micrófono" loading="lazy" decoding="async">
+                    </div>
+                </div>
+                <div class="product_info_container">
+                    <div class="product_data">
+                        <h4 class="product_name">Auriculares gamer RGB con micrófono</h4>
+                        <p class="product_seller">Periféricos gamer</p>
+                        <p class="single_product_price">USD 79</p>
+                        <div class="product_card_actions">
+                            <a class="cart" href="#">Comprar ahora</a>
+                            <a class="purchase" href="product_details.html?recommendation=9006" data-product-id="9006">Detalles</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        
+            <div class="product_card_container">
+                <div class="condition_header">
+                    <div class="single_product_condition"><p class="condition">Recomendado</p></div>
+                </div>
+                <div class="img_container">
+                    <div class="product_img">
+                        <img class="picture" src="src/2.png" alt="Monitor gamer Acer Predator" loading="lazy" decoding="async">
+                    </div>
+                </div>
+                <div class="product_info_container">
+                    <div class="product_data">
+                        <h4 class="product_name">Monitor gamer Acer Predator</h4>
+                        <p class="product_seller">Monitores</p>
+                        <p class="single_product_price">USD 349</p>
+                        <div class="product_card_actions">
+                            <a class="cart" href="#">Comprar ahora</a>
+                            <a class="purchase" href="product_details.html?recommendation=9007" data-product-id="9007">Detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product_card_container">
+                <div class="condition_header">
+                    <div class="single_product_condition"><p class="condition">Recomendado</p></div>
+                </div>
+                <div class="img_container">
+                    <div class="product_img">
+                        <img class="picture" src="src/3.png" alt="PC gamer con gráfica GeForce RTX" loading="lazy" decoding="async">
+                    </div>
+                </div>
+                <div class="product_info_container">
+                    <div class="product_data">
+                        <h4 class="product_name">PC gamer con GeForce RTX</h4>
+                        <p class="product_seller">Computadoras</p>
+                        <p class="single_product_price">USD 1.499</p>
+                        <div class="product_card_actions">
+                            <a class="cart" href="#">Comprar ahora</a>
+                            <a class="purchase" href="product_details.html?recommendation=9008" data-product-id="9008">Detalles</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <button type="button" class="recommendations_carousel_btn recommendations_carousel_btn_next" id="recommendations-next" aria-label="Productos recomendados siguientes" aria-controls="recommended-products-carousel" hidden>&rsaquo;</button>
+        </div>
     </section>
 
     <footer>
@@ -461,6 +559,6 @@
     </script>
 
     <script src="header.js"></script>
-    <script src="main.js"></script>
+    <script src="best_sellers.js" defer></script>
 </body>
 </html>

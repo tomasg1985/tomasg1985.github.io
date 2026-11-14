@@ -317,7 +317,7 @@ function renderProductsGrid(productsList, activeFilterName) {
                 <div class="product_info_container">
                     <div class="product_data">
                         <h4 class="product_name" onclick="goToDetails(${product.id})" style="cursor: pointer;">${product.title}</h4>
-                        <p class="product_seller">TecnoStore</p>
+                        <p class="product_seller">${product.subcategory}</p>
                         
                         <span class="product_rating">
                             <svg class="star_icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

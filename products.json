@@ -3701,20 +3701,20 @@
   },
   {
     "id": 69,
-    "title": "Mouse inalámbrico Logitech M185 - Versión 128GB",
+    "title": "Mouse Ergonómico Vertical Inalámbrico, 2.4G",
     "price": 22999,
     "description": "Mouse inalámbrico compacto para oficina y estudio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Receptor USB incluido en la versión habitual; autonomía y alcance dependen del uso. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://prod.static-singerbd.com/products/2025-04/tall/logitech-m185-1745138811.webp",
+    "image": "https://nanotech-market.com/wp-content/uploads/2025/04/NomadaWare_mouse_meetion_m390-1.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Perifericos",
     "specs": {
       "main": {
-        "brand": "Logitech",
-        "line": "M Series",
-        "model": "M185 128GB",
-        "version": "USB 2.4 GHz",
-        "color": "Gris"
+        "brand": "Meetion",
+        "line": "BTM008",
+        "model": "-",
+        "version": "-",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
@@ -3725,7 +3725,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -3868,19 +3868,19 @@
   },
   {
     "id": 72,
-    "title": "SSD NVMe 1TB PCIe 4.0 - Versión 128GB",
+    "title": "Disco Ssd Gygabyte 2.5 Sata3 120gb",
     "price": 99999,
     "description": "Unidad de estado sólido para ampliar almacenamiento y acelerar cargas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Formato M.2 2280; comprobar compatibilidad NVMe y disipación de la placa madre. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=SSD%20NVMe%201TB%20PCIe%2040%20-%20Versin%20128GB",
+    "image": "https://logg.api.cygnus.market/static/logg/Global/Disco%20S%C3%B3lido%20SSD%20GIGABYTE%20120GB%20SATA%202.5%22/edde179361a24c92a5a622612b30c8e4.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "Kingston",
-        "line": "NV2",
-        "model": "1TB 128GB",
-        "version": "M.2 NVMe",
+        "brand": "Gygabyte",
+        "line": "SSD",
+        "model": "120 GB",
+        "version": "SSD",
         "color": "Negro"
       },
       "connectivity": {
@@ -3892,7 +3892,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -3923,19 +3923,19 @@
   },
   {
     "id": 73,
-    "title": "Disco rígido externo USB 3.0 2TB - Versión 128GB",
+    "title": "Disco Interno Toshiba N300 8TB 3.5 SATA III 7200 RPM",
     "price": 119999,
     "description": "Almacenamiento externo portátil para copias de seguridad. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Capacidad nominal de 2 TB; requiere puerto USB compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Disco%20rgido%20externo%20USB%2030%202TB%20-%20Versin%20128GB",
+    "image": "https://techniservice.co/wp-content/uploads/2024/12/HDWG780XZSTA-Toshiba-8TB-NAS-Tienda-Techniservice.png",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "Seagate",
-        "line": "Expansion",
-        "model": "2TB 128GB",
-        "version": "USB 3.0",
+        "brand": "Toshiba",
+        "line": "N300",
+        "model": "HDWG480XZSTA",
+        "version": "Sata 6, 0 gbit/s",
         "color": "Negro"
       },
       "connectivity": {
@@ -3976,20 +3976,20 @@
   },
   {
     "id": 74,
-    "title": "Router Wi-Fi 6 AX3000 - Versión 128GB",
+    "title": "Router Mercusys Roteadores Wi-fi V1 Mw325r",
     "price": 129999,
     "description": "Router inalámbrico para redes domésticas con múltiples dispositivos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Rendimiento real sujeto a interferencias, plan de internet y dispositivos conectados. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Router%20Wi-Fi%206%20AX3000%20-%20Versin%20128GB",
+    "image": "https://waltonbd.com/image/catalog/Computer/Router/wr25.png",
     "category": "Computacion & Hardware",
     "subcategory": "Conectividad",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Archer",
-        "model": "AX3000 128GB",
-        "version": "Wi-Fi 6 / Ethernet",
-        "color": "Negro"
+        "brand": "Mercusys",
+        "line": "Roteadores Wi-Fi",
+        "model": "MW325R",
+        "version": "V1",
+        "color": "Clanco"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -4000,7 +4000,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -4084,24 +4084,24 @@
   },
   {
     "id": 76,
-    "title": "Motorola Moto G84 5G 256GB - Versión 128GB",
+    "title": "Motorola Moto G06 Nfc 64gb 4gb Ram 5200mah 120hz",
     "price": 449999,
     "description": "Smartphone 5G con pantalla pOLED y almacenamiento amplio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar variante regional, memoria RAM y bandas móviles con el vendedor. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Motorola%20Moto%20G84%205G%20256GB%20-%20Versin%20128GB",
+    "image": "https://tienda.personal.com.ar/images/720/webp/Motorola-Moto-G06-F1-Arabesque_1793035692977469121.png",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartphones",
     "specs": {
       "main": {
         "brand": "Motorola",
         "line": "Moto G",
-        "model": "G84 5G 128GB",
-        "version": "XT2347 (según región)",
-        "color": "Azul"
+        "model": "g06",
+        "version": "H-33458",
+        "color": "Naranja"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -4243,25 +4243,25 @@
   },
   {
     "id": 79,
-    "title": "iPad 10ª generación 64GB Wi-Fi - Versión 128GB",
+    "title": "iPad air De 11 pulgadas Wi-fi 128 gb - Gris Espacial (m4)",
     "price": 699999,
     "description": "Tablet Apple para estudio, trabajo ligero y entretenimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Compatibilidad de accesorios y conectividad según generación y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=iPad%2010%20generacin%2064GB%20Wi-Fi%20-%20Versin%20128GB",
+    "image": "https://ss7.vzw.com/is/image/VerizonWireless/apple-ipad-air-11-inch-m4-space-gray?wid=400&hei=400&fmt=webp-alpha",
     "category": "Telefonia & Tablets",
     "subcategory": "Tablets",
     "specs": {
       "main": {
         "brand": "Apple",
         "line": "iPad",
-        "model": "10ª generación 64GB 128GB",
+        "model": "iPad Air M4 (2026)",
         "version": "Wi-Fi",
-        "color": "Plateado"
+        "color": "Gris espacial"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
-        "gps": "No",
+        "bluetooth": "Sí",
+        "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
@@ -4298,11 +4298,11 @@
   },
   {
     "id": 80,
-    "title": "Xiaomi Smart Band 8 - Versión 128GB",
+    "title": "Xiaomi Smart Band 11 Active Gris",
     "price": 69999,
     "description": "Pulsera inteligente para actividad física y notificaciones. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones disponibles según teléfono, aplicación y región; no reemplaza equipos médicos. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xiaomi%20Smart%20Band%208%20-%20Versin%20128GB",
+    "image": "https://xiaomistore.com.ar/5799-large_default/smart-band-11-active.jpg",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartwaches",
     "specs": {
@@ -4311,7 +4311,7 @@
         "line": "Smart Band",
         "model": "8 128GB",
         "version": "Bluetooth",
-        "color": "Negro"
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -4353,20 +4353,20 @@
   },
   {
     "id": 81,
-    "title": "Cargador USB-C Power Delivery 30W - Versión 128GB",
+    "title": "Cargador Super Rapido 45w Para Samsung A16 A06 A15 S25 A56",
     "price": 39999,
     "description": "Cargador compacto USB-C para dispositivos compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La velocidad de carga depende del dispositivo, cable y protocolo admitido. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cargador%20USB-C%20Power%20Delivery%2030W%20-%20Versin%2012",
+    "image": "https://shop.samsung.com/latin/cac/pub/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/e/p/ep-t2510n_combo_thumb.png?___store=cr",
     "category": "Telefonia & Tablets",
     "subcategory": "Accesorios",
     "specs": {
       "main": {
-        "brand": "Anker",
-        "line": "Nano",
-        "model": "30W 128GB",
-        "version": "USB-C PD",
-        "color": "Blanco"
+        "brand": "GLSG",
+        "line": "45WPD",
+        "model": "USB-C",
+        "version": "-",
+        "color": "Blanco / Negro"
       },
       "connectivity": {
         "wifi": "No",
@@ -4841,20 +4841,20 @@
   },
   {
     "id": 90,
-    "title": "Mouse gamer Logitech G502 HERO - Versión 128GB",
+    "title": "Mouse Inalámbrico Para Portátil Logitech M170",
     "price": 99999,
     "description": "Mouse gamer con sensor óptico y botones programables. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Peso, DPI y funciones se configuran mediante software compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Mouse%20gamer%20Logitech%20G502%20HERO%20-%20Versin%20128GB",
+    "image": "https://castillo.vtexassets.com/arquivos/ids/196608/d_transparent--20-.png?v=639168852946500000",
     "category": "Gaming",
     "subcategory": "Periféricos Gamer",
     "specs": {
       "main": {
-        "brand": "Logitech G",
-        "line": "G502",
-        "model": "HERO 128GB",
-        "version": "USB",
-        "color": "Negro"
+        "brand": "Logitech",
+        "line": "M170",
+        "model": "M170- 910-004940",
+        "version": "Wireless",
+        "color": "Rojo"
       },
       "connectivity": {
         "wifi": "No",
@@ -5111,19 +5111,19 @@
   },
   {
     "id": 95,
-    "title": "Placa de video AMD Radeon RX 7600 8GB - Versión 128GB",
+    "title": "Placa de video Msi Nvidia Geforce Rtx 5060 Ti 16g Shadow 2x Oc Plus Gddr7 2 Fan Dlss 4 Pci Express 5.0",
     "price": 499999,
     "description": "Placa gráfica dedicada para gaming y creación de contenido. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Memoria GDDR6 de 8 GB; verificar fuente y dimensiones de la variante. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Placa%20de%20video%20AMD%20Radeon%20RX%207600%208GB%20-%20Versi",
+    "image": "https://storage-asset.msi.com/global/picture/product/product_1744697971ba7f065fc218997c4c088d58b9222c2f.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "AMD",
-        "line": "Radeon RX",
-        "model": "7600 8GB 128GB",
-        "version": "PCIe",
+        "brand": "MSI",
+        "line": "Geforce Rtx 5060",
+        "model": "RTX5060Ti16G",
+        "version": "OC Edition",
         "color": "Negro"
       },
       "connectivity": {
@@ -5135,7 +5135,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -5167,19 +5167,19 @@
   },
   {
     "id": 96,
-    "title": "Refrigeración líquida AIO 240mm - Versión 128GB",
+    "title": "Refrigeración Líquida Cpu Ultra Flow 360mm Argb Con Lcd 7 B",
     "price": 159999,
     "description": "Sistema de refrigeración líquida todo en uno para CPU compatible. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar socket, espacio del gabinete y conectores antes de instalar. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Refrigeracin%20lquida%20AIO%20240mm%20-%20Versin%20128GB",
+    "image": "https://www.venex.com.ar/products_images/1788983256_memoria_ram_corsair_vengeance_ddr5_16gb_6000mhz_rgb_cl38png",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Cooler Master",
+        "brand": "MSI",
         "line": "MasterLiquid",
-        "model": "240L 128GB",
-        "version": "USB / PWM",
+        "model": "Pro Flow 360 SE",
+        "version": "-",
         "color": "Negro"
       },
       "connectivity": {
@@ -5191,7 +5191,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -5220,24 +5220,24 @@
   },
   {
     "id": 97,
-    "title": "Mouse Logitech G305 Lightspeed - Versión 128GB",
+    "title": "Mouse Gamer Semi Vertical Carrello M900 Inalámbrico Ergonómico Rgb 2400 Dpi Bluetooth",
     "price": 69999,
     "description": "Mouse inalámbrico con receptor para uso diario y gaming. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La autonomía depende del tipo de batería, uso y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Mouse%20Logitech%20G305%20Lightspeed%20-%20Versin%20128GB",
+    "image": "https://acdn-us.mitiendanube.com/stores/006/779/912/products/d_884558-mla96146055673_102025-b-f05aef7f7a6f72ec5117786941872045-1024-1024.jpg",
     "category": "Computacion & Hardware",
     "subcategory": "Perifericos",
     "specs": {
       "main": {
-        "brand": "Logitech G",
-        "line": "G305",
-        "model": "Lightspeed 128GB",
-        "version": "USB 2.4 GHz",
+        "brand": "Carrello",
+        "line": "M900",
+        "model": "M900",
+        "version": "-",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -5276,20 +5276,20 @@
   },
   {
     "id": 98,
-    "title": "Pendrive USB 3.2 128GB - Versión 128GB",
+    "title": "Pendrive Kingston Dtvp101 16gb 3.0 Negro",
     "price": 17999,
     "description": "Memoria USB portátil para transferir archivos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Velocidad real depende del puerto, archivos y dispositivo utilizado. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Pendrive%20USB%2032%20128GB%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_681448-MLA114262075589_072026-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "SanDisk",
-        "line": "Ultra Flair",
-        "model": "128GB",
-        "version": "USB-A",
-        "color": "Plateado"
+        "brand": "Kingston Technology",
+        "line": "DTVP101/16GB",
+        "model": "16GB",
+        "version": "USB",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
@@ -5329,18 +5329,18 @@
   },
   {
     "id": 99,
-    "title": "Adaptador USB Wi-Fi AC600 - Versión 128GB",
+    "title": "Placa Adaptador Usb Wifi Bluetooth 4,2 1300 Mbps Dual Band",
     "price": 24999,
     "description": "Adaptador inalámbrico compacto para computadoras compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Requiere controlador compatible; velocidad sujeta a red y entorno. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Adaptador%20USB%20Wi-Fi%20AC600%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_808629-MLA108554411865_032026-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Conectividad",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Archer",
-        "model": "T2U Nano 128GB",
+        "brand": "Maxing Home",
+        "line": "WB-18B",
+        "model": "-",
         "version": "USB / Wi-Fi",
         "color": "Negro"
       },
@@ -5353,7 +5353,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -5981,18 +5981,18 @@
   },
   {
     "id": 111,
-    "title": "Monitor gamer 27 pulgadas 165Hz - Versión 128GB",
+    "title": "Monitor Gamer LG UltraGear 24GS60F-B con pantalla de 24 pulgadas 180Hz y resolución Full HD",
     "price": 399999,
     "description": "Monitor para juegos con alta tasa de refresco. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución y frecuencia máxima dependen de la variante y conexión usada. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Monitor%20gamer%2027%20pulgadas%20165Hz%20-%20Versin%20128G",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_721575-MLA99938046415_112025-F.webp",
     "category": "Gaming",
     "subcategory": "Periféricos Gamer",
     "specs": {
       "main": {
-        "brand": "AOC",
-        "line": "Gaming",
-        "model": "27 165Hz 128GB",
+        "brand": "LG",
+        "line": "UltraGear",
+        "model": "UltraGear 24GS60F-B",
         "version": "HDMI / DisplayPort",
         "color": "Negro"
       },
@@ -6005,7 +6005,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -6360,19 +6360,19 @@
   },
   {
     "id": 118,
-    "title": "Placa de video NVIDIA GeForce RTX 4060 8GB - Versión 256GB",
+    "title": "Placa De Video Asus Prime Rtx 5080 Oc 16gb Gddr7",
     "price": 749998.75,
     "description": "Placa gráfica dedicada para gaming y creación de contenido. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Memoria GDDR6 de 8 GB; dimensiones y alimentación dependen del fabricante de la placa. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Placa%20de%20video%20NVIDIA%20GeForce%20RTX%204060%208GB%20-%20",
+    "image": "https://cdn.rockethard.com.ar/08-10-2026-00-27-39_1e47730c9a85d200cd41653ce08fd6d5_fwebp4.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
         "brand": "NVIDIA",
-        "line": "GeForce RTX",
-        "model": "4060 8GB 256GB",
-        "version": "PCIe 4.0",
+        "line": "RTX 5080",
+        "model": "PRIME-RTX5080-O16G",
+        "version": "16 GB",
         "color": "Negro"
       },
       "connectivity": {
@@ -6384,7 +6384,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -6416,20 +6416,20 @@
   },
   {
     "id": 119,
-    "title": "Memoria RAM DDR4 16GB 3200MHz - Versión 256GB",
+    "title": "Memoria Ram DDR5 16GB Corsair 6000MHz Vengeance RGB",
     "price": 62498.75,
     "description": "Módulo de memoria para computadoras de escritorio compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar compatibilidad DDR4, frecuencia admitida y cantidad de ranuras de la placa madre. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Memoria%20RAM%20DDR4%2016GB%203200MHz%20-%20Versin%20256GB",
+    "image": "https://www.venex.com.ar/products_images/1789057906_memoria_ram_corsair_vengeance_ddr5_16gb_6000mhz_cl38png",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Kingston",
-        "line": "FURY Beast",
-        "model": "DDR4 16GB 256GB",
-        "version": "DIMM",
-        "color": "Negro"
+        "brand": "Corsair",
+        "line": "Vengeance",
+        "model": "CMH16GX5M1D6000Z38",
+        "version": "DDR5",
+        "color": "RGB"
       },
       "connectivity": {
         "wifi": "No",
@@ -6440,7 +6440,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -6471,20 +6471,20 @@
   },
   {
     "id": 120,
-    "title": "Fuente de alimentación 650W 80 Plus Bronze - Versión 256GB",
+    "title": "Fuente de alimentación para PC Asus Prime AP-750G 750W",
     "price": 137498.75,
     "description": "Fuente de alimentación para PC de escritorio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Potencia nominal de 650 W; comprobar conectores y consumo de los componentes. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Fuente%20de%20alimentacin%20650W%2080%20Plus%20Bronze%20-%20V",
+    "image": "https://cretagaming.com/wp-content/uploads/2024/08/rbtech_asus_prime_750W_5-510x510-1.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Corsair",
-        "line": "CV",
-        "model": "650 256GB",
-        "version": "ATX",
-        "color": "Negro"
+        "brand": "Asus",
+        "line": "Prime",
+        "model": "AP-750G",
+        "version": "-",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
@@ -6526,18 +6526,18 @@
   },
   {
     "id": 121,
-    "title": "Motherboard B550M AM4 - Versión 256GB",
+    "title": "Motherboard Asus Prime B650m-a Ii Am5 Ddr5 Micro Atx",
     "price": 187498.75,
     "description": "Placa madre micro-ATX para procesadores AMD compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Conectividad y ranuras varían por revisión; confirmar soporte de CPU y BIOS. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Motherboard%20B550M%20AM4%20-%20Versin%20256GB",
+    "image": "https://www.venex.com.ar/products_images/1793026956_diseno_sin_titulo_-_2026-10-26t115458621png",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Gigabyte",
-        "line": "Ultra Durable",
-        "model": "B550M 256GB",
+        "brand": "Asus",
+        "line": "Prime",
+        "model": "PRIME B650M-A",
         "version": "AM4",
         "color": "Negro"
       },
@@ -6550,7 +6550,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -6581,24 +6581,24 @@
   },
   {
     "id": 122,
-    "title": "Mouse inalámbrico Logitech M185 - Versión 256GB",
+    "title": "Mouse Razer Essential DeathAdder Negro",
     "price": 28748.75,
     "description": "Mouse inalámbrico compacto para oficina y estudio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Receptor USB incluido en la versión habitual; autonomía y alcance dependen del uso. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Mouse%20inalmbrico%20Logitech%20M185%20-%20Versin%20256GB",
+    "image": "https://www.scphardstore.com/wp-content/uploads/2026/07/MOU37.png",
     "category": "Computacion & Hardware",
     "subcategory": "Perifericos",
     "specs": {
       "main": {
-        "brand": "Logitech",
-        "line": "M Series",
-        "model": "M185 256GB",
-        "version": "USB 2.4 GHz",
-        "color": "Gris"
+        "brand": "Razer",
+        "line": "DeathAdder",
+        "model": "Essential",
+        "version": "RZ0103850100R3U1",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "Sí",
+        "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -6692,20 +6692,20 @@
   },
   {
     "id": 124,
-    "title": "Teclado inalámbrico Logitech K380 - Versión 256GB",
+    "title": "Teclado Meetion Vibekeyb68 Teclado Gamer Triple-modo Programable",
     "price": 87498.75,
     "description": "Teclado compacto multidispositivo para computadoras y tablets. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Emparejamiento Bluetooth con varios dispositivos compatibles; distribución según región. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Teclado%20inalmbrico%20Logitech%20K380%20-%20Versin%20256",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnNl1w1I5Dl4S7wsC1Mx91IIUVc2KjtjkS8-a0_H4R8Q&s=10",
     "category": "Computacion & Hardware",
     "subcategory": "Perifericos",
     "specs": {
       "main": {
-        "brand": "Logitech",
-        "line": "Pebble",
-        "model": "K380 256GB",
+        "brand": "Meetion",
+        "line": "VibeKey B68",
+        "model": "VibeKey B86 RGB",
         "version": "Bluetooth",
-        "color": "Grafito"
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
@@ -6748,19 +6748,19 @@
   },
   {
     "id": 125,
-    "title": "SSD NVMe 1TB PCIe 4.0 - Versión 256GB",
+    "title": "Disco Ssd Sandisk Optimus 5100 1 Tb Nvme Pcie 4.0 M.2 2280 1 Tb",
     "price": 124998.75,
     "description": "Unidad de estado sólido para ampliar almacenamiento y acelerar cargas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Formato M.2 2280; comprobar compatibilidad NVMe y disipación de la placa madre. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=SSD%20NVMe%201TB%20PCIe%2040%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_942619-CBT117073530898_102026-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "Kingston",
-        "line": "NV2",
-        "model": "1TB 256GB",
-        "version": "M.2 NVMe",
+        "brand": "SanDisk",
+        "line": "NVME",
+        "model": "SDSP51100TAN-000E0",
+        "version": "M.2 NVMe 1 TB",
         "color": "Negro"
       },
       "connectivity": {
@@ -6772,7 +6772,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -6803,19 +6803,19 @@
   },
   {
     "id": 126,
-    "title": "Disco rígido externo USB 3.0 2TB - Versión 256GB",
+    "title": "Disco Rígido Externo Toshiba Canvio Advance 2tb",
     "price": 149998.75,
     "description": "Almacenamiento externo portátil para copias de seguridad. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Capacidad nominal de 2 TB; requiere puerto USB compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Disco%20rgido%20externo%20USB%2030%202TB%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_621846-MLA88850841353_072025-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "Seagate",
-        "line": "Expansion",
-        "model": "2TB 256GB",
-        "version": "USB 3.0",
+        "brand": "Toshiba",
+        "line": "Canvio Advance",
+        "model": "HDTCA20X",
+        "version": "HDTCA20XK3AA",
         "color": "Negro"
       },
       "connectivity": {
@@ -6827,7 +6827,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -6856,18 +6856,18 @@
   },
   {
     "id": 127,
-    "title": "Router Wi-Fi 6 AX3000 - Versión 256GB",
+    "title": "Modem Router XPON Wifi Dual Band Mercusys Mf30g Ac1200 Inalambrico",
     "price": 162498.75,
     "description": "Router inalámbrico para redes domésticas con múltiples dispositivos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Rendimiento real sujeto a interferencias, plan de internet y dispositivos conectados. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Router%20Wi-Fi%206%20AX3000%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_961014-MLA108515938425_032026-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Conectividad",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Archer",
-        "model": "AX3000 256GB",
+        "brand": "Mercusys",
+        "line": "MF30G",
+        "model": "ONT",
         "version": "Wi-Fi 6 / Ethernet",
         "color": "Negro"
       },
@@ -6880,7 +6880,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -6909,7 +6909,7 @@
   },
   {
     "id": 128,
-    "title": "https://dcdn-us.mitiendanube.com/stores/002/121/601/products/s25feee-7fc49f32f8e8fe7acb17625255279790-1024-1024.webp",
+    "title": "Samsung Galaxy S25FE",
     "price": 749998.75,
     "description": "Smartphone Android con conectividad 5G y almacenamiento de 128 GB. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Las bandas de red, SIM y accesorios incluidos varían según la región. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
@@ -6962,24 +6962,24 @@
   },
   {
     "id": 129,
-    "title": "Motorola Moto G84 5G 256GB - Versión 256GB",
+    "title": "Apple iPhone 18 Pro (256 GB) - Borgoña (sólo eSIM)",
     "price": 562498.75,
     "description": "Smartphone 5G con pantalla pOLED y almacenamiento amplio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar variante regional, memoria RAM y bandas móviles con el vendedor. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Motorola%20Moto%20G84%205G%20256GB%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_915123-MLA116009380962_092026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartphones",
     "specs": {
       "main": {
-        "brand": "Motorola",
-        "line": "Moto G",
-        "model": "G84 5G 256GB",
-        "version": "XT2347 (según región)",
-        "color": "Azul"
+        "brand": "Apple",
+        "line": "iPhone 18",
+        "model": "iPhone 18 Pro (sólo eSIM)",
+        "version": "-",
+        "color": "Borgoña"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -7015,24 +7015,24 @@
   },
   {
     "id": 130,
-    "title": "Xiaomi Redmi Note 13 256GB - Versión 256GB",
+    "title": "Apple iPhone 17 (256 GB)",
     "price": 499998.75,
     "description": "Smartphone de uso diario con pantalla amplia y cámara de alta resolución. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Las características de cámara, NFC y bandas dependen de la versión 4G o 5G. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xiaomi%20Redmi%20Note%2013%20256GB%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_908347-MLA104127137314_012026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartphones",
     "specs": {
       "main": {
-        "brand": "Xiaomi",
-        "line": "Redmi Note",
-        "model": "13 256GB",
-        "version": "Según región",
-        "color": "Negro"
+        "brand": "Apple",
+        "line": "iPhone 17",
+        "model": "iPhone 17",
+        "version": "-",
+        "color": "Grafito"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -7722,24 +7722,24 @@
   },
   {
     "id": 143,
-    "title": "Mouse gamer Logitech G502 HERO - Versión 256GB",
+    "title": "Mouse Inalámbrico Logitech Pebble 2 M350S Bluetooth",
     "price": 124998.75,
     "description": "Mouse gamer con sensor óptico y botones programables. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Peso, DPI y funciones se configuran mediante software compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Mouse%20gamer%20Logitech%20G502%20HERO%20-%20Versin%20256GB",
+    "image": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/pebble-mouse-2-m350s/2026-refresh/gallery/pebble-mouse-2-m350s-tonal-rose-top-angle-gallery-1.png",
     "category": "Gaming",
     "subcategory": "Periféricos Gamer",
     "specs": {
       "main": {
-        "brand": "Logitech G",
-        "line": "G502",
-        "model": "HERO 256GB",
-        "version": "USB",
-        "color": "Negro"
+        "brand": "Logitech",
+        "line": "Pebble Mouse",
+        "model": "M350S",
+        "version": "M350S",
+        "color": "Rosa"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -7992,19 +7992,19 @@
   },
   {
     "id": 148,
-    "title": "Placa de video AMD Radeon RX 7600 8GB - Versión 256GB",
+    "title": "Placa de video Msi Gaming Trio GeForce RTX 5080 Series 16gb",
     "price": 624998.75,
     "description": "Placa gráfica dedicada para gaming y creación de contenido. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Memoria GDDR6 de 8 GB; verificar fuente y dimensiones de la variante. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Placa%20de%20video%20AMD%20Radeon%20RX%207600%208GB%20-%20Versi",
+    "image": "https://app.contabilium.com/files/explorer/48428/Productos-Servicios/concepto-16075802.png",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "AMD",
-        "line": "Radeon RX",
-        "model": "7600 8GB 256GB",
-        "version": "PCIe",
+        "brand": "Nvidia",
+        "line": "Gaming Trio",
+        "model": "RTX 5080",
+        "version": "OC Edition",
         "color": "Negro"
       },
       "connectivity": {
@@ -8048,20 +8048,20 @@
   },
   {
     "id": 149,
-    "title": "Refrigeración líquida AIO 240mm - Versión 256GB",
+    "title": "Water Cooler Asus Tuf Lc Iii 360 Argb 3/cooler Aio Intel Amd",
     "price": 199998.75,
     "description": "Sistema de refrigeración líquida todo en uno para CPU compatible. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar socket, espacio del gabinete y conectores antes de instalar. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Refrigeracin%20lquida%20AIO%20240mm%20-%20Versin%20256GB",
+    "image": "https://cdn.cclonline.com/cdn-cgi/image/width=2000/images/avante/TUF-GAMING-LC-III-360-ARGB-LCD-WHITE-01.png",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Cooler Master",
-        "line": "MasterLiquid",
-        "model": "240L 256GB",
-        "version": "USB / PWM",
-        "color": "Negro"
+        "brand": "ASUS",
+        "line": "TUF",
+        "model": "LC III ARGB",
+        "version": "TUF GAMING LC III 360 ARGB",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
@@ -8072,7 +8072,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -8101,20 +8101,20 @@
   },
   {
     "id": 150,
-    "title": "Mouse Logitech G305 Lightspeed - Versión 256GB",
+    "title": "Mouse Gamer Redragon St4r Pro Blue - M917b-pro",
     "price": 87498.75,
     "description": "Mouse inalámbrico con receptor para uso diario y gaming. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La autonomía depende del tipo de batería, uso y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Mouse%20Logitech%20G305%20Lightspeed%20-%20Versin%20256GB",
+    "image": "https://cambiosystem.com/wp-content/uploads/2026/09/Mouse-Redragon-M917b-Pro-Star-Pro-Azul-Bluethoot-Usb-2.4g-Usb-Rgb-9.png",
     "category": "Computacion & Hardware",
     "subcategory": "Perifericos",
     "specs": {
       "main": {
-        "brand": "Logitech G",
-        "line": "G305",
-        "model": "Lightspeed 256GB",
-        "version": "USB 2.4 GHz",
-        "color": "Negro"
+        "brand": "Redragon",
+        "line": "Gamer",
+        "model": "M917GB-PRO",
+        "version": "-",
+        "color": "Azul"
       },
       "connectivity": {
         "wifi": "No",
@@ -8125,7 +8125,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -8157,20 +8157,20 @@
   },
   {
     "id": 151,
-    "title": "Pendrive USB 3.2 128GB - Versión 256GB",
+    "title": "Pendrive Kingston 128gb Datatraveler Exodia Usb 3.2 Gen 1",
     "price": 22498.75,
     "description": "Memoria USB portátil para transferir archivos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Velocidad real depende del puerto, archivos y dispositivo utilizado. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Pendrive%20USB%2032%20128GB%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_978395-MLA120320790181_102026-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "SanDisk",
-        "line": "Ultra Flair",
-        "model": "128GB 256GB",
-        "version": "USB-A",
-        "color": "Plateado"
+        "brand": "Kingston",
+        "line": "Exodia",
+        "model": "128GB",
+        "version": "USB",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
@@ -8181,7 +8181,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -8210,18 +8210,18 @@
   },
   {
     "id": 152,
-    "title": "Adaptador USB Wi-Fi AC600 - Versión 256GB",
+    "title": "Adaptador Wifi Usb Con 4 Antenas Ac 1300 Para Pc Y Notebook",
     "price": 31248.75,
     "description": "Adaptador inalámbrico compacto para computadoras compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Requiere controlador compatible; velocidad sujeta a red y entorno. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Adaptador%20USB%20Wi-Fi%20AC600%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_643412-MLA116091021713_082026-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Conectividad",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Archer",
-        "model": "T2U Nano 256GB",
+        "brand": "Genérica",
+        "line": "USB",
+        "model": "RTL8812CU",
         "version": "USB / Wi-Fi",
         "color": "Negro"
       },
@@ -8234,7 +8234,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -8862,18 +8862,18 @@
   },
   {
     "id": 164,
-    "title": "Monitor gamer 27 pulgadas 165Hz - Versión 256GB",
+    "title": "Monitor Gamer 24 Msi Mag 245f X24 Fhd 240hz Hdr",
     "price": 499998.75,
     "description": "Monitor para juegos con alta tasa de refresco. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución y frecuencia máxima dependen de la variante y conexión usada. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Monitor%20gamer%2027%20pulgadas%20165Hz%20-%20Versin%20256G",
+    "image": "https://cdn.noxiestore.com/14-09-2026-01-09-47_MAG274CFX24_1.webp",
     "category": "Gaming",
     "subcategory": "Periféricos Gamer",
     "specs": {
       "main": {
-        "brand": "AOC",
-        "line": "Gaming",
-        "model": "27 165Hz 256GB",
+        "brand": "MSI",
+        "line": "MAG",
+        "model": "MAG 245F X24",
         "version": "HDMI / DisplayPort",
         "color": "Negro"
       },
@@ -8886,7 +8886,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -9132,17 +9132,17 @@
   },
   {
     "id": 169,
-    "title": "Procesador AMD Ryzen 5 7600x 38mb Cache 5.3ghz Am5",
+    "title": "Procesador Amd Ryzen 5 8500g Radeon (6c/12t)",
     "price": 294498.45,
     "description": "Procesador de escritorio para equipos de uso general y gaming de gama media. <br><br> Clave en el rendimiento de tu computadora de escritorio, ahora las tareas en simultáneo son posibles. <br><br> AMD cuenta con un catálogo de productos que se adaptan a los requerimientos de todo tipo de usuarios: juegos en línea, edición a gran escala, contenido en múltiples plataformas y más.",
-    "image": "https://placehold.co/600x600/png?text=Procesador%20AMD%20Ryzen%205%205600%20-%20Versin%20512GB",
+    "image": "https://logg.api.cygnus.market/static/logg/Global/Procesador_AMD_Ryzen_5_8400F_6C_12T_4.7GHz_22MB_AM5_c_Cooler_SIN_GR_FICOS/d2e9b1271beb45e2bb235986719b67a1.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
         "brand": "AMD",
         "line": "Ryzen 5",
-        "model": "7600x 128GB",
+        "model": "Ryzen 5 8500g",
         "version": "AM5",
         "color": "-"
       },
@@ -9155,7 +9155,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -9239,19 +9239,19 @@
   },
   {
     "id": 171,
-    "title": "Placa de video NVIDIA GeForce RTX 4060 8GB - Versión 512GB",
+    "title": "Gigabyte GeForce RTX 5060 Eagle Max OC de 8GB GDDR7",
     "price": 929998.45,
     "description": "Placa gráfica dedicada para gaming y creación de contenido. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Memoria GDDR6 de 8 GB; dimensiones y alimentación dependen del fabricante de la placa. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Placa%20de%20video%20NVIDIA%20GeForce%20RTX%204060%208GB%20-%20",
+    "image": "https://img.try.com.ar/productos/placa-de-video-gigabyte-geforce-rtx-5060-ti-8gb-gddr7-eagle-max-oc.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
         "brand": "NVIDIA",
-        "line": "GeForce RTX",
-        "model": "4060 8GB 512GB",
-        "version": "PCIe 4.0",
+        "line": "Gigabyte",
+        "model": "Geforce RTX",
+        "version": "RTX 5060 Eagle Max OC",
         "color": "Negro"
       },
       "connectivity": {
@@ -9295,19 +9295,19 @@
   },
   {
     "id": 172,
-    "title": "Memoria RAM DDR4 16GB 3200MHz - Versión 512GB",
+    "title": "Memoria Ram Kingston Fury Beast Rgb 16gb 5600mts Ddr5 Cl40",
     "price": 77498.45,
     "description": "Módulo de memoria para computadoras de escritorio compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar compatibilidad DDR4, frecuencia admitida y cantidad de ranuras de la placa madre. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Memoria%20RAM%20DDR4%2016GB%203200MHz%20-%20Versin%20512GB",
+    "image": "https://logg.api.cygnus.market/static/logg/Global/Memoria_RAM_Kingston_FURY_Beast_DDR5_RGB_16GB_5600_MT_s_CL40_Negra/4ebd7c8546a141cea3d033dee5e2877c.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
         "brand": "Kingston",
-        "line": "FURY Beast",
-        "model": "DDR4 16GB 512GB",
-        "version": "DIMM",
+        "line": "Fury Best RGB",
+        "model": "KF556C40BBA-16",
+        "version": "DDR5",
         "color": "Negro"
       },
       "connectivity": {
@@ -9319,7 +9319,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -9350,19 +9350,19 @@
   },
   {
     "id": 173,
-    "title": "Fuente de alimentación 650W 80 Plus Bronze - Versión 512GB",
+    "title": "Fuente de poder para PC Redragon RPGS GC-PS010 850W Modular 160 x 150 x 86 mm",
     "price": 170498.45,
     "description": "Fuente de alimentación para PC de escritorio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Potencia nominal de 650 W; comprobar conectores y consumo de los componentes. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Fuente%20de%20alimentacin%20650W%2080%20Plus%20Bronze%20-%20V",
+    "image": "https://redragon.es/content/uploads/2022/06/RGPSG-850W.png",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Corsair",
-        "line": "CV",
-        "model": "650 512GB",
-        "version": "ATX",
+        "brand": "Redragon",
+        "line": "RPGS",
+        "model": "GC-PS010",
+        "version": "50 W",
         "color": "Negro"
       },
       "connectivity": {
@@ -9374,7 +9374,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -9405,19 +9405,19 @@
   },
   {
     "id": 174,
-    "title": "Motherboard B550M AM4 - Versión 512GB",
+    "title": "Motherboard Msi Pro B840m-p Wifi6e Am5 4x Ddr5 2x M.2 Pcie 4.0 Usb-c Wifi 6e Bt 5.3 Micro Atx",
     "price": 232498.45,
     "description": "Placa madre micro-ATX para procesadores AMD compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Conectividad y ranuras varían por revisión; confirmar soporte de CPU y BIOS. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Motherboard%20B550M%20AM4%20-%20Versin%20512GB",
+    "image": "https://es-store.msi.com/cdn/shop/files/placa-base-amd-msi-pro-b840m-p-wifi6e_1200x.png?v=1759155888",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Gigabyte",
-        "line": "Ultra Durable",
-        "model": "B550M 512GB",
-        "version": "AM4",
+        "brand": "MSI",
+        "line": "Pro",
+        "model": "PRO B840M-P WiFi6E",
+        "version": "AM5",
         "color": "Negro"
       },
       "connectivity": {
@@ -9429,7 +9429,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -9460,31 +9460,31 @@
   },
   {
     "id": 175,
-    "title": "Mouse inalámbrico Logitech M185 - Versión 512GB",
+    "title": "Mouse Aula Sc620 Rgb Inalámbrico 12k Dpi",
     "price": 35648.45,
     "description": "Mouse inalámbrico compacto para oficina y estudio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Receptor USB incluido en la versión habitual; autonomía y alcance dependen del uso. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Mouse%20inalmbrico%20Logitech%20M185%20-%20Versin%20512GB",
+    "image": "https://cdn.mymcomputacion.com/22-09-2026-01-09-57_0000000000006978080505552.6.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Perifericos",
     "specs": {
       "main": {
-        "brand": "Logitech",
-        "line": "M Series",
-        "model": "M185 512GB",
-        "version": "USB 2.4 GHz",
-        "color": "Gris"
+        "brand": "Aula",
+        "line": "SC620",
+        "model": "-",
+        "version": "-",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "Sí",
+        "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -9627,18 +9627,18 @@
   },
   {
     "id": 178,
-    "title": "SSD NVMe 1TB PCIe 4.0 - Versión 512GB",
+    "title": "Disco Interno Ssd M.2 500gb Western Black Sn7100 Nvme",
     "price": 154998.45,
     "description": "Unidad de estado sólido para ampliar almacenamiento y acelerar cargas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Formato M.2 2280; comprobar compatibilidad NVMe y disipación de la placa madre. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=SSD%20NVMe%201TB%20PCIe%2040%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_863855-MLA99463166390_112025-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "Kingston",
-        "line": "NV2",
-        "model": "1TB 512GB",
+        "brand": "Western Digital",
+        "line": "WD Black SN7100",
+        "model": "WDS500G4X0E",
         "version": "M.2 NVMe",
         "color": "Negro"
       },
@@ -9651,7 +9651,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -9682,18 +9682,18 @@
   },
   {
     "id": 179,
-    "title": "Disco rígido externo USB 3.0 2TB - Versión 512GB",
+    "title": "Unidad Estado Sólido Externo Hiksemi Newsemi 1024gb Usb 3.0",
     "price": 185998.45,
     "description": "Almacenamiento externo portátil para copias de seguridad. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Capacidad nominal de 2 TB; requiere puerto USB compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Disco%20rgido%20externo%20USB%2030%202TB%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_668246-MLU73982587838_012024-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "Seagate",
-        "line": "Expansion",
-        "model": "2TB 512GB",
+        "brand": "Hiksemi",
+        "line": "T100",
+        "model": "HS-ESSD-T100 Black 1024G",
         "version": "USB 3.0",
         "color": "Negro"
       },
@@ -9706,7 +9706,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -9735,19 +9735,19 @@
   },
   {
     "id": 180,
-    "title": "Router Wi-Fi 6 AX3000 - Versión 512GB",
+    "title": "TP-Link Archer AX55 Pro Router WiFi 6 AX3000 Doble Banda Gigabit 2.5G",
     "price": 201498.45,
     "description": "Router inalámbrico para redes domésticas con múltiples dispositivos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Rendimiento real sujeto a interferencias, plan de internet y dispositivos conectados. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Router%20Wi-Fi%206%20AX3000%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_730903-MLA99972046327_112025-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Conectividad",
     "specs": {
       "main": {
         "brand": "TP-Link",
         "line": "Archer",
-        "model": "AX3000 512GB",
-        "version": "Wi-Fi 6 / Ethernet",
+        "model": "Archer AX55 Pro",
+        "version": "1.0",
         "color": "Negro"
       },
       "connectivity": {
@@ -9759,7 +9759,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -9841,24 +9841,24 @@
   },
   {
     "id": 182,
-    "title": "Motorola Moto G84 5G 256GB - Versión 512GB",
+    "title": "Apple iPhone 15 128 GB",
     "price": 697498.45,
     "description": "Smartphone 5G con pantalla pOLED y almacenamiento amplio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar variante regional, memoria RAM y bandas móviles con el vendedor. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Motorola%20Moto%20G84%205G%20256GB%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_784557-MLA95493924244_102025-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartphones",
     "specs": {
       "main": {
-        "brand": "Motorola",
-        "line": "Moto G",
-        "model": "G84 5G 512GB",
-        "version": "XT2347 (según región)",
-        "color": "Azul"
+        "brand": "Apple",
+        "line": "iPhone 15",
+        "model": "iPhone 15",
+        "version": "-",
+        "color": "Gris"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -9894,24 +9894,24 @@
   },
   {
     "id": 183,
-    "title": "Xiaomi Redmi Note 13 256GB - Versión 512GB",
+    "title": "iPhone 13 128gb",
     "price": 619998.45,
     "description": "Smartphone de uso diario con pantalla amplia y cámara de alta resolución. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Las características de cámara, NFC y bandas dependen de la versión 4G o 5G. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xiaomi%20Redmi%20Note%2013%20256GB%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_921128-MLA119477557120_112026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartphones",
     "specs": {
       "main": {
-        "brand": "Xiaomi",
-        "line": "Redmi Note",
-        "model": "13 256GB 512GB",
-        "version": "Según región",
-        "color": "Negro"
+        "brand": "Apple",
+        "line": "iPhone 13",
+        "model": "iPhone 13",
+        "version": "-",
+        "color": "Starlight"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -10600,19 +10600,19 @@
   },
   {
     "id": 196,
-    "title": "Mouse gamer Logitech G502 HERO - Versión 512GB",
+    "title": "Mouse Pc Gamer Redragon Griffin M607 Vemayme",
     "price": 154998.45,
     "description": "Mouse gamer con sensor óptico y botones programables. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Peso, DPI y funciones se configuran mediante software compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Mouse%20gamer%20Logitech%20G502%20HERO%20-%20Versin%20512GB",
+    "image": "https://www.venex.com.ar/products_images/1788869994_mouse_redragon_m607_griffin_rgbpng",
     "category": "Gaming",
     "subcategory": "Periféricos Gamer",
     "specs": {
       "main": {
-        "brand": "Logitech G",
-        "line": "G502",
-        "model": "HERO 512GB",
-        "version": "USB",
+        "brand": "Redragon",
+        "line": "Griffin",
+        "model": "M607",
+        "version": "-",
         "color": "Negro"
       },
       "connectivity": {
@@ -10624,7 +10624,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -10870,19 +10870,19 @@
   },
   {
     "id": 201,
-    "title": "Placa de video AMD Radeon RX 7600 8GB - Versión 512GB",
+    "title": "Placa De Video Nvidia Msi 5060 Ti Ventus 2x Plus 8gb Gddr7",
     "price": 774998.45,
     "description": "Placa gráfica dedicada para gaming y creación de contenido. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Memoria GDDR6 de 8 GB; verificar fuente y dimensiones de la variante. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Placa%20de%20video%20AMD%20Radeon%20RX%207600%208GB%20-%20Versi",
+    "image": "https://www.venex.com.ar/products_images/1776952752_placa_de_video_msi_nvidia_geforce_rtx_5060_ti_ventus_2x_oc_plus_white_8gbpng",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "AMD",
-        "line": "Radeon RX",
-        "model": "7600 8GB 512GB",
-        "version": "PCIe",
+        "brand": "MSI",
+        "line": "Ventus",
+        "model": "GeForce RTX 5060 Ti",
+        "version": "OC Edtion",
         "color": "Negro"
       },
       "connectivity": {
@@ -10894,7 +10894,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -10926,19 +10926,19 @@
   },
   {
     "id": 202,
-    "title": "Refrigeración líquida AIO 240mm - Versión 512GB",
+    "title": "Refrigeración Líquida Deepcool LT360 VISION ARGB con Pantalla LCD de 4.5 para CPU Intel y AMD",
     "price": 247998.45,
     "description": "Sistema de refrigeración líquida todo en uno para CPU compatible. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar socket, espacio del gabinete y conectores antes de instalar. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Refrigeracin%20lquida%20AIO%20240mm%20-%20Versin%20512GB",
+    "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LT360_VISION_ARGB/Overview/01.png?auto=format,compress&q=90",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Cooler Master",
-        "line": "MasterLiquid",
-        "model": "240L 512GB",
-        "version": "USB / PWM",
+        "brand": "Deepcool",
+        "line": "LT360",
+        "model": "LT360 VISION ARGB",
+        "version": "R-LT360VISION-BKAMMC-G-1",
         "color": "Negro"
       },
       "connectivity": {
@@ -10950,7 +10950,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -10979,31 +10979,31 @@
   },
   {
     "id": 203,
-    "title": "Mouse Logitech G305 Lightspeed - Versión 512GB",
+    "title": "Ratón Gaming Attack Shark Rs3 Ultra Fibra Carbono Paw3955max",
     "price": 108498.45,
     "description": "Mouse inalámbrico con receptor para uso diario y gaming. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La autonomía depende del tipo de batería, uso y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Mouse%20Logitech%20G305%20Lightspeed%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_645288-CBT116495675194_092026-O.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Perifericos",
     "specs": {
       "main": {
-        "brand": "Logitech G",
-        "line": "G305",
-        "model": "Lightspeed 512GB",
+        "brand": "Attack Shark",
+        "line": "RS3 Ultra",
+        "model": "RS3 Ultra",
         "version": "USB 2.4 GHz",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -11035,20 +11035,20 @@
   },
   {
     "id": 204,
-    "title": "Pendrive USB 3.2 128GB - Versión 512GB",
+    "title": "Pendrive Kingston 128gb Usb 3.2 Datatraveler Exodia G2",
     "price": 27898.45,
     "description": "Memoria USB portátil para transferir archivos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Velocidad real depende del puerto, archivos y dispositivo utilizado. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Pendrive%20USB%2032%20128GB%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_979834-MLA112455116733_052026-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "SanDisk",
-        "line": "Ultra Flair",
-        "model": "128GB 512GB",
-        "version": "USB-A",
-        "color": "Plateado"
+        "brand": "Kingston",
+        "line": "Exodia g2",
+        "model": "DTXG2/128GB",
+        "version": "USB",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
@@ -11059,7 +11059,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -11088,18 +11088,18 @@
   },
   {
     "id": 205,
-    "title": "Adaptador USB Wi-Fi AC600 - Versión 512GB",
+    "title": "Adaptador Usb Wifi Banda Dual 900mbps C Bluetooth Para Pc",
     "price": 38748.45,
     "description": "Adaptador inalámbrico compacto para computadoras compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Requiere controlador compatible; velocidad sujeta a red y entorno. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Adaptador%20USB%20Wi-Fi%20AC600%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_980450-MLA115225899621_072026-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Conectividad",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Archer",
-        "model": "T2U Nano 512GB",
+        "brand": "Genérica",
+        "line": "USB",
+        "model": "AX913B",
         "version": "USB / Wi-Fi",
         "color": "Negro"
       },
@@ -11112,7 +11112,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -11741,20 +11741,20 @@
   },
   {
     "id": 217,
-    "title": "Monitor gamer 27 pulgadas 165Hz - Versión 512GB",
+    "title": "Monitor Gamer KTC 27GT670 27 pulgadas 180Hz 2K IPS Negro G-Sync FreeSync",
     "price": 619998.45,
     "description": "Monitor para juegos con alta tasa de refresco. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución y frecuencia máxima dependen de la variante y conexión usada. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Monitor%20gamer%2027%20pulgadas%20165Hz%20-%20Versin%20512G",
+    "image": "https://techmatched.pk/wp-content/uploads/2026/10/KTC-M27T6-27-Inch-Mini-LED-Gaming-Monitor-%E2%80%93-180Hz-QHD-Fast-IPS-Display_converted-300x300.webp",
     "category": "Gaming",
     "subcategory": "Periféricos Gamer",
     "specs": {
       "main": {
-        "brand": "AOC",
+        "brand": "KTC",
         "line": "Gaming",
-        "model": "27 165Hz 512GB",
+        "model": "27GT670",
         "version": "HDMI / DisplayPort",
-        "color": "Negro"
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
@@ -11765,7 +11765,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -12011,19 +12011,19 @@
   },
   {
     "id": 222,
-    "title": "Procesador AMD Ryzen 7 9800x3d 4.7ghz Am5",
+    "title": "Procesador Intel Core Ultra 5 250k Plus 30 Tops 5.3 Ghz 18 Core Lga 1851 Bx80768250k",
     "price": 170999.1,
     "description": "Procesador de escritorio para equipos de uso general y gaming de gama media. ",
     "details": "6 núcleos y 12 hilos; requiere placa madre compatible y solución térmica adecuada. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Procesador%20AMD%20Ryzen%205%205600%20-%20Edicin%20compacta",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6mx_jCWgA7fhoix4UjtfXWgnw711WQyXU1MbK3N5dDw&s=10",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "AMD",
-        "line": "Ryzen 7",
-        "model": "Ryzen 7 9800X3D",
-        "version": "AM5",
+        "brand": "Intel",
+        "line": "Core Ultra",
+        "model": "BX80768250K",
+        "version": "Core Ultra 5",
         "color": "-"
       },
       "connectivity": {
@@ -12035,7 +12035,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -12118,19 +12118,19 @@
   },
   {
     "id": 224,
-    "title": "Placa de video NVIDIA GeForce RTX 4060 8GB - Edición compacta",
+    "title": "Placa de Video Arktek AMD Radeon RX 580 8GB GDDR5 256Bit Cyclops HDMI DP DVI PCIe 3.0",
     "price": 539999.1,
     "description": "Placa gráfica dedicada para gaming y creación de contenido. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Memoria GDDR6 de 8 GB; dimensiones y alimentación dependen del fabricante de la placa. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Placa%20de%20video%20NVIDIA%20GeForce%20RTX%204060%208GB%20-%20",
+    "image": "https://www.jemip.io/wp-content/uploads/2026/03/2-2.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "NVIDIA",
-        "line": "GeForce RTX",
-        "model": "4060 8GB Compact",
-        "version": "PCIe 4.0",
+        "brand": "AMD - Arktek",
+        "line": "Radeon RX",
+        "model": "RX 580",
+        "version": "CYCLOPS .",
         "color": "Negro"
       },
       "connectivity": {
@@ -12142,7 +12142,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -12174,19 +12174,19 @@
   },
   {
     "id": 225,
-    "title": "Memoria RAM DDR4 16GB 3200MHz - Edición compacta",
+    "title": "Memoria Ram Kingston Fury Renegade Rgb Ddr4 32gb 3600mt/s",
     "price": 44999.1,
     "description": "Módulo de memoria para computadoras de escritorio compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar compatibilidad DDR4, frecuencia admitida y cantidad de ranuras de la placa madre. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Memoria%20RAM%20DDR4%2016GB%203200MHz%20-%20Edicin%20compac",
+    "image": "https://gzhls.at/pix/5f/c1/5fc17a4a84ac39df-n.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
         "brand": "Kingston",
-        "line": "FURY Beast",
-        "model": "DDR4 16GB Compact",
-        "version": "DIMM",
+        "line": "Fury Renegade",
+        "model": "KF436C18RB2A/32",
+        "version": "DDR4",
         "color": "Negro"
       },
       "connectivity": {
@@ -12198,7 +12198,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -12229,19 +12229,19 @@
   },
   {
     "id": 226,
-    "title": "Fuente de alimentación 650W 80 Plus Bronze - Edición compacta",
+    "title": "Fuente De Poder Asus Rog Strix 1000w Platinum Cybernetics A+",
     "price": 98999.1,
     "description": "Fuente de alimentación para PC de escritorio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Potencia nominal de 650 W; comprobar conectores y consumo de los componentes. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Fuente%20de%20alimentacin%20650W%2080%20Plus%20Bronze%20-%20E",
+    "image": "https://cdn.qloud.ar/148/26-03-2026-05-03-46_0000000000004711636074490.6.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Corsair",
-        "line": "CV",
-        "model": "650 Compact",
-        "version": "ATX",
+        "brand": "Asus",
+        "line": "ROG Strix",
+        "model": "ROG STRIX 1000W Platinum",
+        "version": "1.000 W",
         "color": "Negro"
       },
       "connectivity": {
@@ -12284,19 +12284,19 @@
   },
   {
     "id": 227,
-    "title": "Motherboard B550M AM4 - Edición compacta",
+    "title": "Motherboard Asus Rog Strix Z890-e Gaming Wifi Intel 1851 Atx Color Negro",
     "price": 134999.1,
     "description": "Placa madre micro-ATX para procesadores AMD compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Conectividad y ranuras varían por revisión; confirmar soporte de CPU y BIOS. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Motherboard%20B550M%20AM4%20-%20Edicin%20compacta",
+    "image": "https://dlcdnwebimgs.asus.com/files/media/58c2d9e0-e245-459b-ba52-7844fac8d7e7/v1/img/cooling/header-pd.png",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Gigabyte",
-        "line": "Ultra Durable",
-        "model": "B550M Compact",
-        "version": "AM4",
+        "brand": "Asus",
+        "line": "ROG Strix",
+        "model": "Rog Strix Z890-E",
+        "version": "ATX",
         "color": "Negro"
       },
       "connectivity": {
@@ -12308,7 +12308,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -12339,24 +12339,24 @@
   },
   {
     "id": 228,
-    "title": "Mouse inalámbrico Logitech M185 - Edición compacta",
+    "title": "Mouse Micro Traveler Usb Mini Genius Negro Cable Retractil",
     "price": 20699.1,
     "description": "Mouse inalámbrico compacto para oficina y estudio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Receptor USB incluido en la versión habitual; autonomía y alcance dependen del uso. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Mouse%20inalmbrico%20Logitech%20M185%20-%20Edicin%20compa",
+    "image": "https://compumundostore.com/wp-content/uploads/2023/06/mouse-retractil-Genius-Micro-Traveler-v2-BLACK.png",
     "category": "Computacion & Hardware",
     "subcategory": "Perifericos",
     "specs": {
       "main": {
-        "brand": "Logitech",
-        "line": "M Series",
-        "model": "M185 Compact",
-        "version": "USB 2.4 GHz",
-        "color": "Gris"
+        "brand": "Genius",
+        "line": "Micro Traveler",
+        "model": "Mini",
+        "version": "-",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "Sí",
+        "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -12506,20 +12506,20 @@
   },
   {
     "id": 231,
-    "title": "SSD NVMe 1TB PCIe 4.0 - Edición compacta",
+    "title": "Disco Solido Ssd M.2 1 Tb Nvme Western Digital Green Sn350",
     "price": 89999.1,
     "description": "Unidad de estado sólido para ampliar almacenamiento y acelerar cargas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Formato M.2 2280; comprobar compatibilidad NVMe y disipación de la placa madre. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=SSD%20NVMe%201TB%20PCIe%2040%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_916127-MLU73694181583_122023-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "Kingston",
-        "line": "NV2",
-        "model": "1TB Compact",
+        "brand": "Western Digital",
+        "line": "WD Green SN350",
+        "model": "WDS100T2G0C",
         "version": "M.2 NVMe",
-        "color": "Negro"
+        "color": "Verde"
       },
       "connectivity": {
         "wifi": "No",
@@ -12530,7 +12530,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -12561,19 +12561,19 @@
   },
   {
     "id": 232,
-    "title": "Disco rígido externo USB 3.0 2TB - Edición compacta",
+    "title": "Disco externo SanDisk Extreme SDSSDE61-2T00-G25 V2 2TB",
     "price": 107999.1,
     "description": "Almacenamiento externo portátil para copias de seguridad. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Capacidad nominal de 2 TB; requiere puerto USB compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Disco%20rgido%20externo%20USB%2030%202TB%20-%20Edicin%20compa",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_636705-MLA99496684226_112025-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "Seagate",
-        "line": "Expansion",
-        "model": "2TB Compact",
-        "version": "USB 3.0",
+        "brand": "SanDisk",
+        "line": "Extreme",
+        "model": "SDSSDE61-2T00-G25",
+        "version": "V2",
         "color": "Negro"
       },
       "connectivity": {
@@ -12585,7 +12585,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -12614,20 +12614,20 @@
   },
   {
     "id": 233,
-    "title": "Router Wi-Fi 6 AX3000 - Edición compacta",
+    "title": "TP-Link Deco XE75 2-Pack WiFi 6E AX5400 Mesh Tri-Banda 2402 Mbps 5 GHz",
     "price": 116999.1,
     "description": "Router inalámbrico para redes domésticas con múltiples dispositivos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Rendimiento real sujeto a interferencias, plan de internet y dispositivos conectados. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Router%20Wi-Fi%206%20AX3000%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_714431-MLA99374897954_112025-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Conectividad",
     "specs": {
       "main": {
         "brand": "TP-Link",
-        "line": "Archer",
-        "model": "AX3000 Compact",
-        "version": "Wi-Fi 6 / Ethernet",
-        "color": "Negro"
+        "line": "Deco",
+        "model": "Deco XE75",
+        "version": "V1",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -12638,7 +12638,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -12720,24 +12720,24 @@
   },
   {
     "id": 235,
-    "title": "Motorola Moto G84 5G 256GB - Edición compacta",
+    "title": "Samsung Galaxy S26 Ultra 256gb 12gb Dual Sim",
     "price": 404999.1,
     "description": "Smartphone 5G con pantalla pOLED y almacenamiento amplio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar variante regional, memoria RAM y bandas móviles con el vendedor. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Motorola%20Moto%20G84%205G%20256GB%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_920485-MLA119438000490_112026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartphones",
     "specs": {
       "main": {
-        "brand": "Motorola",
-        "line": "Moto G",
-        "model": "G84 5G Compact",
-        "version": "XT2347 (según región)",
-        "color": "Azul"
+        "brand": "Samsung",
+        "line": "Galaxy S",
+        "model": "Galaxy S26 Ultra",
+        "version": "-",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -12773,24 +12773,24 @@
   },
   {
     "id": 236,
-    "title": "Xiaomi Redmi Note 13 256GB - Edición compacta",
+    "title": "Samsung Galaxy Z Fold 8 512gb 12gb Ram Dual Sim",
     "price": 359999.1,
     "description": "Smartphone de uso diario con pantalla amplia y cámara de alta resolución. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Las características de cámara, NFC y bandas dependen de la versión 4G o 5G. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xiaomi%20Redmi%20Note%2013%20256GB%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_678338-MLA118589105892_102026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartphones",
     "specs": {
       "main": {
-        "brand": "Xiaomi",
-        "line": "Redmi Note",
-        "model": "13 256GB Compact",
+        "brand": "Samsung",
+        "line": "Galaxy z fold",
+        "model": "Z Fold 8",
         "version": "Según región",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -13477,20 +13477,20 @@
   },
   {
     "id": 249,
-    "title": "Mouse gamer Logitech G502 HERO - Edición compacta",
+    "title": "Mouse Inalámbrico Ergonómico Lenovo 2.4g Doble Conexión",
     "price": 89999.1,
     "description": "Mouse gamer con sensor óptico y botones programables. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Peso, DPI y funciones se configuran mediante software compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Mouse%20gamer%20Logitech%20G502%20HERO%20-%20Edicin%20compa",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_741978-CBT110777194967_042026-O.webp",
     "category": "Gaming",
     "subcategory": "Periféricos Gamer",
     "specs": {
       "main": {
-        "brand": "Logitech G",
-        "line": "G502",
-        "model": "HERO Compact",
-        "version": "USB",
-        "color": "Negro"
+        "brand": "Lenovo",
+        "line": "Services",
+        "model": "N230",
+        "version": "-",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
@@ -13747,19 +13747,19 @@
   },
   {
     "id": 254,
-    "title": "Placa de video AMD Radeon RX 7600 8GB - Edición compacta",
+    "title": "Placa De Video Gigabyte Radeon Rx 6600 Eagle 8g 8gb Gddr6",
     "price": 449999.1,
     "description": "Placa gráfica dedicada para gaming y creación de contenido. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Memoria GDDR6 de 8 GB; verificar fuente y dimensiones de la variante. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Placa%20de%20video%20AMD%20Radeon%20RX%207600%208GB%20-%20Edici",
+    "image": "https://static.gigabyte.com/StaticFile/Image/Global/55495f423ee7ece1c4806d438d73998c/ProductRemoveBg/29987",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
         "brand": "AMD",
-        "line": "Radeon RX",
-        "model": "7600 8GB Compact",
-        "version": "PCIe",
+        "line": "Gigabyte",
+        "model": "GV R66EAGLE 8GD",
+        "version": "8 GB",
         "color": "Negro"
       },
       "connectivity": {
@@ -13771,7 +13771,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -13803,20 +13803,20 @@
   },
   {
     "id": 255,
-    "title": "Refrigeración líquida AIO 240mm - Edición compacta",
+    "title": "Asus Rog Strix Lc Iii 360 Argb Wht Cooler Líquido Aio 360",
     "price": 143999.1,
     "description": "Sistema de refrigeración líquida todo en uno para CPU compatible. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar socket, espacio del gabinete y conectores antes de instalar. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Refrigeracin%20lquida%20AIO%20240mm%20-%20Edicin%20compac",
+    "image": "https://dlcdnwebimgs.asus.com/gain/2C7CA9D5-3878-4F3F-8AB3-11C43F8D5766/w717/h525/fwebp",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Cooler Master",
-        "line": "MasterLiquid",
-        "model": "240L Compact",
-        "version": "USB / PWM",
-        "color": "Negro"
+        "brand": "Asus",
+        "line": "ROG Strix",
+        "model": "ROG STRIX LC III 360 ARGB WHT",
+        "version": "ROG STRIX LC III 360 ARGB WHT",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
@@ -13827,7 +13827,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -13856,31 +13856,31 @@
   },
   {
     "id": 256,
-    "title": "Mouse Logitech G305 Lightspeed - Edición compacta",
+    "title": "Mouse Gamer Inalambrico Gravastar Mercury M1 Pro Rgb Dpi 26k",
     "price": 62999.1,
     "description": "Mouse inalámbrico con receptor para uso diario y gaming. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La autonomía depende del tipo de batería, uso y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Mouse%20Logitech%20G305%20Lightspeed%20-%20Edicin%20compa",
+    "image": "https://res.cloudinary.com/riqra/image/upload/w_656,h_656,c_limit,q_auto,f_auto/v1777398937/sellers/ss-imports/products/pow1x1vpet2bqqttjsmi.png",
     "category": "Computacion & Hardware",
     "subcategory": "Perifericos",
     "specs": {
       "main": {
-        "brand": "Logitech G",
-        "line": "G305",
-        "model": "Lightspeed Compact",
-        "version": "USB 2.4 GHz",
-        "color": "Negro"
+        "brand": "GravaStar",
+        "line": "M1 Pro",
+        "model": "-",
+        "version": "-",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -13912,19 +13912,19 @@
   },
   {
     "id": 257,
-    "title": "Pendrive USB 3.2 128GB - Edición compacta",
+    "title": "Pendrive 64gb Hiksemi Classic M200 Usb 2.0 Pc Notebook",
     "price": 16199.1,
     "description": "Memoria USB portátil para transferir archivos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Velocidad real depende del puerto, archivos y dispositivo utilizado. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Pendrive%20USB%2032%20128GB%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_990453-MLA99952063425_112025-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "SanDisk",
-        "line": "Ultra Flair",
-        "model": "128GB Compact",
-        "version": "USB-A",
+        "brand": "Hiksemi",
+        "line": "M200",
+        "model": "Classic",
+        "version": "HS-USB-M200",
         "color": "Plateado"
       },
       "connectivity": {
@@ -13936,7 +13936,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -13965,18 +13965,18 @@
   },
   {
     "id": 258,
-    "title": "Adaptador USB Wi-Fi AC600 - Edición compacta",
+    "title": "TP-Link Archer T2U Plus Adaptador USB WiFi AC600 Doble Banda",
     "price": 22499.1,
     "description": "Adaptador inalámbrico compacto para computadoras compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Requiere controlador compatible; velocidad sujeta a red y entorno. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Adaptador%20USB%20Wi-Fi%20AC600%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_912399-MLA99868868313_112025-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Conectividad",
     "specs": {
       "main": {
         "brand": "TP-Link",
         "line": "Archer",
-        "model": "T2U Nano Compact",
+        "model": "T2U Plus",
         "version": "USB / Wi-Fi",
         "color": "Negro"
       },
@@ -13989,7 +13989,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -14615,18 +14615,18 @@
   },
   {
     "id": 270,
-    "title": "Monitor gamer 27 pulgadas 165Hz - Edición compacta",
+    "title": "Monitor Gamer Xiaomi G34wqi, Frecuencia Del Panel (máx.) 180hz, 34 Pulgadas",
     "price": 359999.1,
     "description": "Monitor para juegos con alta tasa de refresco. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución y frecuencia máxima dependen de la variante y conexión usada. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Monitor%20gamer%2027%20pulgadas%20165Hz%20-%20Edicin%20comp",
+    "image": "https://i02.appmifile.com/580_item_co/26/11/2024/9d8c27ea7c7d32ddb688bc33273b1ac7.png?thumb=1&q=85",
     "category": "Gaming",
     "subcategory": "Periféricos Gamer",
     "specs": {
       "main": {
-        "brand": "AOC",
+        "brand": "Xiaomi",
         "line": "Gaming",
-        "model": "27 165Hz Compact",
+        "model": "G34WQi (C34BA-RG)",
         "version": "HDMI / DisplayPort",
         "color": "Negro"
       },
@@ -14639,7 +14639,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -14885,19 +14885,19 @@
   },
   {
     "id": 275,
-    "title": "Procesador AMD Ryzen 5 5600 - Edición Pro",
+    "title": "Procesador Intel Core Ultra 9 285k 3.7|5.5ghz 36mb, Lga-1851",
     "price": 265998.6,
     "description": "Procesador de escritorio para equipos de uso general y gaming de gama media. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "6 núcleos y 12 hilos; requiere placa madre compatible y solución térmica adecuada. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Procesador%20AMD%20Ryzen%205%205600%20-%20Edicin%20Pro",
+    "image": "https://logg.api.cygnus.market/static/logg/Global/Procesador_Intel_Core_Ultra_9_285K_3.7_GHz_36MB/6c0c382d6fc8460ca04595448f8dda8e.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "AMD",
-        "line": "Ryzen 5",
-        "model": "5600 Pro",
-        "version": "AM4",
+        "brand": "Intel",
+        "line": "ULTRA 9",
+        "model": "BX80768285K",
+        "version": "LGA 1851",
         "color": "-"
       },
       "connectivity": {
@@ -14909,7 +14909,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -14992,19 +14992,19 @@
   },
   {
     "id": 277,
-    "title": "Placa de video NVIDIA GeForce RTX 4060 8GB - Edición Pro",
+    "title": "Procesador Amd Ryzen 7 8700g 4.2ghz Radeon 8 Cores Am5",
     "price": 839998.6,
     "description": "Placa gráfica dedicada para gaming y creación de contenido. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Memoria GDDR6 de 8 GB; dimensiones y alimentación dependen del fabricante de la placa. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Placa%20de%20video%20NVIDIA%20GeForce%20RTX%204060%208GB%20-%20",
+    "image": "https://insidesystem.com.ar/wp-content/uploads/2025/06/Procesador-Amd-Ryzen-7.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "NVIDIA",
-        "line": "GeForce RTX",
-        "model": "4060 8GB Pro",
-        "version": "PCIe 4.0",
+        "brand": "AMD",
+        "line": "Ryzen 7",
+        "model": "8700g",
+        "version": "100-100001236box",
         "color": "Negro"
       },
       "connectivity": {
@@ -15016,7 +15016,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -15048,19 +15048,19 @@
   },
   {
     "id": 278,
-    "title": "Memoria RAM DDR4 16GB 3200MHz - Edición Pro",
+    "title": "Memoria Ram Ddr4 8gb 3200mhz Hiksemi Future Rgb",
     "price": 69998.6,
     "description": "Módulo de memoria para computadoras de escritorio compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar compatibilidad DDR4, frecuencia admitida y cantidad de ranuras de la placa madre. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Memoria%20RAM%20DDR4%2016GB%203200MHz%20-%20Edicin%20Pro",
+    "image": "https://statics2.qloud.ar/148/24-09-2024-02-09-47_0000000000006976695091606.2-Photoroom.png",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Kingston",
-        "line": "FURY Beast",
-        "model": "DDR4 16GB Pro",
-        "version": "DIMM",
+        "brand": "Hiksemi",
+        "line": "Future",
+        "model": "HSC408U32C4",
+        "version": "8 GB",
         "color": "Negro"
       },
       "connectivity": {
@@ -15072,7 +15072,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -15103,19 +15103,19 @@
   },
   {
     "id": 279,
-    "title": "Fuente de alimentación 650W 80 Plus Bronze - Edición Pro",
+    "title": "Fuente de Poder Asus TUF Gaming 1000W 80 Plus Gold Modular para PC",
     "price": 153998.6,
     "description": "Fuente de alimentación para PC de escritorio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Potencia nominal de 650 W; comprobar conectores y consumo de los componentes. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Fuente%20de%20alimentacin%20650W%2080%20Plus%20Bronze%20-%20E",
+    "image": "https://www.cyberpuerta.mx/img/product/L/CP-ASUS-TUF-GAMING-1000G-EVO-040e5e.png",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Corsair",
-        "line": "CV",
-        "model": "650 Pro",
-        "version": "ATX",
+        "brand": "Asus",
+        "line": "TUF Gaming",
+        "model": "TUF-GAMING-1000G-EVO",
+        "version": "1.000 W",
         "color": "Negro"
       },
       "connectivity": {
@@ -15127,7 +15127,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -15158,19 +15158,19 @@
   },
   {
     "id": 280,
-    "title": "Motherboard B550M AM4 - Edición Pro",
+    "title": "Motherboard Am5 - Msi X870e Gaming Plus Wifi",
     "price": 209998.6,
     "description": "Placa madre micro-ATX para procesadores AMD compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Conectividad y ranuras varían por revisión; confirmar soporte de CPU y BIOS. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Motherboard%20B550M%20AM4%20-%20Edicin%20Pro",
+    "image": "https://img.modxcomputers.com/modx/1753702090012-MSI-Z890-Gaming-Plus-WIFI-2.png",
     "category": "Computacion & Hardware",
     "subcategory": "Componentes",
     "specs": {
       "main": {
-        "brand": "Gigabyte",
-        "line": "Ultra Durable",
-        "model": "B550M Pro",
-        "version": "AM4",
+        "brand": "MSI",
+        "line": "X870E GAMING PLUS WIFI",
+        "model": "X870E",
+        "version": "AM5",
         "color": "Negro"
       },
       "connectivity": {
@@ -15182,7 +15182,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -15213,20 +15213,20 @@
   },
   {
     "id": 281,
-    "title": "Mouse inalámbrico Logitech M185 - Edición Pro",
+    "title": "Mouse Atk Dragonfly A9 Plus Mouse Gamer Wireless 1k Paw3950",
     "price": 32198.6,
     "description": "Mouse inalámbrico compacto para oficina y estudio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Receptor USB incluido en la versión habitual; autonomía y alcance dependen del uso. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Mouse%20inalmbrico%20Logitech%20M185%20-%20Edicin%20Pro",
+    "image": "https://mutant.cl/cdn/shop/files/atkA9ultimate-Photoroom-Photoroom.png?v=1756498579&width=1206",
     "category": "Computacion & Hardware",
     "subcategory": "Perifericos",
     "specs": {
       "main": {
-        "brand": "Logitech",
-        "line": "M Series",
-        "model": "M185 Pro",
-        "version": "USB 2.4 GHz",
-        "color": "Gris"
+        "brand": "ATK GEAR",
+        "line": "Dragonfly A9",
+        "model": "ATK Dragonfly A9 Plus Rose Red",
+        "version": "A9 Plus",
+        "color": "Rosa"
       },
       "connectivity": {
         "wifi": "No",
@@ -15237,7 +15237,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -15269,20 +15269,20 @@
   },
   {
     "id": 282,
-    "title": "Monitor IPS 24 pulgadas Full HD 100Hz - Edición Pro",
+    "title": "Monitor Gaming Gadnic 24″ IPS FHD 180Hz Marco Ultrafino Panel IPS 16.7M",
     "price": 279998.6,
     "description": "Monitor para trabajo, estudio y entretenimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución Full HD; revisar tasa de refresco, puertos y soporte según variante. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Monitor%20IPS%2024%20pulgadas%20Full%20HD%20100Hz%20-%20Edici",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_810319-MLA106091740661_012026-O.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Perifericos",
     "specs": {
       "main": {
-        "brand": "Samsung",
-        "line": "Essential",
-        "model": "24 FHD Pro",
+        "brand": "Gadnic",
+        "line": "mon24gam",
+        "model": "-",
         "version": "HDMI",
-        "color": "Negro"
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
@@ -15293,7 +15293,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -15380,20 +15380,20 @@
   },
   {
     "id": 284,
-    "title": "SSD NVMe 1TB PCIe 4.0 - Edición Pro",
+    "title": "Disco Sólido Ssd Interno Western Digital Sn5000 1tb",
     "price": 139998.6,
     "description": "Unidad de estado sólido para ampliar almacenamiento y acelerar cargas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Formato M.2 2280; comprobar compatibilidad NVMe y disipación de la placa madre. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=SSD%20NVMe%201TB%20PCIe%2040%20-%20Edicin%20Pro",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_847943-MLA99013380342_112025-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
-        "brand": "Kingston",
-        "line": "NV2",
+        "brand": "Western Digital",
+        "line": "SN5000",
         "model": "1TB Pro",
         "version": "M.2 NVMe",
-        "color": "Negro"
+        "color": "Azul"
       },
       "connectivity": {
         "wifi": "No",
@@ -15404,7 +15404,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -15435,18 +15435,18 @@
   },
   {
     "id": 285,
-    "title": "Disco rígido externo USB 3.0 2TB - Edición Pro",
+    "title": "Disco Externo 8 Tb Seagate Expansion",
     "price": 167998.6,
     "description": "Almacenamiento externo portátil para copias de seguridad. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Capacidad nominal de 2 TB; requiere puerto USB compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Disco%20rgido%20externo%20USB%2030%202TB%20-%20Edicin%20Pro",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_764401-MLU75851654780_042024-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Almacenamiento",
     "specs": {
       "main": {
         "brand": "Seagate",
         "line": "Expansion",
-        "model": "2TB Pro",
+        "model": "STKP8000400",
         "version": "USB 3.0",
         "color": "Negro"
       },
@@ -15459,7 +15459,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -15488,20 +15488,20 @@
   },
   {
     "id": 286,
-    "title": "Router Wi-Fi 6 AX3000 - Edición Pro",
+    "title": "Router TP-Link Archer C24 Banda Doble AC750",
     "price": 181998.6,
     "description": "Router inalámbrico para redes domésticas con múltiples dispositivos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Rendimiento real sujeto a interferencias, plan de internet y dispositivos conectados. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Router%20Wi-Fi%206%20AX3000%20-%20Edicin%20Pro",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_788598-MLA99454201914_112025-F.webp",
     "category": "Computacion & Hardware",
     "subcategory": "Conectividad",
     "specs": {
       "main": {
         "brand": "TP-Link",
         "line": "Archer",
-        "model": "AX3000 Pro",
-        "version": "Wi-Fi 6 / Ethernet",
-        "color": "Negro"
+        "model": "C24",
+        "version": "ac750",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -15512,7 +15512,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -15594,24 +15594,24 @@
   },
   {
     "id": 288,
-    "title": "Motorola Moto G84 5G 256GB - Edición Pro",
+    "title": "Samsung Galaxy Z Flip 7 512gb",
     "price": 629998.6,
     "description": "Smartphone 5G con pantalla pOLED y almacenamiento amplio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar variante regional, memoria RAM y bandas móviles con el vendedor. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Motorola%20Moto%20G84%205G%20256GB%20-%20Edicin%20Pro",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_724706-MLA99520227122_112025-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartphones",
     "specs": {
       "main": {
-        "brand": "Motorola",
-        "line": "Moto G",
-        "model": "G84 5G Pro",
-        "version": "XT2347 (según región)",
-        "color": "Azul"
+        "brand": "Samsung",
+        "line": "Galaxy Z",
+        "model": "Galaxy Z Flip7",
+        "version": "-",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -15647,24 +15647,24 @@
   },
   {
     "id": 289,
-    "title": "Xiaomi Redmi Note 13 256GB - Edición Pro",
+    "title": "Celular Samsung Galaxy A04e (sm-a042m) Helio P35 32gb 3gb",
     "price": 559998.6,
     "description": "Smartphone de uso diario con pantalla amplia y cámara de alta resolución. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Las características de cámara, NFC y bandas dependen de la versión 4G o 5G. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xiaomi%20Redmi%20Note%2013%20256GB%20-%20Edicin%20Pro",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_867439-MLA118692398144_102026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartphones",
     "specs": {
       "main": {
-        "brand": "Xiaomi",
-        "line": "Redmi Note",
-        "model": "13 256GB Pro",
-        "version": "Según región",
+        "brand": "Samsung",
+        "line": "Galaxy",
+        "model": "A04e",
+        "version": "-",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"

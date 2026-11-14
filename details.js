@@ -1,12 +1,24 @@
 const URL_API = 'https://fakestoreapi.com/products/category/electronics';
 let cart = JSON.parse(localStorage.getItem('carrito')) || [];
 const selectedProductId = parseInt(localStorage.getItem('selectedProductId'));
+const recommendationId = new URLSearchParams(window.location.search).get('recommendation');
+const recommendationData = recommendationId ? sessionStorage.getItem('selectedRecommendationProduct') : null;
+const recommendationProduct = recommendationData ? JSON.parse(recommendationData) : null;
 
 const detailsContainer = document.getElementById('details-container');
 const cartCountElement = document.getElementById('cart-count');
 
 async function loadProductDetails() {
     updateCartCount();
+
+    if (recommendationId) {
+        if (recommendationProduct && Number(recommendationProduct.id) === Number(recommendationId)) {
+            renderDetails(recommendationProduct);
+        } else if (detailsContainer) {
+            detailsContainer.innerHTML = `<p style="text-align: center; padding: 40px;">No se encontró el producto recomendado. <a href="best_sellers.html">Volver a Lo más vendido</a></p>`;
+        }
+        return;
+    }
 
     if (!selectedProductId) {
         if (detailsContainer) {
@@ -174,6 +186,19 @@ function renderDetails(product) {
 function addFromDetails(productId) {
     const qtySelect = document.getElementById('detail-qty');
     const selectedQty = parseInt(qtySelect ? qtySelect.value : 1) || 1;
+
+    if (recommendationProduct && Number(recommendationProduct.id) === Number(productId)) {
+        const existingRecommendation = cart.find(product => Number(product.id) === Number(productId));
+
+        if (existingRecommendation) {
+            existingRecommendation.quantity = (existingRecommendation.quantity || 1) + selectedQty;
+        } else {
+            cart.push({ ...recommendationProduct, quantity: selectedQty });
+        }
+
+        saveAndRefreshCart();
+        return;
+    }
 
     const existingProduct = cart.find(p => p.id === productId);
 
