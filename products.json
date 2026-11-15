@@ -4406,18 +4406,18 @@
   },
   {
     "id": 82,
-    "title": "Auriculares Sony WF-C500 Bluetooth - Versión 128GB",
+    "title": "Auriculares Xiaomi Redmi Buds 6 Play Inalámbricos Bluetooth 5.4",
     "price": 99999,
     "description": "Auriculares totalmente inalámbricos para música y llamadas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía y resistencia dependen de condiciones de uso; estuche incluido en versión habitual. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20Sony%20WF-C500%20Bluetooth%20-%20Versin%201",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_650532-MLA116572628066_092026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "Sony",
-        "line": "WF",
-        "model": "WF-C500 128GB",
+        "brand": "Xiaomi",
+        "line": "Buds",
+        "model": "Redmi Buds 6 Play",
         "version": "Bluetooth",
         "color": "Negro"
       },
@@ -4461,18 +4461,18 @@
   },
   {
     "id": 83,
-    "title": "Auriculares JBL Tune 520BT - Versión 128GB",
+    "title": "Auriculares Bluetooth Smart Premium",
     "price": 89999,
     "description": "Auriculares de vincha inalámbricos para uso diario. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía anunciada por fabricante; carga y funciones dependen de la versión regional. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20JBL%20Tune%20520BT%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_950839-MLA112463503034_062026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "JBL",
-        "line": "Tune",
-        "model": "520BT 128GB",
+        "brand": "Earphone",
+        "line": "M75",
+        "model": "-",
         "version": "Bluetooth",
         "color": "Negro"
       },
@@ -4516,19 +4516,19 @@
   },
   {
     "id": 84,
-    "title": "Barra de sonido Gadnic Nova 200W - Versión 128GB",
+    "title": "Home Theater 2.1 Bluetooth 60w Subwoofer + 2 Parlantes",
     "price": 329999,
     "description": "Barra de sonido para mejorar el audio del televisor. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Ficha de referencia basada en el catálogo de Gadnic; confirmar puertos y potencia RMS con vendedor. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Barra%20de%20sonido%20Gadnic%20Nova%20200W%20-%20Versin%20128",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_887897-MLA118741899048_102026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Parlantes y sonido",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Nova",
-        "model": "200W 128GB",
-        "version": "Bluetooth / entradas según versión",
+        "brand": "Seisa",
+        "line": "E-5116",
+        "model": "-",
+        "version": "-",
         "color": "Negro"
       },
       "connectivity": {
@@ -4540,7 +4540,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "Según modelo",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -4569,31 +4569,31 @@
   },
   {
     "id": 85,
-    "title": "Smart TV 50 pulgadas 4K UHD - Versión 128GB",
+    "title": "Smart Tv LED Full HD Philips 43 43pfd6910/77",
     "price": 699999,
     "description": "Televisor 4K para streaming, televisión y videojuegos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Sistema operativo, HDR y frecuencia nativa dependen del modelo exacto. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Smart%20TV%2050%20pulgadas%204K%20UHD%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_669593-MLA84317344768_052025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Smart TV",
     "specs": {
       "main": {
-        "brand": "TCL",
-        "line": "P Series",
-        "model": "50 4K 128GB",
-        "version": "Wi-Fi / HDMI",
+        "brand": "Philips",
+        "line": "PHILIPS Smart TV",
+        "model": "43PFD6910/77",
+        "version": "PHILIPS 43PFD6910/77",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -4622,24 +4622,24 @@
   },
   {
     "id": 86,
-    "title": "Webcam Logitech C920 Full HD - Versión 128GB",
+    "title": "Cámara DJI Osmo Pocket 4 Combo Para Creadores Sensor CMOS",
     "price": 119999,
     "description": "Cámara web para videollamadas, clases y streaming. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución y funciones pueden depender de la aplicación y el sistema operativo. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Webcam%20Logitech%20C920%20Full%20HD%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_640132-MLA109669867648_042026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Streaming y Fotografía",
     "specs": {
       "main": {
-        "brand": "Logitech",
-        "line": "C920",
-        "model": "C920 128GB",
-        "version": "USB",
+        "brand": "DJI",
+        "line": "pocket 4",
+        "model": "Pocket 4 creator combo",
+        "version": "-",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -4675,19 +4675,19 @@
   },
   {
     "id": 87,
-    "title": "Nintendo Switch OLED 64GB - Versión 128GB",
+    "title": "Consola Portátil De Juegos Retro Sf3500 64 Gb",
     "price": 799999,
     "description": "Consola híbrida portátil y de sobremesa con pantalla OLED. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La disponibilidad de juegos y servicios en línea depende de la región y la cuenta. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Nintendo%20Switch%20OLED%2064GB%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_743918-MLA116922604283_082026-F.webp",
     "category": "Gaming",
     "subcategory": "Consolas",
     "specs": {
       "main": {
-        "brand": "Nintendo",
-        "line": "Switch",
-        "model": "OLED 64GB 128GB",
-        "version": "Wi-Fi / Bluetooth",
+        "brand": "Generic",
+        "line": "SF3500",
+        "model": "-",
+        "version": "-tooth",
         "color": "Blanco"
       },
       "connectivity": {
@@ -4699,7 +4699,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -4785,19 +4785,19 @@
   },
   {
     "id": 89,
-    "title": "Control inalámbrico DualSense PS5 - Versión 128GB",
+    "title": "Gamesir T4 Pro Mando Inalambrico Android Ios Pc Switch",
     "price": 119999,
     "description": "Control inalámbrico con respuesta háptica y gatillos adaptativos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones avanzadas disponibles en juegos compatibles; cable puede variar por pack. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Control%20inalmbrico%20DualSense%20PS5%20-%20Versin%20128",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_804605-MLA100068431681_122025-F.webp",
     "category": "Gaming",
     "subcategory": "Accesorios Gamer",
     "specs": {
       "main": {
-        "brand": "Sony",
-        "line": "DualSense",
-        "model": "CFI-ZCT1 128GB",
-        "version": "Bluetooth / USB-C",
+        "brand": "GameSir",
+        "line": "GameSir",
+        "model": "T4",
+        "version": "Pro",
         "color": "Blanco"
       },
       "connectivity": {
@@ -4897,20 +4897,20 @@
   },
   {
     "id": 91,
-    "title": "Amazon Echo Dot 5ª generación - Versión 128GB",
+    "title": "Alexa Asistente Virtual Inteligente Amazon Echo Spot",
     "price": 99999,
     "description": "Altavoz inteligente para música, consultas y control del hogar conectado. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Disponibilidad de asistentes y servicios puede variar según idioma y país. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Amazon%20Echo%20Dot%205%20generacin%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_896429-MLA99862545901_112025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Asistentes Virtuales",
     "specs": {
       "main": {
-        "brand": "Amazon",
-        "line": "Echo Dot",
-        "model": "5ª generación 128GB",
+        "brand": "Alexa",
+        "line": "ECHO SPOT",
+        "model": "Echo Spot com Alexa Branco",
         "version": "Wi-Fi / Bluetooth",
-        "color": "Azul"
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -4952,31 +4952,31 @@
   },
   {
     "id": 92,
-    "title": "Lámpara inteligente Wi-Fi RGB E27 - Versión 128GB",
+    "title": "Philips Hue White and Color Ambiance Kit de inicio: 2 lámparas inteligentes E27",
     "price": 19999,
     "description": "Lámpara LED inteligente con control desde aplicación compatible. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Requiere red Wi-Fi compatible; verificar aplicación y ecosistema admitido. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Lmpara%20inteligente%20Wi-Fi%20RGB%20E27%20-%20Versin%20128",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_881545-MLA99515360098_112025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Iluminación Inteligente",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Smart Home",
-        "model": "E27 RGB 128GB",
-        "version": "Wi-Fi 2.4 GHz",
-        "color": "Blanco"
+        "brand": "Philips",
+        "line": "S929002468810",
+        "model": "LED",
+        "version": "-",
+        "color": "Multicolor"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -5005,31 +5005,31 @@
   },
   {
     "id": 93,
-    "title": "Cámara de seguridad Wi-Fi Full HD - Versión 128GB",
+    "title": "Cámara Seguridad Inalámbrica Domo 3MP Wi-Fi Doble Lente PTZ con Panel Solar",
     "price": 49999,
     "description": "Cámara interior con visualización remota y detección de movimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones de almacenamiento y detección dependen de la app, región y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cmara%20de%20seguridad%20Wi-Fi%20Full%20HD%20-%20Versin%20128",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_776746-MLA107195819007_022026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Seguridad Wi-Fi",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Tapo",
-        "model": "C200 128GB",
-        "version": "Wi-Fi 2.4 GHz",
+        "brand": "GMG Store",
+        "line": "-",
+        "model": "Cámara Domo AYV0435BLA",
+        "version": "-",
         "color": "Blanco"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -5058,19 +5058,19 @@
   },
   {
     "id": 94,
-    "title": "Sistema Mesh Wi-Fi AC1200 x2 - Versión 128GB",
+    "title": "Extensor De Cobertura Tp-link Wi-fi Universal Ac750 Re200",
     "price": 149999,
     "description": "Sistema de red mesh para ampliar cobertura inalámbrica en el hogar. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Cobertura real depende de paredes, interferencias y distribución de los nodos. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Sistema%20Mesh%20Wi-Fi%20AC1200%20x2%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_862418-MLA100082850055_122025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Redes y Routers",
     "specs": {
       "main": {
         "brand": "TP-Link",
-        "line": "Deco",
-        "model": "M4 128GB",
-        "version": "Wi-Fi / Ethernet",
+        "line": "AC750",
+        "model": "RE200",
+        "version": "V5",
         "color": "Blanco"
       },
       "connectivity": {
@@ -5082,7 +5082,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -5439,24 +5439,24 @@
   },
   {
     "id": 101,
-    "title": "Lenovo Tab M10 3ª generación 64GB - Versión 128GB",
+    "title": "Tablet Xiaomi Redmi Pad 2 11 2.5K 8GB RAM 256GB UFS Wi-Fi",
     "price": 249999,
     "description": "Tablet para lectura, clases y entretenimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La RAM y versión de Android dependen de la variante comercial. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Lenovo%20Tab%20M10%203%20generacin%2064GB%20-%20Versin%20128G",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_984443-MLA99472186630_112025-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Tablets",
     "specs": {
       "main": {
-        "brand": "Lenovo",
-        "line": "Tab M10",
-        "model": "3rd Gen 64GB 128GB",
+        "brand": "Xiaomi",
+        "line": "Redmi",
+        "model": "pad 2",
         "version": "Wi-Fi",
         "color": "Gris"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -5547,19 +5547,19 @@
   },
   {
     "id": 103,
-    "title": "Power bank 20000mAh USB-C PD - Versión 128GB",
+    "title": "Cargador Portátil PowerBank Anker Zolo 20000mAh",
     "price": 49999,
     "description": "Batería externa para recargar dispositivos móviles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Capacidad efectiva y potencia varían según tensión y dispositivo conectado. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Power%20bank%2020000mAh%20USB-C%20PD%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_897227-MLA101997817773_122025-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Accesorios",
     "specs": {
       "main": {
-        "brand": "Xiaomi",
-        "line": "Mi Power Bank",
-        "model": "20000mAh 128GB",
-        "version": "USB-C / USB-A",
+        "brand": "Anker",
+        "line": "Zolo Power Bank",
+        "model": "A110E",
+        "version": "USB-C",
         "color": "Negro"
       },
       "connectivity": {
@@ -5600,20 +5600,20 @@
   },
   {
     "id": 104,
-    "title": "Auriculares JBL Wave Buds - Versión 128GB",
+    "title": "Auriculares Bluetooth 5.3 Mixio-jr01 Inalambricos",
     "price": 79999,
     "description": "Auriculares true wireless para música y llamadas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía y protección dependen de la versión y condiciones de uso. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20JBL%20Wave%20Buds%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_718999-MLA119726837518_112026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "JBL",
-        "line": "Wave",
-        "model": "Buds 128GB",
+        "brand": "Mixio",
+        "line": "Deportivos",
+        "model": "JR01",
         "version": "Bluetooth",
-        "color": "Negro"
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
@@ -5655,18 +5655,18 @@
   },
   {
     "id": 105,
-    "title": "Parlante Gadnic S55 Bluetooth IPX6 - Versión 128GB",
+    "title": "Parlante Portátil Anker Soundcore Select 3 Bluetooth 16W BassUp IPX7",
     "price": 39999,
     "description": "Parlante portátil para uso cotidiano y actividades al aire libre. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resistencia IPX6 según ficha comercial; no sumergir salvo indicación expresa. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Parlante%20Gadnic%20S55%20Bluetooth%20IPX6%20-%20Versin%201",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_790884-MLA111406179517_052026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Parlantes y sonido",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "S",
-        "model": "S55 128GB",
+        "brand": "Anker",
+        "line": "SoundCore",
+        "model": "select 3",
         "version": "Bluetooth",
         "color": "Negro"
       },
@@ -5710,31 +5710,31 @@
   },
   {
     "id": 106,
-    "title": "Smart TV 43 pulgadas Full HD - Versión 128GB",
+    "title": "Smart TV Kanji 55'' QLED 4K UHD Android Whale TV KJ-55ST005-2QW",
     "price": 449999,
     "description": "Televisor inteligente de 43 pulgadas para streaming y televisión. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Sistema operativo, puertos y tasa de refresco dependen del modelo exacto. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Smart%20TV%2043%20pulgadas%20Full%20HD%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_953560-MLA109212833212_042026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Smart TV",
     "specs": {
       "main": {
-        "brand": "TCL",
-        "line": "S Series",
-        "model": "43 FHD 128GB",
-        "version": "Wi-Fi / HDMI",
+        "brand": "Kanji",
+        "line": "Whale",
+        "model": "KJ-55ST005-2",
+        "version": "-",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -5763,31 +5763,31 @@
   },
   {
     "id": 107,
-    "title": "Cámara de acción 4K Wi-Fi - Versión 128GB",
+    "title": "Cámara Osmo Estabilizada Pocket 3 DJI Combo Estándar Active Track 3.0",
     "price": 99999,
     "description": "Cámara compacta para grabar actividades y viajes. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución, estabilización y accesorios incluidos dependen de la versión. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cmara%20de%20accin%204K%20Wi-Fi%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_662975-MLA109312149246_042026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Streaming y Fotografía",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Action Cam",
-        "model": "4K 128GB",
+        "brand": "DJI",
+        "line": "Osmo Pocket 3 Standard Combo",
+        "model": "RCDJI059",
         "version": "Wi-Fi / USB",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "Según modelo",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -5816,20 +5816,20 @@
   },
   {
     "id": 108,
-    "title": "Xbox Series S 512GB - Versión 128GB",
+    "title": "Consola Videojuegos Colecovision + Audio Video Mod",
     "price": 799999,
     "description": "Consola digital para juegos y entretenimiento multimedia. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "No incluye lector de discos; juegos digitales requieren cuenta compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xbox%20Series%20S%20512GB%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_965768-MLA107165526376_022026-F.webp",
     "category": "Gaming",
     "subcategory": "Consolas",
     "specs": {
       "main": {
-        "brand": "Microsoft",
-        "line": "Xbox",
-        "model": "Series S 512GB 128GB",
-        "version": "Wi-Fi / Bluetooth",
-        "color": "Blanco"
+        "brand": "Coleco",
+        "line": "ColecoVision",
+        "model": "Audio Video MOD",
+        "version": "Standard",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
@@ -5840,7 +5840,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -5926,18 +5926,18 @@
   },
   {
     "id": 110,
-    "title": "Headset gamer Redragon Zeus X RGB - Versión 128GB",
+    "title": "Micrófono Gamer Con Condensador Y Soporte Para Pc Usb C Aux",
     "price": 79999,
     "description": "Auriculares gamer con micrófono e iluminación RGB. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Compatibilidad de iluminación y controles depende de la conexión y plataforma. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Headset%20gamer%20Redragon%20Zeus%20X%20RGB%20-%20Versin%2012",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_894074-MLA100173207036_122025-F.webp",
     "category": "Gaming",
     "subcategory": "Accesorios Gamer",
     "specs": {
       "main": {
-        "brand": "Redragon",
-        "line": "Zeus",
-        "model": "X RGB 128GB",
+        "brand": "Soul",
+        "line": "Microfono Gamer PC",
+        "model": "-",
         "version": "USB",
         "color": "Negro"
       },
@@ -6037,20 +6037,20 @@
   },
   {
     "id": 112,
-    "title": "Google Nest Mini - Versión 128GB",
+    "title": "Amazon Echo Show 5 3a Gen Carbón",
     "price": 89999,
     "description": "Altavoz inteligente compacto para asistente y reproducción de audio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Disponibilidad de funciones por voz y servicios depende de región e idioma. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Google%20Nest%20Mini%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_789040-MLA99576453490_122025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Asistentes Virtuales",
     "specs": {
       "main": {
-        "brand": "Google",
-        "line": "Nest",
-        "model": "Mini 128GB",
+        "brand": "Alexa",
+        "line": "echo",
+        "model": "Echo Show 5 (3ª Geração)",
         "version": "Wi-Fi / Bluetooth",
-        "color": "Tiza"
+        "color": "Carbón"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -6092,31 +6092,31 @@
   },
   {
     "id": 113,
-    "title": "Tira LED inteligente RGB 5m Wi-Fi - Versión 128GB",
+    "title": "Luz X2 Bulbo Led Smart Inteligente Rgb 9w App Celular",
     "price": 29999,
     "description": "Tira LED para iluminación ambiental controlada desde el teléfono. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar fuente, aplicación y compatibilidad con asistentes. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Tira%20LED%20inteligente%20RGB%205m%20Wi-Fi%20-%20Versin%2012",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_790755-MLA89303625814_082025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Iluminación Inteligente",
     "specs": {
       "main": {
         "brand": "Gadnic",
-        "line": "Smart LED",
-        "model": "RGB 5m 128GB",
-        "version": "Wi-Fi",
+        "line": "LED",
+        "model": "-",
+        "version": "-",
         "color": "Multicolor"
       },
       "connectivity": {
-        "wifi": "Sí",
-        "bluetooth": "No",
+        "wifi": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -6145,23 +6145,23 @@
   },
   {
     "id": 114,
-    "title": "Videoportero Wi-Fi con cámara - Versión 128GB",
+    "title": "Sensor Detector De Humo Alarma Smart Wifi",
     "price": 79999,
     "description": "Videoportero conectado para supervisar accesos desde el móvil. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Almacenamiento, alimentación y compatibilidad dependen de la versión. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Videoportero%20Wi-Fi%20con%20cmara%20-%20Versin%20128GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_709513-MLA115703278958_092026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Seguridad Wi-Fi",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Smart Security",
-        "model": "Video Doorbell 128GB",
-        "version": "Wi-Fi",
-        "color": "Negro"
+        "brand": "Geneve",
+        "line": "Sensores",
+        "model": "GE-SH2401-WF",
+        "version": "-",
+        "color": "Blanco"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -6169,7 +6169,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -6198,20 +6198,20 @@
   },
   {
     "id": 115,
-    "title": "Router TP-Link Archer C6 AC1200 - Versión 128GB",
+    "title": "Mini Router Extensor Inalámbrico Wi-fi S/",
     "price": 69999,
     "description": "Router de doble banda para redes domésticas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Velocidad y cobertura dependen del plan de internet y el entorno. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Router%20TP-Link%20Archer%20C6%20AC1200%20-%20Versin%20128G",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_644918-CBT115290707744_082026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Redes y Routers",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Archer",
-        "model": "C6 AC1200 128GB",
-        "version": "Wi-Fi / Ethernet",
-        "color": "Negro"
+        "brand": "Generic",
+        "line": "-",
+        "model": "Routers",
+        "version": "-",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -7124,24 +7124,24 @@
   },
   {
     "id": 132,
-    "title": "iPad 10ª generación 64GB Wi-Fi - Versión 256GB",
+    "title": "Tableta Android 15, Pantalla Hd Ips 10.1 , 16gb Ram + 512gb",
     "price": 874998.75,
     "description": "Tablet Apple para estudio, trabajo ligero y entretenimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Compatibilidad de accesorios y conectividad según generación y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=iPad%2010%20generacin%2064GB%20Wi-Fi%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_796390-MLA109470412429_032026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Tablets",
     "specs": {
       "main": {
-        "brand": "Apple",
-        "line": "iPad",
-        "model": "10ª generación 64GB 256GB",
+        "brand": "Kailing",
+        "line": "Pad",
+        "model": "A5",
         "version": "Wi-Fi",
-        "color": "Plateado"
+        "color": "Sky blue"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -7179,19 +7179,19 @@
   },
   {
     "id": 133,
-    "title": "Xiaomi Smart Band 8 - Versión 256GB",
+    "title": "Smartwatch Huawei Watch Fit 4 con GPS, Pantalla AMOLED",
     "price": 87498.75,
     "description": "Pulsera inteligente para actividad física y notificaciones. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones disponibles según teléfono, aplicación y región; no reemplaza equipos médicos. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xiaomi%20Smart%20Band%208%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_747598-MLA109601433039_032026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartwaches",
     "specs": {
       "main": {
-        "brand": "Xiaomi",
-        "line": "Smart Band",
-        "model": "8 256GB",
-        "version": "Bluetooth",
+        "brand": "Huawei",
+        "line": "Fit",
+        "model": "FIT 4",
+        "version": "Sport",
         "color": "Negro"
       },
       "connectivity": {
@@ -7234,20 +7234,20 @@
   },
   {
     "id": 134,
-    "title": "Cargador USB-C Power Delivery 30W - Versión 256GB",
+    "title": "Cargador Carga Ultra Rapida 125w",
     "price": 49998.75,
     "description": "Cargador compacto USB-C para dispositivos compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La velocidad de carga depende del dispositivo, cable y protocolo admitido. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cargador%20USB-C%20Power%20Delivery%2030W%20-%20Versin%2025",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_603435-MLA114708847364_082026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Accesorios",
     "specs": {
       "main": {
-        "brand": "Anker",
-        "line": "Nano",
-        "model": "30W 256GB",
-        "version": "USB-C PD",
-        "color": "Blanco"
+        "brand": "Genérica",
+        "line": "Cargador Ultra Rapido 125W",
+        "model": "USB-C",
+        "version": "-",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
@@ -7287,20 +7287,20 @@
   },
   {
     "id": 135,
-    "title": "Auriculares Sony WF-C500 Bluetooth - Versión 256GB",
+    "title": "Auriculares Inalambricos Samsung Buds 3 Cancelacion Ruido Ai",
     "price": 124998.75,
     "description": "Auriculares totalmente inalámbricos para música y llamadas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía y resistencia dependen de condiciones de uso; estuche incluido en versión habitual. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20Sony%20WF-C500%20Bluetooth%20-%20Versin%202",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_982536-MLA95101583842_102025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "Sony",
-        "line": "WF",
-        "model": "WF-C500 256GB",
+        "brand": "Samsung",
+        "line": "Galaxy Buds +",
+        "model": "Galaxy Buds3",
         "version": "Bluetooth",
-        "color": "Negro"
+        "color": "Gris"
       },
       "connectivity": {
         "wifi": "No",
@@ -7342,31 +7342,31 @@
   },
   {
     "id": 136,
-    "title": "Auriculares JBL Tune 520BT - Versión 256GB",
+    "title": "Auriculares con Micrófono Logitech H111 981-000612",
     "price": 112498.75,
     "description": "Auriculares de vincha inalámbricos para uso diario. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía anunciada por fabricante; carga y funciones dependen de la versión regional. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20JBL%20Tune%20520BT%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_659951-MLA96149115571_102025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "JBL",
-        "line": "Tune",
-        "model": "520BT 256GB",
-        "version": "Bluetooth",
-        "color": "Negro"
+        "brand": "Logitech",
+        "line": "Stereo",
+        "model": "H111",
+        "version": "-",
+        "color": "Gris"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "Sí",
+        "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "Según modelo",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -7397,24 +7397,24 @@
   },
   {
     "id": 137,
-    "title": "Barra de sonido Gadnic Nova 200W - Versión 256GB",
+    "title": "Parlante Torre Bluetooth Con Microfono Inalambrico Y Luces",
     "price": 412498.75,
     "description": "Barra de sonido para mejorar el audio del televisor. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Ficha de referencia basada en el catálogo de Gadnic; confirmar puertos y potencia RMS con vendedor. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Barra%20de%20sonido%20Gadnic%20Nova%20200W%20-%20Versin%20256",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_796234-MLA99941126527_112025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Parlantes y sonido",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Nova",
-        "model": "200W 256GB",
-        "version": "Bluetooth / entradas según versión",
+        "brand": "Seisa",
+        "line": "GO ESSENTIAL 2",
+        "model": "YX-S8301",
+        "version": "Bluetooth",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -7450,31 +7450,31 @@
   },
   {
     "id": 138,
-    "title": "Smart TV 50 pulgadas 4K UHD - Versión 256GB",
+    "title": "Smart Tv LED 55 4K 55PUD8100 Titan OS Ambilight",
     "price": 874998.75,
     "description": "Televisor 4K para streaming, televisión y videojuegos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Sistema operativo, HDR y frecuencia nativa dependen del modelo exacto. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Smart%20TV%2050%20pulgadas%204K%20UHD%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_644430-MLA116830413758_092026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Smart TV",
     "specs": {
       "main": {
-        "brand": "TCL",
-        "line": "P Series",
-        "model": "50 4K 256GB",
-        "version": "Wi-Fi / HDMI",
+        "brand": "Philips",
+        "line": "8000",
+        "model": "55PUD8100",
+        "version": "-",
         "color": "Negro"
       },
       "connectivity": {
-        "wifi": "No",
-        "bluetooth": "No",
+        "wifi": "Sí",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -7503,31 +7503,31 @@
   },
   {
     "id": 139,
-    "title": "Webcam Logitech C920 Full HD - Versión 256GB",
+    "title": "Cámara de Acción GoPro Max2 360° Negro 8K",
     "price": 149998.75,
     "description": "Cámara web para videollamadas, clases y streaming. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución y funciones pueden depender de la aplicación y el sistema operativo. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Webcam%20Logitech%20C920%20Full%20HD%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_643268-MLA92893481526_092025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Streaming y Fotografía",
     "specs": {
       "main": {
-        "brand": "Logitech",
-        "line": "C920",
-        "model": "C920 256GB",
+        "brand": "GoPro",
+        "line": "Cámara 360°",
+        "model": "Max 2",
         "version": "USB",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "Según modelo",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -7556,20 +7556,20 @@
   },
   {
     "id": 140,
-    "title": "Nintendo Switch OLED 64GB - Versión 256GB",
+    "title": "Consola Fc Computer Family Computer Standard",
     "price": 999998.75,
     "description": "Consola híbrida portátil y de sobremesa con pantalla OLED. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La disponibilidad de juegos y servicios en línea depende de la región y la cuenta. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Nintendo%20Switch%20OLED%2064GB%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_857844-MLA32731490398_112019-F.webp",
     "category": "Gaming",
     "subcategory": "Consolas",
     "specs": {
       "main": {
-        "brand": "Nintendo",
-        "line": "Switch",
-        "model": "OLED 64GB 256GB",
-        "version": "Wi-Fi / Bluetooth",
-        "color": "Blanco"
+        "brand": "Fc Computer",
+        "line": "Family Computer",
+        "model": "Standard",
+        "version": "-",
+        "color": "Blanco/Rojo"
       },
       "connectivity": {
         "wifi": "No",
@@ -7580,7 +7580,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -7666,31 +7666,31 @@
   },
   {
     "id": 142,
-    "title": "Control inalámbrico DualSense PS5 - Versión 256GB",
+    "title": "Estacion De Carga Joy-con Controles Nintendo Switch 2 Ns2",
     "price": 149998.75,
     "description": "Control inalámbrico con respuesta háptica y gatillos adaptativos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones avanzadas disponibles en juegos compatibles; cable puede variar por pack. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Control%20inalmbrico%20DualSense%20PS5%20-%20Versin%20256",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_863166-MLA111832484898_062026-F.webp",
     "category": "Gaming",
     "subcategory": "Accesorios Gamer",
     "specs": {
       "main": {
-        "brand": "Sony",
-        "line": "DualSense",
-        "model": "CFI-ZCT1 256GB",
-        "version": "Bluetooth / USB-C",
-        "color": "Blanco"
+        "brand": "NS2",
+        "line": "Nintendo Switch 2",
+        "model": "Estación de carga Joy-Con NS2 HBS-2849",
+        "version": "USB-C",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "Sí",
+        "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -7778,20 +7778,20 @@
   },
   {
     "id": 144,
-    "title": "Amazon Echo Dot 5ª generación - Versión 256GB",
+    "title": "Pantalla inteligente Full HD del Echo Show 11 con Alexa Love",
     "price": 124998.75,
     "description": "Altavoz inteligente para música, consultas y control del hogar conectado. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Disponibilidad de asistentes y servicios puede variar según idioma y país. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Amazon%20Echo%20Dot%205%20generacin%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_730997-MLA103490122066_012026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Asistentes Virtuales",
     "specs": {
       "main": {
         "brand": "Amazon",
-        "line": "Echo Dot",
-        "model": "5ª generación 256GB",
+        "line": "B0DYC46FPT",
+        "model": "Amazon Echo Show 11 - GRAFITE",
         "version": "Wi-Fi / Bluetooth",
-        "color": "Azul"
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -7833,31 +7833,31 @@
   },
   {
     "id": 145,
-    "title": "Lámpara inteligente Wi-Fi RGB E27 - Versión 256GB",
+    "title": "Philips Hue Lámpara Individual Gu10 Bluetooth Color",
     "price": 24998.75,
     "description": "Lámpara LED inteligente con control desde aplicación compatible. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Requiere red Wi-Fi compatible; verificar aplicación y ecosistema admitido. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Lmpara%20inteligente%20Wi-Fi%20RGB%20E27%20-%20Versin%20256",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_677187-MLA115592582147_082026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Iluminación Inteligente",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Smart Home",
-        "model": "E27 RGB 256GB",
-        "version": "Wi-Fi 2.4 GHz",
-        "color": "Blanco"
+        "brand": "Philips",
+        "line": "-",
+        "model": "Hue",
+        "version": "-",
+        "color": "RGB"
       },
       "connectivity": {
-        "wifi": "Sí",
-        "bluetooth": "No",
+        "wifi": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -7886,23 +7886,23 @@
   },
   {
     "id": 146,
-    "title": "Cámara de seguridad Wi-Fi Full HD - Versión 256GB",
+    "title": "Portero Wifi Timbre Cámara Hd Visión Nocturna App Control",
     "price": 62498.75,
     "description": "Cámara interior con visualización remota y detección de movimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones de almacenamiento y detección dependen de la app, región y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cmara%20de%20seguridad%20Wi-Fi%20Full%20HD%20-%20Versin%20256",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_716567-MLA118955859219_102026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Seguridad Wi-Fi",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Tapo",
-        "model": "C200 256GB",
-        "version": "Wi-Fi 2.4 GHz",
+        "brand": "TripleBShop",
+        "line": "-",
+        "model": "Video Portero",
+        "version": "-",
         "color": "Blanco"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -7910,7 +7910,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Recargable",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -7939,23 +7939,23 @@
   },
   {
     "id": 147,
-    "title": "Sistema Mesh Wi-Fi AC1200 x2 - Versión 256GB",
+    "title": "Ubiquiti Cloud Gateway Compacto Unifi 1 Gbps Ucg-ultra",
     "price": 187498.75,
     "description": "Sistema de red mesh para ampliar cobertura inalámbrica en el hogar. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Cobertura real depende de paredes, interferencias y distribución de los nodos. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Sistema%20Mesh%20Wi-Fi%20AC1200%20x2%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_792735-MLA82338874300_022025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Redes y Routers",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Deco",
-        "model": "M4 256GB",
-        "version": "Wi-Fi / Ethernet",
+        "brand": "Ubiquiti",
+        "line": "-",
+        "model": "UCG-ULTRA",
+        "version": "Cloud Gateway",
         "color": "Blanco"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -8320,24 +8320,24 @@
   },
   {
     "id": 154,
-    "title": "Lenovo Tab M10 3ª generación 64GB - Versión 256GB",
+    "title": "Tablet Ecovision 10 C/lapiz Y Android",
     "price": 312498.75,
     "description": "Tablet para lectura, clases y entretenimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La RAM y versión de Android dependen de la variante comercial. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Lenovo%20Tab%20M10%203%20generacin%2064GB%20-%20Versin%20256G",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_643541-MLA99989603475_112025-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Tablets",
     "specs": {
       "main": {
-        "brand": "Lenovo",
-        "line": "Tab M10",
-        "model": "3rd Gen 64GB 256GB",
+        "brand": "Ecovision",
+        "line": "Tablet",
+        "model": "PCR-T1",
         "version": "Wi-Fi",
-        "color": "Gris"
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -8428,20 +8428,20 @@
   },
   {
     "id": 156,
-    "title": "Power bank 20000mAh USB-C PD - Versión 256GB",
+    "title": "Power Bank Cargador Portatil Vention 30000mah",
     "price": 62498.75,
     "description": "Batería externa para recargar dispositivos móviles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Capacidad efectiva y potencia varían según tensión y dispositivo conectado. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Power%20bank%2020000mAh%20USB-C%20PD%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_821216-MLA84413524358_052025-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Accesorios",
     "specs": {
       "main": {
-        "brand": "Xiaomi",
-        "line": "Mi Power Bank",
-        "model": "20000mAh 256GB",
-        "version": "USB-C / USB-A",
-        "color": "Negro"
+        "brand": "Vention",
+        "line": "FHM",
+        "model": "-",
+        "version": "USB/USB-C",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
@@ -8481,18 +8481,18 @@
   },
   {
     "id": 157,
-    "title": "Auriculares JBL Wave Buds - Versión 256GB",
+    "title": "Auriculares in-ear gamer inalámbricos Soundpeats Free2 Classic",
     "price": 99998.75,
     "description": "Auriculares true wireless para música y llamadas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía y protección dependen de la versión y condiciones de uso. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20JBL%20Wave%20Buds%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_641624-MLA96100940791_102025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "JBL",
-        "line": "Wave",
-        "model": "Buds 256GB",
+        "brand": "Shenzhen SoundSOUL",
+        "line": "Soundpeats",
+        "model": "Free2 Classic",
         "version": "Bluetooth",
         "color": "Negro"
       },
@@ -8536,18 +8536,18 @@
   },
   {
     "id": 158,
-    "title": "Parlante Gadnic S55 Bluetooth IPX6 - Versión 256GB",
+    "title": "Torre De Sonido Philco TP12000 7800w Karaoke",
     "price": 49998.75,
     "description": "Parlante portátil para uso cotidiano y actividades al aire libre. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resistencia IPX6 según ficha comercial; no sumergir salvo indicación expresa. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Parlante%20Gadnic%20S55%20Bluetooth%20IPX6%20-%20Versin%202",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_999495-MLA99924633021_112025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Parlantes y sonido",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "S",
-        "model": "S55 256GB",
+        "brand": "Philco",
+        "line": "TP12000",
+        "model": "-",
         "version": "Bluetooth",
         "color": "Negro"
       },
@@ -8591,31 +8591,31 @@
   },
   {
     "id": 159,
-    "title": "Smart TV 43 pulgadas Full HD - Versión 256GB",
+    "title": "Smart Tv Noblex Roku 32 Pulgadas Led Hd",
     "price": 562498.75,
     "description": "Televisor inteligente de 43 pulgadas para streaming y televisión. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Sistema operativo, puertos y tasa de refresco dependen del modelo exacto. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Smart%20TV%2043%20pulgadas%20Full%20HD%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_656294-MLA97455563115_112025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Smart TV",
     "specs": {
       "main": {
-        "brand": "TCL",
-        "line": "S Series",
-        "model": "43 FHD 256GB",
+        "brand": "Noblex",
+        "line": "Roku TV",
+        "model": "DB32X3000",
         "version": "Wi-Fi / HDMI",
         "color": "Negro"
       },
       "connectivity": {
-        "wifi": "No",
-        "bluetooth": "No",
+        "wifi": "Sí",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -8644,31 +8644,31 @@
   },
   {
     "id": 160,
-    "title": "Cámara de acción 4K Wi-Fi - Versión 256GB",
+    "title": "GoPro MISSION 1 PRO Grip Edition - Cámara Cinematográfica Compacta 8K, 50mp",
     "price": 124998.75,
     "description": "Cámara compacta para grabar actividades y viajes. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución, estabilización y accesorios incluidos dependen de la versión. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cmara%20de%20accin%204K%20Wi-Fi%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_645351-MLA113928473300_072026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Streaming y Fotografía",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Action Cam",
-        "model": "4K 256GB",
+        "brand": "GoPro",
+        "line": "SERIE MISSION 1",
+        "model": "MISSION 1 Pro Grip Edition",
         "version": "Wi-Fi / USB",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "Según modelo",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -8697,20 +8697,20 @@
   },
   {
     "id": 161,
-    "title": "Xbox Series S 512GB - Versión 256GB",
+    "title": "Consola Portátil Para Niños + Cable Tv Y Joystick",
     "price": 999998.75,
     "description": "Consola digital para juegos y entretenimiento multimedia. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "No incluye lector de discos; juegos digitales requieren cuenta compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xbox%20Series%20S%20512GB%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_892617-MLA120542269269_102026-F.webp",
     "category": "Gaming",
     "subcategory": "Consolas",
     "specs": {
       "main": {
-        "brand": "Microsoft",
-        "line": "Xbox",
-        "model": "Series S 512GB 256GB",
-        "version": "Wi-Fi / Bluetooth",
-        "color": "Blanco"
+        "brand": "Genérica",
+        "line": "Genéric",
+        "model": "-",
+        "version": "-",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
@@ -8721,7 +8721,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -8807,19 +8807,19 @@
   },
   {
     "id": 163,
-    "title": "Headset gamer Redragon Zeus X RGB - Versión 256GB",
+    "title": "Mouse Pad Aitech Ai-326 Con Gel Antideslizante Negro Ergonómico Reposamuñecas",
     "price": 99998.75,
     "description": "Auriculares gamer con micrófono e iluminación RGB. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Compatibilidad de iluminación y controles depende de la conexión y plataforma. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Headset%20gamer%20Redragon%20Zeus%20X%20RGB%20-%20Versin%2025",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_605092-MLA114985387018_082026-F.webp",
     "category": "Gaming",
-    "subcategory": "Accesorios Gamer",
+    "subcategory": "Accesorios Gamer",  
     "specs": {
       "main": {
-        "brand": "Redragon",
-        "line": "Zeus",
-        "model": "X RGB 256GB",
-        "version": "USB",
+        "brand": "Aitech",
+        "line": "AI-326",
+        "model": "-",
+        "version": "-",
         "color": "Negro"
       },
       "connectivity": {
@@ -8831,10 +8831,10 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
-        "waterproof": "Según modelo",
-        "box": "Según modelo",
-        "weight": "Según modelo"
+        "charge": "No aplica",
+        "waterproof": "No aplica",
+        "box": "No aplica",
+        "weight": "No aplica"
       }
     },
     "rating": 4.8,
@@ -8918,20 +8918,20 @@
   },
   {
     "id": 165,
-    "title": "Google Nest Mini - Versión 256GB",
+    "title": "Control Remoto Smart Gisfeel Sensor Temperatura Y Humedad",
     "price": 112498.75,
     "description": "Altavoz inteligente compacto para asistente y reproducción de audio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Disponibilidad de funciones por voz y servicios depende de región e idioma. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Google%20Nest%20Mini%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_955410-MLA101777875240_122025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Asistentes Virtuales",
     "specs": {
       "main": {
-        "brand": "Google",
-        "line": "Nest",
-        "model": "Mini 256GB",
+        "brand": "Gisfeel",
+        "line": "CR con Sensor",
+        "model": "GSF-CRITH-ZHS01PW",
         "version": "Wi-Fi / Bluetooth",
-        "color": "Tiza"
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -8973,19 +8973,19 @@
   },
   {
     "id": 166,
-    "title": "Tira LED inteligente RGB 5m Wi-Fi - Versión 256GB",
+    "title": "Tira Led Neon Rgb 5m Usb App Bluetooth Flexible",
     "price": 37498.75,
     "description": "Tira LED para iluminación ambiental controlada desde el teléfono. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar fuente, aplicación y compatibilidad con asistentes. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Tira%20LED%20inteligente%20RGB%205m%20Wi-Fi%20-%20Versin%2025",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_955233-MLA108874514533_032026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Iluminación Inteligente",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Smart LED",
-        "model": "RGB 5m 256GB",
-        "version": "Wi-Fi",
+        "brand": "Genérico",
+        "line": "-",
+        "model": "RGB",
+        "version": "-",
         "color": "Multicolor"
       },
       "connectivity": {
@@ -8997,7 +8997,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -9026,18 +9026,18 @@
   },
   {
     "id": 167,
-    "title": "Videoportero Wi-Fi con cámara - Versión 256GB",
+    "title": "TP-Link Tapo C201 Cámara de Seguridad WiFi Interior - Resolución FHD - Cobertura 360°",
     "price": 99998.75,
     "description": "Videoportero conectado para supervisar accesos desde el móvil. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Almacenamiento, alimentación y compatibilidad dependen de la versión. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Videoportero%20Wi-Fi%20con%20cmara%20-%20Versin%20256GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_778274-MLA83391288430_042025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Seguridad Wi-Fi",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Smart Security",
-        "model": "Video Doorbell 256GB",
+        "brand": "TP-Link",
+        "line": "TAPO",
+        "model": "TAPO C201",
         "version": "Wi-Fi",
         "color": "Negro"
       },
@@ -9079,23 +9079,23 @@
   },
   {
     "id": 168,
-    "title": "Router TP-Link Archer C6 AC1200 - Versión 256GB",
+    "title": "Extensor Wifi Tp Link Re505x Ax1500 Amplificador Internet",
     "price": 87498.75,
     "description": "Router de doble banda para redes domésticas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Velocidad y cobertura dependen del plan de internet y el entorno. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Router%20TP-Link%20Archer%20C6%20AC1200%20-%20Versin%20256G",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_856175-MLA111279088139_052026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Redes y Routers",
     "specs": {
       "main": {
         "brand": "TP-Link",
-        "line": "Archer",
-        "model": "C6 AC1200 256GB",
-        "version": "Wi-Fi / Ethernet",
+        "line": "-",
+        "model": "RE505X",
+        "version": "-",
         "color": "Negro"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -9103,7 +9103,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -10002,20 +10002,20 @@
   },
   {
     "id": 185,
-    "title": "iPad 10ª generación 64GB Wi-Fi - Versión 512GB",
+    "title": "Tablet 10 Pulgadas 6gb 128gb Full Hd Pcrcore ",
     "price": 1084998.45,
     "description": "Tablet Apple para estudio, trabajo ligero y entretenimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Compatibilidad de accesorios y conectividad según generación y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=iPad%2010%20generacin%2064GB%20Wi-Fi%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_938677-MLA120889410169_112026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Tablets",
     "specs": {
       "main": {
-        "brand": "Apple",
-        "line": "iPad",
-        "model": "10ª generación 64GB 512GB",
+        "brand": "PCR-CORE",
+        "line": "Tablets",
+        "model": "PCR-T3",
         "version": "Wi-Fi",
-        "color": "Plateado"
+        "color": "Gris"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -10057,20 +10057,20 @@
   },
   {
     "id": 186,
-    "title": "Xiaomi Smart Band 8 - Versión 512GB",
+    "title": "Reloj Inteligente Xiaomi Redmi Watch 6",
     "price": 108498.45,
     "description": "Pulsera inteligente para actividad física y notificaciones. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones disponibles según teléfono, aplicación y región; no reemplaza equipos médicos. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xiaomi%20Smart%20Band%208%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_749359-MLA110854458649_042026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartwaches",
     "specs": {
       "main": {
         "brand": "Xiaomi",
-        "line": "Smart Band",
-        "model": "8 512GB",
-        "version": "Bluetooth",
-        "color": "Negro"
+        "line": "Watch",
+        "model": "watch 6",
+        "version": "M2523W1",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -10112,19 +10112,19 @@
   },
   {
     "id": 187,
-    "title": "Cargador USB-C Power Delivery 30W - Versión 512GB",
+    "title": "Cargador Fetuzz 200w Blanco 6 Puertos Usb C Y Usb A",
     "price": 61998.45,
     "description": "Cargador compacto USB-C para dispositivos compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La velocidad de carga depende del dispositivo, cable y protocolo admitido. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cargador%20USB-C%20Power%20Delivery%2030W%20-%20Versin%2051",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_655749-MLA117852142093_092026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Accesorios",
     "specs": {
       "main": {
-        "brand": "Anker",
-        "line": "Nano",
-        "model": "30W 512GB",
-        "version": "USB-C PD",
+        "brand": "FETUZZ",
+        "line": "F-CAR601-4",
+        "model": "F-CAR601-4",
+        "version": "USB-C",
         "color": "Blanco"
       },
       "connectivity": {
@@ -10165,20 +10165,20 @@
   },
   {
     "id": 188,
-    "title": "Auriculares Sony WF-C500 Bluetooth - Versión 512GB",
+    "title": "Auriculares Thonet And Vander Dauer Gen2 Over-Ear Bluetooth con Micrófono",
     "price": 154998.45,
     "description": "Auriculares totalmente inalámbricos para música y llamadas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía y resistencia dependen de condiciones de uso; estuche incluido en versión habitual. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20Sony%20WF-C500%20Bluetooth%20-%20Versin%205",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_728650-MLA99982332743_112025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "Sony",
-        "line": "WF",
-        "model": "WF-C500 512GB",
+        "brand": "Thonet And Vander",
+        "line": "Auriculares Bluetooth",
+        "model": "Dauer Gen2",
         "version": "Bluetooth",
-        "color": "Negro"
+        "color": "Azul"
       },
       "connectivity": {
         "wifi": "No",
@@ -10220,18 +10220,18 @@
   },
   {
     "id": 189,
-    "title": "Auriculares JBL Tune 520BT - Versión 512GB",
+    "title": "Auriculares Xiaomi Redmi Headphones Neo Inalámbricos Bluetooth 5.4",
     "price": 139498.45,
     "description": "Auriculares de vincha inalámbricos para uso diario. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía anunciada por fabricante; carga y funciones dependen de la versión regional. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20JBL%20Tune%20520BT%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_639081-MLA110410361526_052026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "JBL",
-        "line": "Tune",
-        "model": "520BT 512GB",
+        "brand": "Xiaomi",
+        "line": "Audio",
+        "model": "Redmi Headphones Neo",
         "version": "Bluetooth",
         "color": "Negro"
       },
@@ -10275,24 +10275,24 @@
   },
   {
     "id": 190,
-    "title": "Barra de sonido Gadnic Nova 200W - Versión 512GB",
+    "title": "Parlante JBL Boombox 4 Bluetooth de 210W y 34H de Batería con IP68",
     "price": 511498.45,
     "description": "Barra de sonido para mejorar el audio del televisor. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Ficha de referencia basada en el catálogo de Gadnic; confirmar puertos y potencia RMS con vendedor. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Barra%20de%20sonido%20Gadnic%20Nova%20200W%20-%20Versin%20512",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_938913-MLA98964691189_112025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Parlantes y sonido",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Nova",
-        "model": "200W 512GB",
-        "version": "Bluetooth / entradas según versión",
+        "brand": "JBL",
+        "line": "Boombox4",
+        "model": "-",
+        "version": "Bluetooth",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -10328,31 +10328,31 @@
   },
   {
     "id": 191,
-    "title": "Smart TV 50 pulgadas 4K UHD - Versión 512GB",
+    "title": "Smart TV AI LG HD 32 Pulgadas",
     "price": 1084998.45,
     "description": "Televisor 4K para streaming, televisión y videojuegos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Sistema operativo, HDR y frecuencia nativa dependen del modelo exacto. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Smart%20TV%2050%20pulgadas%204K%20UHD%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_809935-MLA113710565847_062026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Smart TV",
     "specs": {
       "main": {
-        "brand": "TCL",
-        "line": "P Series",
-        "model": "50 4K 512GB",
-        "version": "Wi-Fi / HDMI",
+        "brand": "LG",
+        "line": "ThinQ AI",
+        "model": "LR650BPSA",
+        "version": "32LR650BPSA",
         "color": "Negro"
       },
       "connectivity": {
-        "wifi": "No",
-        "bluetooth": "No",
+        "wifi": "Sí",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -10381,31 +10381,31 @@
   },
   {
     "id": 192,
-    "title": "Webcam Logitech C920 Full HD - Versión 512GB",
+    "title": "Cámara Sjcam Sj8 Pro Action Cam 2.33 Touch Screen 4 K",
     "price": 185998.45,
     "description": "Cámara web para videollamadas, clases y streaming. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución y funciones pueden depender de la aplicación y el sistema operativo. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Webcam%20Logitech%20C920%20Full%20HD%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_770724-MLU77961838157_072024-F.webp",
     "category": "Audio & Video",
     "subcategory": "Streaming y Fotografía",
     "specs": {
       "main": {
-        "brand": "Logitech",
-        "line": "C920",
-        "model": "C920 512GB",
+        "brand": "Sjcam",
+        "line": "SJ8 Series",
+        "model": "SJ8 Pro",
         "version": "USB",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "Según modelo",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -10434,20 +10434,20 @@
   },
   {
     "id": 193,
-    "title": "Nintendo Switch OLED 64GB - Versión 512GB",
+    "title": "Consola Atari 2600 Sears Telegames Original",
     "price": 1239998.45,
     "description": "Consola híbrida portátil y de sobremesa con pantalla OLED. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La disponibilidad de juegos y servicios en línea depende de la región y la cuenta. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Nintendo%20Switch%20OLED%2064GB%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_768600-MLA106522980984_022026-F.webp",
     "category": "Gaming",
     "subcategory": "Consolas",
     "specs": {
       "main": {
-        "brand": "Nintendo",
-        "line": "Switch",
-        "model": "OLED 64GB 512GB",
-        "version": "Wi-Fi / Bluetooth",
-        "color": "Blanco"
+        "brand": "Atari",
+        "line": "2600",
+        "model": "Sears Telegames",
+        "version": "CX2600",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
@@ -10458,7 +10458,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -10544,34 +10544,34 @@
   },
   {
     "id": 195,
-    "title": "Control inalámbrico DualSense PS5 - Versión 512GB",
+    "title": "Soporte De Apoyo Para Auricular Gamer Headset Stand",
     "price": 185998.45,
     "description": "Control inalámbrico con respuesta háptica y gatillos adaptativos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones avanzadas disponibles en juegos compatibles; cable puede variar por pack. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Control%20inalmbrico%20DualSense%20PS5%20-%20Versin%20512",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_920966-MLA118791832899_102026-F.webp",
     "category": "Gaming",
     "subcategory": "Accesorios Gamer",
     "specs": {
       "main": {
-        "brand": "Sony",
-        "line": "DualSense",
-        "model": "CFI-ZCT1 512GB",
-        "version": "Bluetooth / USB-C",
+        "brand": "Bolduke",
+        "line": "Headset Stand",
+        "model": "-",
+        "version": "-",
         "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "Sí",
+        "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
-        "waterproof": "Según modelo",
-        "box": "Según modelo",
-        "weight": "Según modelo"
+        "charge": "No aplica",
+        "waterproof": "No aplica",
+        "box": "No aplica",
+        "weight": "No aplica"
       }
     },
     "rating": 4.8,
@@ -10656,20 +10656,20 @@
   },
   {
     "id": 197,
-    "title": "Amazon Echo Dot 5ª generación - Versión 512GB",
+    "title": "Amazon Echo Dot Max Altavoz Alexa",
     "price": 154998.45,
     "description": "Altavoz inteligente para música, consultas y control del hogar conectado. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Disponibilidad de asistentes y servicios puede variar según idioma y país. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Amazon%20Echo%20Dot%205%20generacin%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_991866-MLA95098525529_102025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Asistentes Virtuales",
     "specs": {
       "main": {
         "brand": "Amazon",
-        "line": "Echo Dot",
-        "model": "5ª generación 512GB",
+        "line": "B0DKLNNYY4",
+        "model": "Echo Dot Max",
         "version": "Wi-Fi / Bluetooth",
-        "color": "Azul"
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -10711,23 +10711,23 @@
   },
   {
     "id": 198,
-    "title": "Lámpara inteligente Wi-Fi RGB E27 - Versión 512GB",
+    "title": "Panel Plafón Led Smart Ledvance 22w Rgbw Dimerizable App Color",
     "price": 30998.45,
     "description": "Lámpara LED inteligente con control desde aplicación compatible. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Requiere red Wi-Fi compatible; verificar aplicación y ecosistema admitido. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Lmpara%20inteligente%20Wi-Fi%20RGB%20E27%20-%20Versin%20512",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_697972-MLA89948906583_082025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Iluminación Inteligente",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Smart Home",
-        "model": "E27 RGB 512GB",
-        "version": "Wi-Fi 2.4 GHz",
+        "brand": "Ledvance",
+        "line": "Ceiling",
+        "model": "-",
+        "version": "-",
         "color": "Blanco"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -10735,7 +10735,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -10764,23 +10764,23 @@
   },
   {
     "id": 199,
-    "title": "Cámara de seguridad Wi-Fi Full HD - Versión 512GB",
+    "title": "Cerradura Biométrica Digital Siberian",
     "price": 77498.45,
     "description": "Cámara interior con visualización remota y detección de movimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones de almacenamiento y detección dependen de la app, región y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cmara%20de%20seguridad%20Wi-Fi%20Full%20HD%20-%20Versin%20512",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_942475-MLA99513241466_112025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Seguridad Wi-Fi",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Tapo",
-        "model": "C200 512GB",
-        "version": "Wi-Fi 2.4 GHz",
-        "color": "Blanco"
+        "brand": "Siberian",
+        "line": "YP02",
+        "model": "-",
+        "version": "-",
+        "color": "Negro"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -10788,7 +10788,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -10817,23 +10817,23 @@
   },
   {
     "id": 200,
-    "title": "Sistema Mesh Wi-Fi AC1200 x2 - Versión 512GB",
+    "title": "Inyector PoE+ Cudy POE40 Gigabit 30W Para Cámaras IP Access Point Router WiFi",
     "price": 232498.45,
     "description": "Sistema de red mesh para ampliar cobertura inalámbrica en el hogar. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Cobertura real depende de paredes, interferencias y distribución de los nodos. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Sistema%20Mesh%20Wi-Fi%20AC1200%20x2%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_680848-MLA113398909746_072026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Redes y Routers",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Deco",
-        "model": "M4 512GB",
-        "version": "Wi-Fi / Ethernet",
-        "color": "Blanco"
+        "brand": "Cudy",
+        "line": "PoE Extender",
+        "model": "POE40",
+        "version": "-",
+        "color": "Gris"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -10841,7 +10841,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -11199,25 +11199,25 @@
   },
   {
     "id": 207,
-    "title": "Lenovo Tab M10 3ª generación 64GB - Versión 512GB",
+    "title": "TABLET LENOVO 10,1 TAB MEDIATEK 4GB 128GB ANDROID",
     "price": 387498.45,
     "description": "Tablet para lectura, clases y entretenimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La RAM y versión de Android dependen de la variante comercial. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Lenovo%20Tab%20M10%203%20generacin%2064GB%20-%20Versin%20512G",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_658945-MLA112327130582_062026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Tablets",
     "specs": {
       "main": {
         "brand": "Lenovo",
-        "line": "Tab M10",
-        "model": "3rd Gen 64GB 512GB",
+        "line": "Tab",
+        "model": "ZAEH0055ES",
         "version": "Wi-Fi",
-        "color": "Gris"
+        "color": "Gris Lunar"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
-        "gps": "No",
+        "bluetooth": "Sí",
+        "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
@@ -11307,20 +11307,20 @@
   },
   {
     "id": 209,
-    "title": "Power bank 20000mAh USB-C PD - Versión 512GB",
+    "title": "Cargador Portatil Powerbank Gadnic 15000 Mah Carga Múltiple",
     "price": 77498.45,
     "description": "Batería externa para recargar dispositivos móviles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Capacidad efectiva y potencia varían según tensión y dispositivo conectado. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Power%20bank%2020000mAh%20USB-C%20PD%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_631630-MLA111224072661_052026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Accesorios",
     "specs": {
       "main": {
-        "brand": "Xiaomi",
-        "line": "Mi Power Bank",
-        "model": "20000mAh 512GB",
-        "version": "USB-C / USB-A",
-        "color": "Negro"
+        "brand": "Gadnic",
+        "line": "Kpb53",
+        "model": "-",
+        "version": "USB",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
@@ -11360,19 +11360,19 @@
   },
   {
     "id": 210,
-    "title": "Auriculares JBL Wave Buds - Versión 512GB",
+    "title": "Auriculares Inalámbricos Htc Ne79 Con Estuche",
     "price": 123998.45,
     "description": "Auriculares true wireless para música y llamadas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía y protección dependen de la versión y condiciones de uso. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20JBL%20Wave%20Buds%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_922063-CBT115337235210_082026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "JBL",
-        "line": "Wave",
-        "model": "Buds 512GB",
-        "version": "Bluetooth",
+        "brand": "HTC",
+        "line": "Bluetooth",
+        "model": "NE79",
+        "version": "-",
         "color": "Negro"
       },
       "connectivity": {
@@ -11415,18 +11415,18 @@
   },
   {
     "id": 211,
-    "title": "Parlante Gadnic S55 Bluetooth IPX6 - Versión 512GB",
+    "title": "Parlante Koryn Inalámbrico Carga Celular Bluetooth Subwoofer",
     "price": 61998.45,
     "description": "Parlante portátil para uso cotidiano y actividades al aire libre. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resistencia IPX6 según ficha comercial; no sumergir salvo indicación expresa. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Parlante%20Gadnic%20S55%20Bluetooth%20IPX6%20-%20Versin%205",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_790856-MLA109456698814_042026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Parlantes y sonido",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "S",
-        "model": "S55 512GB",
+        "brand": "Koryn",
+        "line": "5628",
+        "model": "-",
         "version": "Bluetooth",
         "color": "Negro"
       },
@@ -11470,31 +11470,31 @@
   },
   {
     "id": 212,
-    "title": "Smart TV 43 pulgadas Full HD - Versión 512GB",
+    "title": "Smart Tv Hisense 65 QLED 4K Dolby Vision AI Picture",
     "price": 697498.45,
     "description": "Televisor inteligente de 43 pulgadas para streaming y televisión. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Sistema operativo, puertos y tasa de refresco dependen del modelo exacto. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Smart%20TV%2043%20pulgadas%20Full%20HD%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_645394-MLA119951034935_102026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Smart TV",
     "specs": {
       "main": {
-        "brand": "TCL",
-        "line": "S Series",
-        "model": "43 FHD 512GB",
+        "brand": "Hisense",
+        "line": "65Q6QV",
+        "model": "-",
         "version": "Wi-Fi / HDMI",
         "color": "Negro"
       },
       "connectivity": {
-        "wifi": "No",
-        "bluetooth": "No",
+        "wifi": "Sí",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -11523,31 +11523,31 @@
   },
   {
     "id": 213,
-    "title": "Cámara de acción 4K Wi-Fi - Versión 512GB",
+    "title": "Cámara deportiva VStarcam Deportiva 4K",
     "price": 154998.45,
     "description": "Cámara compacta para grabar actividades y viajes. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución, estabilización y accesorios incluidos dependen de la versión. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cmara%20de%20accin%204K%20Wi-Fi%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_929203-MLA84848224865_052025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Streaming y Fotografía",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Action Cam",
-        "model": "4K 512GB",
+        "brand": "VStarcam",
+        "line": "Deportiva",
+        "model": "S2R",
         "version": "Wi-Fi / USB",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "Según modelo",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -11576,19 +11576,19 @@
   },
   {
     "id": 214,
-    "title": "Xbox Series S 512GB - Versión 512GB",
+    "title": "Consola de Juegos Nex Playground Plug and Play para TV",
     "price": 1239998.45,
     "description": "Consola digital para juegos y entretenimiento multimedia. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "No incluye lector de discos; juegos digitales requieren cuenta compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xbox%20Series%20S%20512GB%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_977271-MLA95716771086_102025-F.webp",
     "category": "Gaming",
     "subcategory": "Consolas",
     "specs": {
       "main": {
-        "brand": "Microsoft",
-        "line": "Xbox",
-        "model": "Series S 512GB",
-        "version": "Wi-Fi / Bluetooth",
+        "brand": "Nex Playground",
+        "line": "NPG-001",
+        "model": "-",
+        "version": "-",
         "color": "Blanco"
       },
       "connectivity": {
@@ -11600,7 +11600,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -11686,20 +11686,20 @@
   },
   {
     "id": 216,
-    "title": "Headset gamer Redragon Zeus X RGB - Versión 512GB",
+    "title": "Micrófono Gamer Havit Gk65 Cardioide Rgb, Usb Tipo C",
     "price": 123998.45,
     "description": "Auriculares gamer con micrófono e iluminación RGB. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Compatibilidad de iluminación y controles depende de la conexión y plataforma. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Headset%20gamer%20Redragon%20Zeus%20X%20RGB%20-%20Versin%2051",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_675526-MLA97578976343_112025-F.webp",
     "category": "Gaming",
     "subcategory": "Accesorios Gamer",
     "specs": {
       "main": {
-        "brand": "Redragon",
-        "line": "Zeus",
-        "model": "X RGB 512GB",
-        "version": "USB",
-        "color": "Negro"
+        "brand": "Havit",
+        "line": "Gamenote",
+        "model": "GK65",
+        "version": "USB-C",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "No",
@@ -11797,20 +11797,20 @@
   },
   {
     "id": 218,
-    "title": "Google Nest Mini - Versión 512GB",
+    "title": "Control Remoto Wifi Para Alexa/google Home/smart Life",
     "price": 139498.45,
     "description": "Altavoz inteligente compacto para asistente y reproducción de audio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Disponibilidad de funciones por voz y servicios depende de región e idioma. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Google%20Nest%20Mini%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_891302-MLA49688454903_042022-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Asistentes Virtuales",
     "specs": {
       "main": {
-        "brand": "Google",
-        "line": "Nest",
-        "model": "Mini 512GB",
+        "brand": "Pronext",
+        "line": "Smart",
+        "model": "IR-500 SMART",
         "version": "Wi-Fi / Bluetooth",
-        "color": "Tiza"
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -11852,23 +11852,23 @@
   },
   {
     "id": 219,
-    "title": "Tira LED inteligente RGB 5m Wi-Fi - Versión 512GB",
+    "title": "Bombilla Inteligente Linkind A19 9w 800lm Rgbw Matter E26 4p Rgb",
     "price": 46498.45,
     "description": "Tira LED para iluminación ambiental controlada desde el teléfono. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar fuente, aplicación y compatibilidad con asistentes. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Tira%20LED%20inteligente%20RGB%205m%20Wi-Fi%20-%20Versin%2051",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_736836-CBT115661396336_092026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Iluminación Inteligente",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Smart LED",
-        "model": "RGB 5m 512GB",
+        "brand": "Linkind",
+        "line": "-",
+        "model": "A19 Matter Smart Light Bulb",
         "version": "Wi-Fi",
         "color": "Multicolor"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -11876,7 +11876,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -11905,23 +11905,23 @@
   },
   {
     "id": 220,
-    "title": "Videoportero Wi-Fi con cámara - Versión 512GB",
+    "title": "Starlink Router Mini Mini",
     "price": 123998.45,
     "description": "Videoportero conectado para supervisar accesos desde el móvil. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Almacenamiento, alimentación y compatibilidad dependen de la versión. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Videoportero%20Wi-Fi%20con%20cmara%20-%20Versin%20512GB",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_846673-MLA113325447573_062026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Seguridad Wi-Fi",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Smart Security",
-        "model": "Video Doorbell 512GB",
-        "version": "Wi-Fi",
-        "color": "Negro"
+        "brand": "Starlink",
+        "line": "Starlink Router Mini",
+        "model": "Mini",
+        "version": "-",
+        "color": "Blanco"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -11958,23 +11958,23 @@
   },
   {
     "id": 221,
-    "title": "Router TP-Link Archer C6 AC1200 - Versión 512GB",
+    "title": "Switch Gestionable MikroTik CRS354-48G-4S+2Q+RM 50 Puertos Gigabit 2 QSFP+ 40G",
     "price": 108498.45,
     "description": "Router de doble banda para redes domésticas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Velocidad y cobertura dependen del plan de internet y el entorno. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Router%20TP-Link%20Archer%20C6%20AC1200%20-%20Versin%20512G",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_618174-MLA99988763433_112025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Redes y Routers",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Archer",
-        "model": "C6 AC1200 512GB",
-        "version": "Wi-Fi / Ethernet",
-        "color": "Negro"
+        "brand": "MikroTik",
+        "line": "-",
+        "model": "CRS354-48G-4S+2Q+RM",
+        "version": "-",
+        "color": "Blanco"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -11982,7 +11982,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -12879,25 +12879,25 @@
   },
   {
     "id": 238,
-    "title": "iPad 10ª generación 64GB Wi-Fi - Edición compacta",
+    "title": "Tableta Galaxy Tab S10 Fe con Wi-Fi, 128 GB, 8 GB de RAM",
     "price": 629999.1,
     "description": "Tablet Apple para estudio, trabajo ligero y entretenimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Compatibilidad de accesorios y conectividad según generación y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=iPad%2010%20generacin%2064GB%20Wi-Fi%20-%20Edicin%20compact",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_866018-MLA83414558948_042025-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Tablets",
     "specs": {
       "main": {
-        "brand": "Apple",
-        "line": "iPad",
-        "model": "10ª generación 64GB Compact",
+        "brand": "Samsung",
+        "line": "Galaxy Tab S10 FE",
+        "model": "Galaxy Tab S10 FE",
         "version": "Wi-Fi",
-        "color": "Plateado"
+        "color": "Gris"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
-        "gps": "No",
+        "bluetooth": "Sí",
+        "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
@@ -12934,19 +12934,19 @@
   },
   {
     "id": 239,
-    "title": "Xiaomi Smart Band 8 - Edición compacta",
+    "title": "Reloj Inteligente Business Watch De 1.5 Pulgadas Con Pantalla",
     "price": 62999.1,
     "description": "Pulsera inteligente para actividad física y notificaciones. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones disponibles según teléfono, aplicación y región; no reemplaza equipos médicos. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xiaomi%20Smart%20Band%208%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_650309-MLA115147595540_082026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartwaches",
     "specs": {
       "main": {
-        "brand": "Xiaomi",
-        "line": "Smart Band",
-        "model": "8 Compact",
-        "version": "Bluetooth",
+        "brand": "Generic",
+        "line": "OEM",
+        "model": "-",
+        "version": "-",
         "color": "Negro"
       },
       "connectivity": {
@@ -12989,19 +12989,19 @@
   },
   {
     "id": 240,
-    "title": "Cargador USB-C Power Delivery 30W - Edición compacta",
+    "title": "Cargador Doble Tipo C Y Usb Carga Rapida",
     "price": 35999.1,
     "description": "Cargador compacto USB-C para dispositivos compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La velocidad de carga depende del dispositivo, cable y protocolo admitido. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cargador%20USB-C%20Power%20Delivery%2030W%20-%20Edicin%20co",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_667068-MLA100084886811_122025-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Accesorios",
     "specs": {
       "main": {
-        "brand": "Anker",
-        "line": "Nano",
-        "model": "30W Compact",
-        "version": "USB-C PD",
+        "brand": "Xaea",
+        "line": "45W PD Tipo C",
+        "model": "-",
+        "version": "USB-C",
         "color": "Blanco"
       },
       "connectivity": {
@@ -13042,18 +13042,18 @@
   },
   {
     "id": 241,
-    "title": "Auriculares Sony WF-C500 Bluetooth - Edición compacta",
+    "title": "Audífonos Inalámbricos Soundcore Anker A25i 28hrs Ipx5",
     "price": 89999.1,
     "description": "Auriculares totalmente inalámbricos para música y llamadas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía y resistencia dependen de condiciones de uso; estuche incluido en versión habitual. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20Sony%20WF-C500%20Bluetooth%20-%20Edicin%20c",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_753700-MLA99484768946_112025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "Sony",
-        "line": "WF",
-        "model": "WF-C500 Compact",
+        "brand": "Anker Soundcore",
+        "line": "TWS",
+        "model": "A3948BK",
         "version": "Bluetooth",
         "color": "Negro"
       },
@@ -13097,24 +13097,24 @@
   },
   {
     "id": 242,
-    "title": "Auriculares JBL Tune 520BT - Edición compacta",
+    "title": "Auriculares gamer Redragon Gamer Ares H120",
     "price": 80999.1,
     "description": "Auriculares de vincha inalámbricos para uso diario. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía anunciada por fabricante; carga y funciones dependen de la versión regional. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20JBL%20Tune%20520BT%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_693723-MLU72566347318_112023-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "JBL",
-        "line": "Tune",
-        "model": "520BT Compact",
-        "version": "Bluetooth",
-        "color": "Negro"
+        "brand": "RedragonJBL",
+        "line": "Gamer",
+        "model": "Ares",
+        "version": "-",
+        "color": "Negro/Rojo"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "Sí",
+        "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -13152,24 +13152,24 @@
   },
   {
     "id": 243,
-    "title": "Barra de sonido Gadnic Nova 200W - Edición compacta",
+    "title": "Parlante Bluetooth Portátil Con Luces Led Rgb",
     "price": 296999.1,
     "description": "Barra de sonido para mejorar el audio del televisor. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Ficha de referencia basada en el catálogo de Gadnic; confirmar puertos y potencia RMS con vendedor. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Barra%20de%20sonido%20Gadnic%20Nova%20200W%20-%20Edicin%20com",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_787272-CBT118731245684_102026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Parlantes y sonido",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Nova",
-        "model": "200W Compact",
-        "version": "Bluetooth / entradas según versión",
+        "brand": "General",
+        "line": "General",
+        "model": "-",
+        "version": "Bluetooth",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "No",
+        "bluetooth": "SíNo",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -13205,31 +13205,31 @@
   },
   {
     "id": 244,
-    "title": "Smart TV 50 pulgadas 4K UHD - Edición compacta",
+    "title": "Smart Tv Led LG 55 55nano80asa 4k Uhd Alpha 7 4k Gen8",
     "price": 629999.1,
     "description": "Televisor 4K para streaming, televisión y videojuegos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Sistema operativo, HDR y frecuencia nativa dependen del modelo exacto. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Smart%20TV%2050%20pulgadas%204K%20UHD%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_997434-MLA107860426079_022026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Smart TV",
     "specs": {
       "main": {
-        "brand": "TCL",
-        "line": "P Series",
-        "model": "50 4K Compact",
+        "brand": "LG",
+        "line": "55NANO",
+        "model": "55NANO80ASA",
         "version": "Wi-Fi / HDMI",
         "color": "Negro"
       },
       "connectivity": {
-        "wifi": "No",
-        "bluetooth": "No",
+        "wifi": "Sí",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -13258,31 +13258,31 @@
   },
   {
     "id": 245,
-    "title": "Webcam Logitech C920 Full HD - Edición compacta",
+    "title": "Cámara Action Sjcam S10 Negro 64gb Full Hd",
     "price": 107999.1,
     "description": "Cámara web para videollamadas, clases y streaming. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución y funciones pueden depender de la aplicación y el sistema operativo. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Webcam%20Logitech%20C920%20Full%20HD%20-%20Edicin%20compact",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_718256-MLA116611164532_092026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Streaming y Fotografía",
     "specs": {
       "main": {
-        "brand": "Logitech",
-        "line": "C920",
-        "model": "C920 Compact",
+        "brand": "Sjcam",
+        "line": "S10",
+        "model": "64gb",
         "version": "USB",
-        "color": "Negro"
+        "color": "Gris"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "Según modelo",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -13311,20 +13311,20 @@
   },
   {
     "id": 246,
-    "title": "Nintendo Switch OLED 64GB - Edición compacta",
+    "title": "Sony Playstation 2 Slim De 64gb Con Dos Joystick Y Memory",
     "price": 719999.1,
     "description": "Consola híbrida portátil y de sobremesa con pantalla OLED. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La disponibilidad de juegos y servicios en línea depende de la región y la cuenta. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Nintendo%20Switch%20OLED%2064GB%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_727255-MLA117144559206_102026-F.webp",
     "category": "Gaming",
     "subcategory": "Consolas",
     "specs": {
       "main": {
-        "brand": "Nintendo",
-        "line": "Switch",
-        "model": "OLED 64GB Compact",
-        "version": "Wi-Fi / Bluetooth",
-        "color": "Blanco"
+        "brand": "Sony",
+        "line": "PlayStation",
+        "model": "PlayStation 2",
+        "version": "Slim",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
@@ -13335,7 +13335,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -13421,34 +13421,34 @@
   },
   {
     "id": 248,
-    "title": "Control inalámbrico DualSense PS5 - Edición compacta",
+    "title": "Mouse Pad gamer Shenlong P1000 de tela y neopreno xl negro",
     "price": 107999.1,
     "description": "Control inalámbrico con respuesta háptica y gatillos adaptativos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones avanzadas disponibles en juegos compatibles; cable puede variar por pack. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Control%20inalmbrico%20DualSense%20PS5%20-%20Edicin%20com",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_813138-MLA99956854883_112025-F.webp",
     "category": "Gaming",
     "subcategory": "Accesorios Gamer",
     "specs": {
       "main": {
-        "brand": "Sony",
-        "line": "DualSense",
-        "model": "CFI-ZCT1 Compact",
-        "version": "Bluetooth / USB-C",
-        "color": "Blanco"
+        "brand": "Shenlong",
+        "line": "P1000",
+        "model": "-",
+        "version": "-",
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "Sí",
+        "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
-        "waterproof": "Según modelo",
-        "box": "Según modelo",
-        "weight": "Según modelo"
+        "charge": "No aplica",
+        "waterproof": "No aplica",
+        "box": "No aplica",
+        "weight": "No aplica"
       }
     },
     "rating": 4.8,
@@ -13533,18 +13533,18 @@
   },
   {
     "id": 250,
-    "title": "Amazon Echo Dot 5ª generación - Edición compacta",
+    "title": "Sonos Era 100",
     "price": 89999.1,
     "description": "Altavoz inteligente para música, consultas y control del hogar conectado. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Disponibilidad de asistentes y servicios puede variar según idioma y país. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Amazon%20Echo%20Dot%205%20generacin%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_734506-MLA99470257172_112025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Asistentes Virtuales",
     "specs": {
       "main": {
-        "brand": "Amazon",
-        "line": "Echo Dot",
-        "model": "5ª generación Compact",
+        "brand": "Sonos",
+        "line": "Era 100",
+        "model": "-",
         "version": "Wi-Fi / Bluetooth",
         "color": "Azul"
       },
@@ -13588,20 +13588,20 @@
   },
   {
     "id": 251,
-    "title": "Lámpara inteligente Wi-Fi RGB E27 - Edición compacta",
+    "title": "Tira Manguera Led Neon Inteligente 5m Usb Rgb Control App Veoquiero",
     "price": 17999.1,
     "description": "Lámpara LED inteligente con control desde aplicación compatible. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Requiere red Wi-Fi compatible; verificar aplicación y ecosistema admitido. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Lmpara%20inteligente%20Wi-Fi%20RGB%20E27%20-%20Edicin%20com",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_745458-MLA95960437167_102025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Iluminación Inteligente",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Smart Home",
-        "model": "E27 RGB Compact",
-        "version": "Wi-Fi 2.4 GHz",
-        "color": "Blanco"
+        "brand": "Veoquiero",
+        "line": "-",
+        "model": "Neon App",
+        "version": "RGB",
+        "color": "Multicolor"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -13612,7 +13612,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "No aplica",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -13641,19 +13641,19 @@
   },
   {
     "id": 252,
-    "title": "Cámara de seguridad Wi-Fi Full HD - Edición compacta",
+    "title": "Cámara Seguridad Ip Dahua 2k Wifi 6 Ia Smart Dual Light Ip66",
     "price": 44999.1,
     "description": "Cámara interior con visualización remota y detección de movimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones de almacenamiento y detección dependen de la app, región y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cmara%20de%20seguridad%20Wi-Fi%20Full%20HD%20-%20Edicin%20com",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_686374-MLA113084343278_072026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Seguridad Wi-Fi",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Tapo",
-        "model": "C200 Compact",
-        "version": "Wi-Fi 2.4 GHz",
+        "brand": "Dahua",
+        "line": "Picoo Series",
+        "model": "DH-P3I-PV",
+        "version": "Wi-Fi",
         "color": "Blanco"
       },
       "connectivity": {
@@ -13694,23 +13694,23 @@
   },
   {
     "id": 253,
-    "title": "Sistema Mesh Wi-Fi AC1200 x2 - Edición compacta",
+    "title": "Tp Link Wr840n Wifi Router Repetidor Extensor Inalambrico",
     "price": 134999.1,
     "description": "Sistema de red mesh para ampliar cobertura inalámbrica en el hogar. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Cobertura real depende de paredes, interferencias y distribución de los nodos. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Sistema%20Mesh%20Wi-Fi%20AC1200%20x2%20-%20Edicin%20compact",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_735723-MLA116833654768_092026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Redes y Routers",
     "specs": {
       "main": {
         "brand": "TP-Link",
-        "line": "Deco",
-        "model": "M4 Compact",
-        "version": "Wi-Fi / Ethernet",
+        "line": "TL-WR840N(ES)",
+        "model": "-",
+        "version": "V6.20",
         "color": "Blanco"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -13718,7 +13718,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -14073,25 +14073,25 @@
   },
   {
     "id": 260,
-    "title": "Lenovo Tab M10 3ª generación 64GB - Edición compacta",
+    "title": "Tablet Xiaomi Poco Pad M1 12.1 8gb Ram 256gb",
     "price": 224999.1,
     "description": "Tablet para lectura, clases y entretenimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La RAM y versión de Android dependen de la variante comercial. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Lenovo%20Tab%20M10%203%20generacin%2064GB%20-%20Edicin%20comp",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_874846-MLA101895854627_122025-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Tablets",
     "specs": {
       "main": {
-        "brand": "Lenovo",
-        "line": "Tab M10",
-        "model": "3rd Gen 64GB Compact",
+        "brand": "Xiaomi",
+        "line": "POCO Pad",
+        "model": "M1",
         "version": "Wi-Fi",
-        "color": "Gris"
+        "color": "Gris oscuro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
-        "gps": "No",
+        "bluetooth": "Sí",
+        "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
@@ -14181,20 +14181,20 @@
   },
   {
     "id": 262,
-    "title": "Power bank 20000mAh USB-C PD - Edición compacta",
+    "title": "Power Bank Hune Halcón W10 Cargador Portátil Magnético 10000mAh",
     "price": 44999.1,
     "description": "Batería externa para recargar dispositivos móviles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Capacidad efectiva y potencia varían según tensión y dispositivo conectado. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Power%20bank%2020000mAh%20USB-C%20PD%20-%20Edicin%20compact",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_889007-MLA100008808275_122025-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Accesorios",
     "specs": {
       "main": {
-        "brand": "Xiaomi",
-        "line": "Mi Power Bank",
-        "model": "20000mAh Compact",
-        "version": "USB-C / USB-A",
-        "color": "Negro"
+        "brand": "Hune",
+        "line": "Halcon W10",
+        "model": "AT-POB-WP-002ROC",
+        "version": "USB-C",
+        "color": "Gris"
       },
       "connectivity": {
         "wifi": "No",
@@ -14234,24 +14234,24 @@
   },
   {
     "id": 263,
-    "title": "Auriculares JBL Wave Buds - Edición compacta",
+    "title": "Auriculares DJ Numark HF125 Plateado Monitoreo Over-Ear Cable 1.8m",
     "price": 71999.1,
     "description": "Auriculares true wireless para música y llamadas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía y protección dependen de la versión y condiciones de uso. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20JBL%20Wave%20Buds%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_657305-MLA99453211826_112025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "JBL",
-        "line": "Wave",
-        "model": "Buds Compact",
-        "version": "Bluetooth",
-        "color": "Negro"
+        "brand": "Numark",
+        "line": "DJ Headphone",
+        "model": "HF125",
+        "version": "-",
+        "color": "Negro/Plateado"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "Sí",
+        "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -14289,18 +14289,18 @@
   },
   {
     "id": 264,
-    "title": "Parlante Gadnic S55 Bluetooth IPX6 - Edición compacta",
+    "title": "Parlantes Bluetooth Gamer Pc Computador Xtrike Me Portatil",
     "price": 35999.1,
     "description": "Parlante portátil para uso cotidiano y actividades al aire libre. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resistencia IPX6 según ficha comercial; no sumergir salvo indicación expresa. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Parlante%20Gadnic%20S55%20Bluetooth%20IPX6%20-%20Edicin%20c",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_956998-MLA93085008316_092025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Parlantes y sonido",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "S",
-        "model": "S55 Compact",
+        "brand": "Xtrike Me",
+        "line": "SK-503",
+        "model": "-",
         "version": "Bluetooth",
         "color": "Negro"
       },
@@ -14344,31 +14344,31 @@
   },
   {
     "id": 265,
-    "title": "Smart TV 43 pulgadas Full HD - Edición compacta",
+    "title": "Combo Smart Tv Philips 55 4k Led + Barra Sonido Philips 60w",
     "price": 404999.1,
     "description": "Televisor inteligente de 43 pulgadas para streaming y televisión. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Sistema operativo, puertos y tasa de refresco dependen del modelo exacto. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Smart%20TV%2043%20pulgadas%20Full%20HD%20-%20Edicin%20compact",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_880193-MLA119047493740_112026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Smart TV",
     "specs": {
       "main": {
-        "brand": "TCL",
-        "line": "S Series",
-        "model": "43 FHD Compact",
+        "brand": "Philips",
+        "line": "55PUD7309",
+        "model": "55PUD7309",
         "version": "Wi-Fi / HDMI",
         "color": "Negro"
       },
       "connectivity": {
-        "wifi": "No",
-        "bluetooth": "No",
+        "wifi": "Sí",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -14397,31 +14397,31 @@
   },
   {
     "id": 266,
-    "title": "Cámara de acción 4K Wi-Fi - Edición compacta",
+    "title": "Action Cam Digital Esférica Kanji Move 360se Pantalla Lcd",
     "price": 89999.1,
     "description": "Cámara compacta para grabar actividades y viajes. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución, estabilización y accesorios incluidos dependen de la versión. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cmara%20de%20accin%204K%20Wi-Fi%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_904885-MLA96437658156_102025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Streaming y Fotografía",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Action Cam",
-        "model": "4K Compact",
+        "brand": "Kanji",
+        "line": "Action Cam Mini",
+        "model": "MOVE360SE",
         "version": "Wi-Fi / USB",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "Según modelo",
-        "charge": "USB-C / según modelo",
+        "charge": "USB-C",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -14450,24 +14450,24 @@
   },
   {
     "id": 267,
-    "title": "Xbox Series S 512GB - Edición compacta",
+    "title": "Consola Nintendo Switch 32 Gb Standard Edition",
     "price": 719999.1,
     "description": "Consola digital para juegos y entretenimiento multimedia. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "No incluye lector de discos; juegos digitales requieren cuenta compatible. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xbox%20Series%20S%20512GB%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_686310-MLA99381068372_112025-F.webp",
     "category": "Gaming",
     "subcategory": "Consolas",
     "specs": {
       "main": {
-        "brand": "Microsoft",
-        "line": "Xbox",
-        "model": "Series S 512GB Compact",
+        "brand": "Nintendo",
+        "line": "Nintendo Switch",
+        "model": "Switch",
         "version": "Wi-Fi / Bluetooth",
-        "color": "Blanco"
+        "color": "Rojo neón/Azul neón/Negro"
       },
       "connectivity": {
-        "wifi": "No",
-        "bluetooth": "No",
+        "wifi": "Sí",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -14560,31 +14560,31 @@
   },
   {
     "id": 269,
-    "title": "Headset gamer Redragon Zeus X RGB - Edición compacta",
+    "title": "Mini Mando Bluetooth Pocket Para Switch Pc",
     "price": 71999.1,
     "description": "Auriculares gamer con micrófono e iluminación RGB. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Compatibilidad de iluminación y controles depende de la conexión y plataforma. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Headset%20gamer%20Redragon%20Zeus%20X%20RGB%20-%20Edicin%20co",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_842481-CBT118972030891_102026-F.webp",
     "category": "Gaming",
     "subcategory": "Accesorios Gamer",
     "specs": {
       "main": {
-        "brand": "Redragon",
-        "line": "Zeus",
-        "model": "X RGB Compact",
-        "version": "USB",
-        "color": "Negro"
+        "brand": "Generic",
+        "line": "MINI-Fuchsia",
+        "model": "-",
+        "version": "-",
+        "color": "Fucsia"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -14671,20 +14671,20 @@
   },
   {
     "id": 271,
-    "title": "Google Nest Mini - Edición compacta",
+    "title": "Control Remoto Universal Xst Wifi IR Smart Domótica",
     "price": 80999.1,
     "description": "Altavoz inteligente compacto para asistente y reproducción de audio. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Disponibilidad de funciones por voz y servicios depende de región e idioma. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Google%20Nest%20Mini%20-%20Edicin%20compacta",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_888372-MLA96104172499_102025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Asistentes Virtuales",
     "specs": {
       "main": {
-        "brand": "Google",
-        "line": "Nest",
-        "model": "Mini Compact",
+        "brand": "XST",
+        "line": "Asistente Virtual",
+        "model": "Control Remoto IRF + WIFI",
         "version": "Wi-Fi / Bluetooth",
-        "color": "Tiza"
+        "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -14726,23 +14726,23 @@
   },
   {
     "id": 272,
-    "title": "Tira LED inteligente RGB 5m Wi-Fi - Edición compacta",
+    "title": "Aplique Para Cuadros Enertech Con Cabezal Movible",
     "price": 26999.1,
     "description": "Tira LED para iluminación ambiental controlada desde el teléfono. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Verificar fuente, aplicación y compatibilidad con asistentes. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Tira%20LED%20inteligente%20RGB%205m%20Wi-Fi%20-%20Edicin%20co",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_858375-MLA116289132190_092026-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Iluminación Inteligente",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Smart LED",
-        "model": "RGB 5m Compact",
-        "version": "Wi-Fi",
-        "color": "Multicolor"
+        "brand": "Enertech",
+        "line": "-",
+        "model": "ENERTECH",
+        "version": "-",
+        "color": "Cálida / Fría"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -14779,23 +14779,23 @@
   },
   {
     "id": 273,
-    "title": "Videoportero Wi-Fi con cámara - Edición compacta",
+    "title": "Sensor Apertura Puerta Ventana Tuya V2b Wifi Alexa Google",
     "price": 71999.1,
     "description": "Videoportero conectado para supervisar accesos desde el móvil. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Almacenamiento, alimentación y compatibilidad dependen de la versión. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Videoportero%20Wi-Fi%20con%20cmara%20-%20Edicin%20compact",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_684790-MLA51342558257_082022-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Seguridad Wi-Fi",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Smart Security",
-        "model": "Video Doorbell Compact",
-        "version": "Wi-Fi",
-        "color": "Negro"
+        "brand": "Tuya",
+        "line": "Domótica",
+        "model": "V2B PUERTA WIFI APP ALEXA GOOGLE HOME",
+        "version": "-",
+        "color": "Blanco"
       },
       "connectivity": {
-        "wifi": "Sí",
+        "wifi": "No",
         "bluetooth": "No",
         "gps": "No",
         "cardiac_sensor": "-",
@@ -14803,7 +14803,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -14832,20 +14832,20 @@
   },
   {
     "id": 274,
-    "title": "Router TP-Link Archer C6 AC1200 - Edición compacta",
+    "title": "Ubiquiti UniFi U7-LR Access Point Wi-Fi 7 Long Range | 2.5GbE",
     "price": 62999.1,
     "description": "Router de doble banda para redes domésticas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Velocidad y cobertura dependen del plan de internet y el entorno. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Router%20TP-Link%20Archer%20C6%20AC1200%20-%20Edicin%20comp",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_722804-MLA95842732241_102025-F.webp",
     "category": "Hogar Inteligente",
     "subcategory": "Redes y Routers",
     "specs": {
       "main": {
-        "brand": "TP-Link",
-        "line": "Archer",
-        "model": "C6 AC1200 Compact",
-        "version": "Wi-Fi / Ethernet",
-        "color": "Negro"
+        "brand": "Ubiquiti",
+        "line": "-",
+        "model": "U7-LR",
+        "version": "U7-LR",
+        "color": "Blanco"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -14856,7 +14856,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -15753,25 +15753,25 @@
   },
   {
     "id": 291,
-    "title": "iPad 10ª generación 64GB Wi-Fi - Edición Pro",
+    "title": "Samsung Galaxy Tab S12 Ultra 256 GB",
     "price": 979998.6,
     "description": "Tablet Apple para estudio, trabajo ligero y entretenimiento. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Compatibilidad de accesorios y conectividad según generación y configuración. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=iPad%2010%20generacin%2064GB%20Wi-Fi%20-%20Edicin%20Pro",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_812794-MLA119865384585_102026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Tablets",
     "specs": {
       "main": {
-        "brand": "Apple",
-        "line": "iPad",
-        "model": "10ª generación 64GB Pro",
+        "brand": "Samsung",
+        "line": "Galaxy Tab S",
+        "model": "S12Ultra",
         "version": "Wi-Fi",
-        "color": "Plateado"
+        "color": "Gris oscuro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
-        "gps": "No",
+        "bluetooth": "Sí",
+        "gps": "Sí",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
@@ -15808,20 +15808,20 @@
   },
   {
     "id": 292,
-    "title": "Xiaomi Smart Band 8 - Edición Pro",
+    "title": "Smartwatch Carrello AK50 Dorado con Pantalla AMOLED",
     "price": 97998.6,
     "description": "Pulsera inteligente para actividad física y notificaciones. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Funciones disponibles según teléfono, aplicación y región; no reemplaza equipos médicos. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Xiaomi%20Smart%20Band%208%20-%20Edicin%20Pro",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_819916-MLA114316021934_082026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Smartwaches",
     "specs": {
       "main": {
-        "brand": "Xiaomi",
-        "line": "Smart Band",
-        "model": "8 Pro",
-        "version": "Bluetooth",
-        "color": "Negro"
+        "brand": "Carrello",
+        "line": "AK",
+        "model": "AK50",
+        "version": "Android/iOS",
+        "color": "Dorado"
       },
       "connectivity": {
         "wifi": "Sí",
@@ -15863,19 +15863,19 @@
   },
   {
     "id": 293,
-    "title": "Cargador USB-C Power Delivery 30W - Edición Pro",
+    "title": "Cargador 30w Carga Rápida + Cable Usb C A Usb C",
     "price": 55998.6,
     "description": "Cargador compacto USB-C para dispositivos compatibles. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La velocidad de carga depende del dispositivo, cable y protocolo admitido. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Cargador%20USB-C%20Power%20Delivery%2030W%20-%20Edicin%20Pr",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_990764-MLA119272543645_102026-F.webp",
     "category": "Telefonia & Tablets",
     "subcategory": "Accesorios",
     "specs": {
       "main": {
-        "brand": "Anker",
-        "line": "Nano",
-        "model": "30W Pro",
-        "version": "USB-C PD",
+        "brand": "Genérica",
+        "line": "30W",
+        "model": "USB-C",
+        "version": "-",
         "color": "Blanco"
       },
       "connectivity": {
@@ -15916,18 +15916,18 @@
   },
   {
     "id": 294,
-    "title": "Auriculares Sony WF-C500 Bluetooth - Edición Pro",
+    "title": "Auriculares Shokz OpenRun Inalámbricos de Conducción Ósea con Micrófono y Bluetooth",
     "price": 139998.6,
     "description": "Auriculares totalmente inalámbricos para música y llamadas. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía y resistencia dependen de condiciones de uso; estuche incluido en versión habitual. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20Sony%20WF-C500%20Bluetooth%20-%20Edicin%20P",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_987612-MLA99367102504_112025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "Sony",
-        "line": "WF",
-        "model": "WF-C500 Pro",
+        "brand": "AfterShokz",
+        "line": "openrun",
+        "model": "OpenRun s803",
         "version": "Bluetooth",
         "color": "Negro"
       },
@@ -15971,18 +15971,18 @@
   },
   {
     "id": 295,
-    "title": "Auriculares JBL Tune 520BT - Edición Pro",
+    "title": "Auriculares Ugreen Hitune S3 Ws209 2024 Bluetooth 5.4",
     "price": 125998.6,
     "description": "Auriculares de vincha inalámbricos para uso diario. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Autonomía anunciada por fabricante; carga y funciones dependen de la versión regional. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Auriculares%20JBL%20Tune%20520BT%20-%20Edicin%20Pro",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_681110-MLA99980686415_112025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Auriculares",
     "specs": {
       "main": {
-        "brand": "JBL",
-        "line": "Tune",
-        "model": "520BT Pro",
+        "brand": "Hitune",
+        "line": "S3",
+        "model": "WS209",
         "version": "Bluetooth",
         "color": "Negro"
       },
@@ -16026,24 +16026,24 @@
   },
   {
     "id": 296,
-    "title": "Barra de sonido Gadnic Nova 200W - Edición Pro",
+    "title": "Parlante Portátil Bluetooth Micrófonos Karaoke Mini Luz Led",
     "price": 461998.6,
     "description": "Barra de sonido para mejorar el audio del televisor. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Ficha de referencia basada en el catálogo de Gadnic; confirmar puertos y potencia RMS con vendedor. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Barra%20de%20sonido%20Gadnic%20Nova%20200W%20-%20Edicin%20Pro",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_905677-MLA114767786898_082026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Parlantes y sonido",
     "specs": {
       "main": {
-        "brand": "Gadnic",
-        "line": "Nova",
-        "model": "200W Pro",
-        "version": "Bluetooth / entradas según versión",
+        "brand": "Amuni",
+        "line": "AM-MINIKARAOKE",
+        "model": "-",
+        "version": "Bluetooth",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "No",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -16079,31 +16079,31 @@
   },
   {
     "id": 297,
-    "title": "Smart TV 50 pulgadas 4K UHD - Edición Pro",
+    "title": "Tv Samsung Qn55q6f",
     "price": 979998.6,
     "description": "Televisor 4K para streaming, televisión y videojuegos. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Sistema operativo, HDR y frecuencia nativa dependen del modelo exacto. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Smart%20TV%2050%20pulgadas%204K%20UHD%20-%20Edicin%20Pro",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_959329-MLA107244303482_032026-F.webp",
     "category": "Audio & Video",
     "subcategory": "Smart TV",
     "specs": {
       "main": {
-        "brand": "TCL",
-        "line": "P Series",
-        "model": "50 4K Pro",
+        "brand": "Samsung",
+        "line": "Q6F",
+        "model": "55 QLED Q6F 4K Smart TV",
         "version": "Wi-Fi / HDMI",
         "color": "Negro"
       },
       "connectivity": {
-        "wifi": "No",
-        "bluetooth": "No",
+        "wifi": "Sí",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"
@@ -16132,24 +16132,24 @@
   },
   {
     "id": 298,
-    "title": "Webcam Logitech C920 Full HD - Edición Pro",
+    "title": "Cámara Deportiva 4k Sumergible Wifi Memoria 128gb",
     "price": 167998.6,
     "description": "Cámara web para videollamadas, clases y streaming. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "Resolución y funciones pueden depender de la aplicación y el sistema operativo. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Webcam%20Logitech%20C920%20Full%20HD%20-%20Edicin%20Pro",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_919553-MLA94130523075_102025-F.webp",
     "category": "Audio & Video",
     "subcategory": "Streaming y Fotografía",
     "specs": {
       "main": {
-        "brand": "Logitech",
-        "line": "C920",
-        "model": "C920 Pro",
+        "brand": "Genérica",
+        "line": "4K",
+        "model": "-",
         "version": "USB",
         "color": "Negro"
       },
       "connectivity": {
         "wifi": "Sí",
-        "bluetooth": "No",
+        "bluetooth": "Sí",
         "gps": "No",
         "cardiac_sensor": "-",
         "acelerometer": "-"
@@ -16185,20 +16185,20 @@
   },
   {
     "id": 299,
-    "title": "Nintendo Switch OLED 64GB - Edición Pro",
+    "title": "Consola De Videojuegos Portátil Con Pantalla Y Controles Analógicos",
     "price": 1119998.6,
     "description": "Consola híbrida portátil y de sobremesa con pantalla OLED. Variante de catálogo; confirmar el SKU exacto antes de publicar.",
     "details": "La disponibilidad de juegos y servicios en línea depende de la región y la cuenta. Esta entrada complementaria es una variante de catálogo y debe cotejarse con la ficha del fabricante o vendedor.",
-    "image": "https://placehold.co/600x600/png?text=Nintendo%20Switch%20OLED%2064GB%20-%20Edicin%20Pro",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_920053-CBT118328493954_102026-F.webp",
     "category": "Gaming",
     "subcategory": "Consolas",
     "specs": {
       "main": {
-        "brand": "Nintendo",
-        "line": "Switch",
-        "model": "OLED 64GB Pro",
-        "version": "Wi-Fi / Bluetooth",
-        "color": "Blanco"
+        "brand": "Genérica",
+        "line": "-",
+        "model": "SF3000",
+        "version": "-",
+        "color": "Violeta"
       },
       "connectivity": {
         "wifi": "No",
@@ -16209,7 +16209,7 @@
       },
       "battery_and_dimensions": {
         "autonomy": "No aplica",
-        "charge": "USB-C / según modelo",
+        "charge": "Según modelo",
         "waterproof": "Según modelo",
         "box": "Según modelo",
         "weight": "Según modelo"

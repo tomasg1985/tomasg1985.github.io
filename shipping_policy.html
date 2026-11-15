@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Políticas de envío | TecnoStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+    <header>
+        <nav class="upper_nav">
+            <div class="main_container">
+                <!-- 1. Logo a la izquierda -->
+                <div class="site_logo">
+                    <a href="index.html">
+                        <img src="src/logo_tecnostore_Mesa de trabajo 1.svg" class="logo" alt="Tecnostore Logo">
+                    </a>
+                </div>
+
+                <!-- 2. Botón Hamburguesa (solo móvil) -->
+                <button class="mobile_menu_btn" id="mobile_menu_btn" aria-label="Abrir menú">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+
+                <!-- 3. Categorías + Buscador en el Centro -->
+                <div class="searchbar">
+                    <div class="header-category-wrapper">
+                        <button class="header-category-btn" type="button">
+                            <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                            <span>Categorías</span>
+                        </button>
+                        <ul class="categories-dropdown">
+                            <li><a href="#">Tecnología</a></li>
+                            <li><a href="#">Smartwatches</a></li>
+                            <li><a href="#">Audio y Sonido</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="#">Celulares</a></li>
+                            <li><a href="#">Computación</a></li>
+                        </ul>
+                    </div>
+                    <div class="search-wrapper">
+                        <input type="search" class="search" placeholder="Buscar por producto, marca y más..." name="" id="search-input">
+                        <div id="search-results" class="search-dropdown"></div>
+                    </div>
+                </div>
+
+                <!-- 4. Login, Registrate y Carrito a la Derecha -->
+                <div class="user_login">
+                    <input type="button" class="login_btn" value="LOGIN">
+                    <ul class="nav_list">
+                        <li><a class="nav_link" href="register.html">Registrate</a></li>
+                        <li>
+                            <a class="nav_link_cart" href="cart.html">
+                                <div id="cart-btn" class="cart_btn">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                    </svg>
+                                    <span class="cart-count-items" id="cart-count">0</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Menú Principal Navegable -->
+        <nav class="main_nav" id="main_nav_menu">
+            <div class="navbar">
+                <ul class="nav_list_main">
+                    <li><a class="main_nav_link" href="index.html">Home</a></li>
+                    <li class="menu_con_submenu">
+                        <a class="main_nav_link submenu_toggle" href="#">Productos ▾</a>
+                        <div class="colapse_main_container">
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Computacion & Hardware</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Componentes</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Perifericos</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Almacenamiento</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Conectividad</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Telefonia & Tablets</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smartphones</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Tablets</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smartwaches</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Accesorios</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Audio & Video</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Auriculares</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Parlantes y sonido</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Smart TV</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Streaming y Fotografía</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Gaming</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Consolas</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Videoguegos</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Accesorios Gamer</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Periféricos Gamer</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Hogar Inteligente</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Asistentes Virtuales</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Iluminación Inteligente</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Seguridad Wi-Fi</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_link">Redes y Routers</a></li>
+                                    <li class="colapse_menu_item"><a href="products_category.html" class="colapse_menu_more">Ver mas</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu_con_submenu">
+                        <a class="main_nav_link submenu_toggle" href="#">Ofertas ▾</a>
+                        <div class="colapse_main_container">
+                            <div class="colapse_nav_menu">
+                                <h4 class="sub_menu_title">Ofertas y Destacados</h4>
+                                <hr>
+                                <ul>
+                                    <li class="colapse_menu_item"><a href="best_sellers.html" class="colapse_menu_link">Lo Más Vendido</a></li>
+                                    <li class="colapse_menu_item"><a href="outlet.html" class="colapse_menu_link">Liquidación</a></li>
+                                    <li class="colapse_menu_item"><a href="launches.html" class="colapse_menu_link">Lanzamientos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu_con_submenu">
+                        <a class="main_nav_link submenu_toggle" href="club.html">Club TecStore ▾</a>
+                        <div class="colapse_main_container club_dropdown">
+                            <div class="colapse_nav_menu">
+                                <h4 class="club_menu_title">Explorá el Club</h4>
+                                <hr>
+                                <ul>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#inicio">Inicio del Club</a></li>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#beneficios">Beneficios</a></li>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#como-funciona">Cómo funciona</a></li>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#tecpuntos">TecPuntos</a></li>
+                                    <li class="club_menu_item"><a class="club_menu_link" href="club.html#sumarme">Unirme al Club</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="main_nav_link" href="#">Novedades</a></li>
+                    <li><a class="main_nav_link" href="help.html">Ayuda</a></li>
+                    <li><a class="main_nav_link" href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content-page">
+        <div class="content-page-inner">
+            <p class="content-page-eyebrow">AYUDA PARA TU COMPRA</p>
+            <h1>Políticas de envío</h1>
+            <p class="content-page-lead">Información sobre cobertura, plazos estimados y costos de entrega.</p>
+
+            <section class="content-page-card" aria-labelledby="shipping-coverage">
+                <h2 id="shipping-coverage">Cobertura y tiempos</h2>
+                <p>Realizamos envíos a todo el país. Como referencia, las entregas en AMBA y CABA demoran entre 24 y 48 horas hábiles; para el resto del país, el plazo promedio es de 3 a 6 días hábiles.</p>
+                <p>Los plazos pueden variar según el destino y la disponibilidad del producto. La información disponible para tu compra se muestra durante el proceso de checkout.</p>
+            </section>
+
+            <section class="content-page-card" aria-labelledby="shipping-cost">
+                <h2 id="shipping-cost">Costo de envío</h2>
+                <p>El costo se calcula en el carrito al ingresar el código postal de entrega, antes de confirmar la compra.</p>
+            </section>
+
+            <div class="content-page-callout">
+                <p>¿Tenés dudas sobre una entrega? Nuestro equipo puede ayudarte.</p>
+                <a class="content-page-button" href="contact.html">Contactar a TecnoStore</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_main">
+            <div class="social">
+                <a href="index.html"><img src="src/logo_tecnostore_Mesa de trabajo 1.svg" class="logo" alt="TecnoStore"></a>
+                <h5 class="follow">Tecnología para todos los días</h5>
+            </div>
+            <div class="footer_info">
+                <h4 class="section_title">Soporte</h4>
+                <ul class="footer_nav_list">
+                    <li><a class="footer_nav_link" href="help.html">Preguntas Frecuentes</a></li>
+                    <li><a class="footer_nav_link" href="shipping_policy.html">Políticas de Envío</a></li>
+                    <li><a class="footer_nav_link" href="returns.html">Cambios y Devoluciones</a></li>
+                </ul>
+            </div>
+            <div class="footer_info">
+                <h4 class="section_title">Sobre la empresa</h4>
+                <ul class="footer_nav_list">
+                    <li><a class="footer_nav_link" href="about.html">Quiénes Somos</a></li>
+                    <li><a class="footer_nav_link" href="sustainability.html">Sustentabilidad</a></li>
+                </ul>
+            </div>
+            <div class="footer_info">
+                <h4 class="section_title">Categorías Destacadas</h4>
+                <ul class="footer_nav_list">
+                    <li><a class="footer_nav_link" href="best_sellers.html">Productos Populares</a></li>
+                    <li><a class="footer_nav_link" href="outlet.html">Ofertas</a></li>
+                    <li><a class="footer_nav_link" href="newbies.html">Nuevos Ingresos</a></li>
+                </ul>
+            </div>
+            <div class="footer_contact">
+                <h4 class="section_title">Contacto</h4>
+                <p class="address">Quilmes, Buenos Aires</p>
+                <p class="mail">ventas@tecnostore.com</p>
+            </div>
+        </div>
+        <div class="sub-footer_container">
+            <div class="copy_container">
+                <p class="copy">&copy; 2026 TecnoStore. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuBtn = document.getElementById("mobile_menu_btn");
+            const mainNav = document.getElementById("main_nav_menu");
+
+            if (menuBtn && mainNav) {
+                menuBtn.addEventListener("click", function() {
+                    mainNav.classList.toggle("active");
+                });
+            }
+
+            const submenuToggles = document.querySelectorAll(".submenu_toggle");
+            
+            submenuToggles.forEach(toggle => {
+                toggle.addEventListener("click", function(e) {
+                    if (window.innerWidth <= 992) {
+                        e.preventDefault();
+                        const parentLi = this.parentElement;
+                        parentLi.classList.toggle("open");
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script src="main.js"></script>
+    <script src="detail.js"></script>
+</body>
+</html>
