@@ -247,5 +247,33 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuBtn = document.getElementById("mobile_menu_btn");
+            const mainNav = document.getElementById("main_nav_menu");
+
+            if (menuBtn && mainNav) {
+                menuBtn.addEventListener("click", function() {
+                    mainNav.classList.toggle("active");
+                });
+            }
+
+            const submenuToggles = document.querySelectorAll(".submenu_toggle");
+            
+            submenuToggles.forEach(toggle => {
+                toggle.addEventListener("click", function(e) {
+                    if (window.innerWidth <= 992) {
+                        e.preventDefault();
+                        const parentLi = this.parentElement;
+                        parentLi.classList.toggle("open");
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script src="main.js"></script>
+    <script src="detail.js"></script>
 </body>
 </html>
