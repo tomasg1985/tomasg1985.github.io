@@ -1,5 +1,5 @@
 // =======================================================================
-// HEADER.JS - LÓGICA GLOBAL DE CABECERA (BUSCADOR + CARRITO + NAVEGACIÓN DE MENÚ)
+// HEADER.JS - LÓGICA GLOBAL DE CABECERA (BUSCADOR + CARRITO)
 // =======================================================================
 
 const API_SEARCH_URL = 'https://fakestoreapi.com/products/category/electronics';
@@ -10,23 +10,13 @@ async function initHeaderSearch() {
     const searchInput = document.getElementById('search-input');
     const searchResults = document.getElementById('search-results');
     const cartCountElement = document.getElementById('cart-count');
-    const mobileMenuBtn = document.getElementById('mobile_menu_btn');
-    const mainNavMenu = document.getElementById('main_nav_menu');
-
     // 1. Contador del carrito
     updateGlobalCartCount();
 
-    // 2. Menú móvil
-    if (mobileMenuBtn && mainNavMenu) {
-        mobileMenuBtn.addEventListener('click', () => {
-            mainNavMenu.classList.toggle('active');
-        });
-    }
-
-    // 3. Enlazar automáticamente los links del menú desplegable con sus query params
+    // 2. Enlazar automáticamente los links del menú desplegable con sus query params
     setupHeaderCategoryLinks();
 
-    // Cargar productos para el buscador
+    // 3. Cargar productos para el buscador
     if (!searchInput || !searchResults) return;
 
     try {
@@ -138,7 +128,8 @@ function updateGlobalCartCount() {
 
 window.addEventListener('storage', updateGlobalCartCount);
 
-document.addEventListener('DOMContentLoaded', initHeaderSearch);
-if (document.readyState === 'interactive' || document.readyState === 'complete') {
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initHeaderSearch, { once: true });
+} else {
     initHeaderSearch();
 }

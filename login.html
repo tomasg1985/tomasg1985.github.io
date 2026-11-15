@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión | TecnoStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body class="auth-page">
+    <main class="auth-page-shell">
+        <a class="auth-back" href="index.html">&larr; Volver a TecnoStore</a>
+        <section class="auth-card" aria-labelledby="login-title">
+            <aside class="auth-aside">
+                <a href="index.html" aria-label="TecnoStore, ir al inicio">
+                    <img class="auth-logo" src="src/logo_tecnostore_Blanco-01.svg" alt="TecnoStore">
+                </a>
+                <div>
+                    <p class="auth-aside-eyebrow">TU TECNOSTORE, SIEMPRE CERCA</p>
+                    <h1 class="auth-aside-title">Qué bueno verte de nuevo.</h1>
+                    <p class="auth-aside-copy">Iniciá sesión para continuar explorando productos y ofertas.</p>
+                </div>
+                <a class="auth-aside-link" href="products_category.html">Explorar productos <span aria-hidden="true">&rarr;</span></a>
+            </aside>
+
+            <div class="auth-form-panel auth-form-panel--login">
+                <p class="auth-eyebrow">BIENVENIDO/A</p>
+                <h2 class="auth-title" id="login-title">Iniciar sesión</h2>
+                <p class="auth-description">Ingresá con el correo y la contraseña de tu cuenta.</p>
+
+                <form class="auth-form" data-auth-form>
+                    <div class="auth-field">
+                        <label for="login-email">Correo electrónico</label>
+                        <input class="auth-input" id="login-email" name="email" type="email" autocomplete="email" placeholder="nombre@correo.com" required>
+                    </div>
+                    <div class="auth-field">
+                        <label for="login-password">Contraseña</label>
+                        <input class="auth-input" id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Tu contraseña" required>
+                    </div>
+                    <div class="auth-login-options">
+                        <label class="auth-remember">
+                            <input type="checkbox" name="remember">
+                            <span>Recordarme</span>
+                        </label>
+                        <a class="auth-text-link" href="contact.html">¿Olvidaste tu contraseña?</a>
+                    </div>
+                    <button class="auth-submit" type="submit">Iniciar sesión</button>
+                    <p class="auth-feedback" data-auth-feedback role="status" aria-live="polite"></p>
+                </form>
+
+                <p class="auth-switch">¿Todavía no tenés cuenta? <a class="auth-text-link" href="register.html">Crear una cuenta</a></p>
+            </div>
+        </section>
+        <p class="auth-copyright">&copy; 2026 TecnoStore. Todos los derechos reservados.</p>
+    </main>
+    <script src="auth.js"></script>
+</body>
+</html>

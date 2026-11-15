@@ -1,74 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrate</title>
+    <title>Crear cuenta | TecnoStore</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fonts.css">
 </head>
-<body>
-
-    <section class="main_container">
-        <div class="main_form_area">
-            <div class="form_container">
-                <div class="info_container">
-                    <div class="form_info">
-                        <img class="form_logo" src="src/logo_tecnostore_Blanco-01.svg" alt="">
-                        <hr>
-                        <h4 class="form_cover_title">¡Te damos la bienvenida!</h4>
-                        <p class="feature">Formá parte de nuestra comunidad para acceder a descuentos exclusivos, seguimiento de tus pedidos en tiempo real y una experiencia de compra personalizada.</p>
-                        <p class="register_free">Registro 100% gratuito</p>
-                    </div>
+<body class="auth-page">
+    <main class="auth-page-shell">
+        <a class="auth-back" href="index.html">&larr; Volver a TecnoStore</a>
+        <section class="auth-card" aria-labelledby="register-title">
+            <aside class="auth-aside">
+                <a href="index.html" aria-label="TecnoStore, ir al inicio">
+                    <img class="auth-logo" src="src/logo_tecnostore_Blanco-01.svg" alt="TecnoStore">
+                </a>
+                <div>
+                    <p class="auth-aside-eyebrow">TECNOLOGÍA PARA TODOS LOS DÍAS</p>
+                    <h1 class="auth-aside-title">¡Te damos la bienvenida!</h1>
+                    <p class="auth-aside-copy">Creá tu cuenta para tener tus datos de compra siempre a mano y descubrir las novedades de TecnoStore.</p>
                 </div>
-                <div class="inputs_container">
-                    <h4 class="form_title"> Crea tu cuenta</h4>
-                    <p class="form_description">Ingresa tus datos para registrarte</p>
-                    <form action="">
-                        <input type="text" class="input" placeholder="Nombre" name="" id="">
-                        <input type="text" class="input" placeholder="Apellido" name="" id="">
-                        <input type="email" class="input" placeholder="Email" name="" id="">
-                        <input type="password" class="input" placeholder="Contraseña" name="" id="">
-                        <input type="checkbox" name="" id="">
-                        <span class="privacy">
-                            Estoy de acuerdo con las 
-                            <a class="privacy_link" href="#">
-                                politicas de privacidad
-                            </a>
-                        </span>
-                        <input type="button" class="submit_btn" value="Registrar mi cuenta">
-                    </form>
-                    <hr>
-                    <div class="account">
-                        <span class="already_account">Ya tenés una cuenta registrada? <a class="signin_link" href="#">Iniciar sesión</a></span> 
-                    </div>
-                    <div class="social_signin">
-                        <h4 class="social_title">Registrarte con:</h4>
-                        <div class="social_btn">
-                            <button type="button" class="google_btn">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 6px;">
-                                    <path d="M12.24 10.285V13.4h6.887c-.58 2.319-2.72 4.041-5.647 4.041-3.398 0-6.15-2.751-6.15-6.15s2.752-6.15 6.15-6.15c1.53 0 2.92.56 3.99 1.48l2.42-2.42C18.42 2.95 15.52 2 12.24 2 6.58 2 2 6.58 2 12.24s4.58 10.24 10.24 10.24c5.92 0 9.84-4.16 9.84-10.02 0-.67-.07-1.33-.18-1.97.02-.205-9.66-.205-9.66-.205z"/>
-                                </svg>
-                                Google
-                            </button>
-                            <button type="button" class="facebook_btn">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 6px;">
-                                    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
-                                </svg>
-                                Facebook
-                            </button>
-                            <button type="button" class="twitter_btn">
-                                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 6px;">
-                                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                                </svg>
-                                Twitter
-                            </button>
+                <p class="auth-aside-note">Registro 100% gratuito</p>
+            </aside>
+
+            <div class="auth-form-panel">
+                <p class="auth-eyebrow">SUMATE A TECNOSTORE</p>
+                <h2 class="auth-title" id="register-title">Crear tu cuenta</h2>
+                <p class="auth-description">Completá tus datos para registrarte.</p>
+
+                <form class="auth-form" data-auth-form>
+                    <div class="auth-fields-row">
+                        <div class="auth-field">
+                            <label for="register-first-name">Nombre</label>
+                            <input class="auth-input" id="register-first-name" name="firstName" type="text" autocomplete="given-name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="auth-field">
+                            <label for="register-last-name">Apellido</label>
+                            <input class="auth-input" id="register-last-name" name="lastName" type="text" autocomplete="family-name" placeholder="Tu apellido" required>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <div class="auth-field">
+                        <label for="register-email">Correo electrónico</label>
+                        <input class="auth-input" id="register-email" name="email" type="email" autocomplete="email" placeholder="nombre@correo.com" required>
+                    </div>
+                    <div class="auth-field">
+                        <label for="register-password">Contraseña</label>
+                        <input class="auth-input" id="register-password" name="password" type="password" autocomplete="new-password" placeholder="Mínimo 8 caracteres" minlength="8" required>
+                    </div>
+                    <label class="auth-consent">
+                        <input type="checkbox" name="privacyConsent" required>
+                        <span>Estoy de acuerdo con las <a class="auth-text-link" href="#">políticas de privacidad</a>.</span>
+                    </label>
+                    <button class="auth-submit" type="submit">Crear cuenta</button>
+                    <p class="auth-feedback" data-auth-feedback role="status" aria-live="polite"></p>
+                </form>
 
+                <p class="auth-switch">¿Ya tenés una cuenta? <a class="auth-text-link" href="login.html">Iniciar sesión</a></p>
+            </div>
+        </section>
+        <p class="auth-copyright">&copy; 2026 TecnoStore. Todos los derechos reservados.</p>
+    </main>
+    <script src="auth.js"></script>
 </body>
 </html>
